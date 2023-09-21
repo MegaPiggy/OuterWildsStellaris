@@ -426,7 +426,7 @@ arbiter_system_initializer = {
 fury_system_initializer = {
 	name = "NAME_Fury"
 
-	class = "sc_m"
+	class = "sc_trinary_fury"
 
 	flags = { fury_system }
 
@@ -435,14 +435,14 @@ fury_system_initializer = {
 	}
 	asteroid_belt = {
 		type = rocky_asteroid_belt
-		radius = 100
+		radius = 58
 	}
 	max_instances = 1
 
 	### 0
 	planet = {
 		name = "NAME_Fury"
-		class = "pc_m_star"
+		class = "pc_m_giant_star"
 		orbit_distance = 0
 		orbit_angle = 1
 		size = 40
@@ -452,7 +452,52 @@ fury_system_initializer = {
 		flags = { fury_star }
 	}
 
-    change_orbit = 10
+    change_orbit = 0
+
+	### 1
+	planet = {
+		name = "NAME_Rage"
+		class = "pc_molten"
+		orbit_distance = 65
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+		flags = { fury_rage }
+	}
+
+	### 1
+	planet = {
+		name = "NAME_Oddity"
+		class = "pc_barren_cold"
+		orbit_distance = 15
+		orbit_angle = 1
+		size = 27
+		has_ring = no
+		flags = { fury_oddity }
+	}
+
+	### 1
+	planet = {
+		name = "NAME_Serenity"
+		class = "pc_ocean"
+		orbit_distance = 20
+		orbit_angle = 1
+		size = 35
+		has_ring = no
+		flags = { fury_serenity }
+
+        change_orbit = 12
+
+		moon = {
+			name = "NAME_Calm"
+			class = "pc_barren_cold"
+			orbit_distance = 0
+			size = 11
+			has_ring = no
+			orbit_angle = 60
+			flags = { fury_calm }
+		}
+	}
 
 	### 1
 	planet = {
@@ -460,8 +505,31 @@ fury_system_initializer = {
 		class = "pc_black_hole"
 		orbit_distance = 30
 		orbit_angle = 1
-		size = 20
+		size = 10
 		has_ring = no
 		flags = { fury_black_hole }
+
+        change_orbit = 15
+
+		moon = {
+			name = "NAME_Catastrophe"
+			class = "pc_molten"
+			orbit_distance = 0
+			size = 11
+			has_ring = no
+			orbit_angle = 60
+			flags = { fury_catastrophe }
+		}
+	}
+
+	### 1
+	planet = {
+		name = "NAME_Dwarf"
+		class = "pc_t_star"
+		orbit_distance = 30
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+		flags = { fury_dwarf }
 	}
 }

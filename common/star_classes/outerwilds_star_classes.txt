@@ -1,0 +1,18 @@
+sc_trinary_fury = { # Fury Trinary System
+	class = m_star
+	icon = fury_trinary_star
+	planet = {
+		key = pc_m_giant_star
+		class = m_star
+	}
+	planet = {
+		key = pc_black_hole
+		class = black_hole
+	}
+	planet = {
+		key = pc_t_star
+		class = t_star
+	}
+	spawn_odds = 0
+	num_planets = { min = 3 max = 5 }
+}
