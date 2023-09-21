@@ -48,7 +48,7 @@ portraits = {
     # Travelers
     suited_self = { 
         greeting_sound = "reptilian_01_greetings" 
-        texturefile = "gfx/models/portraits/traveler/self.dds"   
+        texturefile = "gfx/models/portraits/traveler/suited_self.dds"   
     }
     chert = { 
         greeting_sound = "reptilian_01_greetings" 
