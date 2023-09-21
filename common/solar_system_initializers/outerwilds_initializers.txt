@@ -315,10 +315,6 @@ arbiter_system_initializer = {
 	class = "sc_k"
 
 	flags = { ghostbird_system }
-
-	init_effect = {
-		every_neighbor_system = { set_star_flag = empire_cluster }
-	}
 	max_instances = 1
 
 	### 0
@@ -405,17 +401,18 @@ arbiter_system_initializer = {
 
 		moon = {
 			name = "NAME_StrangeHome"
-			class = "pc_nuked"
+			class = "pc_continental"
 			orbit_distance = 20
 			size = 25
 			has_ring = no
 			orbit_angle = 60
 			flags = { ghostbird_moon }
+			starting_planet = yes
 			entity = "ghostbird_homeworld_entity"
 
 			init_effect = {
 				prevent_anomaly = yes
-				create_archaeological_site = site_stripped_for_stranger
+				save_event_target_as = ghostbird_moon
 			}
 		}
 
@@ -444,6 +441,24 @@ arbiter_system_initializer = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_deposit = d_physics_3
+		}
+	}
+
+	init_effect = {
+		every_neighbor_system = { set_star_flag = empire_cluster }
+		if = {
+			limit = {
+				starting_system = no
+			}
+        	event_target:ghostbird_moon = {
+				change_pc = pc_nuked
+				reroll_planet = yes
+				clear_blockers = yes
+				set_planet_entity = {
+					entity = ghostbird_homeworld_ruined_entity
+				}
+				create_archaeological_site = site_stripped_for_stranger
+			}
 		}
 	}
 }
