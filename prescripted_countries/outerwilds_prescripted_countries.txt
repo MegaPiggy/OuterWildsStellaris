@@ -6,26 +6,25 @@ nomai = {
 	ignore_portrait_duplication=no
 
 	species={
-		class="MAM"
-		portrait = "mam11"
+		class="owportraits"
+		portrait="nomai"
 		name = "PRESCRIPTED_species_name_nomai"
 		plural = "PRESCRIPTED_species_plural_nomai"
 		adjective = "PRESCRIPTED_species_adjective_nomai"
-		species_bio = "EMPIRE_DESIGN_nomai_desc"
 		name_list = "NOMAI"
 		gender=not_set
 		trait="trait_void_dweller_1"
 		trait="trait_intelligent"
 		trait="trait_nomadic"
 		trait="trait_weak"
-		trait="trait_conservational"
+		#trait="trait_conservational"
 		trait="trait_natural_physicists"
-		trait="trait_quick_learners"
+		#trait="trait_quick_learners"
 		trait="trait_humanoid_psychological_infertility"
 	}
 
 	room = "necroids_room"
-	ethic = "ethic_egalitarian"
+	#ethic = "ethic_egalitarian"
 	ethic = "ethic_xenophile"
 	ethic = "ethic_materialist"
 	ethic = "ethic_pacifist"
@@ -33,16 +32,16 @@ nomai = {
 	civics = {
 		"civic_technocracy"
 		"civic_environmentalist"
-		"civic_idealistic_foundation"
-		"civic_meritocracy"
+		#"civic_idealistic_foundation"
+		#"civic_meritocracy"
 	}
 	government="gov_science_directorate"
 	advisor_voice_type="l_the_technocrat"
-	origin = "origin_lost_colony"
+	origin = "origin_void_dwellers"
 
 	adjective = "PRESCRIPTED_adjective_nomai"
 	planet_name = "PRESCRIPTED_planet_name_nomai"
-	planet_class = "pc_habitat"
+	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_nomai"
 	initializer = "void_dweller_system"
     graphical_culture="avian_01"
@@ -68,11 +67,12 @@ nomai = {
 	ruler = {
 		gender = male
 		name = "PRESCRIPTED_ruler_name_nomai"
-		portrait = "mam11"
+		portrait="old_nomai"
 		texture=0
 		attachment=0
-		clothes=5
+		clothes=0
 		ruler_title = "PRESCRIPTED_ruler_title_nomai"
+		ruler_title_female = "PRESCRIPTED_ruler_title_nomai"
 		trait="leader_trait_spark_of_genius"
 		leader_class="scientist"
 	}
@@ -86,18 +86,14 @@ hearthian = {
 	ignore_portrait_duplication=no
 
 	species={
-		class="AQUATIC"
-		portrait = "aqu14"
+		class="owportraits"
+		portrait="hearthian"
 		name = "PRESCRIPTED_species_name_hearthian"
 		plural = "PRESCRIPTED_species_plural_hearthian"
 		adjective = "PRESCRIPTED_species_adjective_hearthian"
-		species_bio = "EMPIRE_DESIGN_hearthian_desc"
 		name_list = "HEARTHIAN"
 		gender = indeterminable
 		trait="trait_natural_engineers"
-		trait="trait_nomadic"
-		trait="trait_communal"
-		trait="trait_adaptive"
 		trait="trait_quick_learners"
 		trait="trait_unruly"
 		trait="trait_wasteful"
@@ -113,7 +109,7 @@ hearthian = {
 		"civic_crafters"
 		"civic_functional_architecture"
 	}
-	government="moral_democracy"
+	government="gov_moral_democracy"
 	advisor_voice_type="l_aqu_vir"
 	origin = "origin_shoulders_of_giants"
 
@@ -145,8 +141,8 @@ hearthian = {
 	ruler = {
 		gender = indeterminable
 		name = "PRESCRIPTED_ruler_name_hearthian"
-		portrait = "aqu14"
-		texture=1
+		portrait="rutile"
+		texture=0
 		attachment=0
 		clothes=0
 		ruler_title = "PRESCRIPTED_ruler_title_hearthian"
@@ -163,42 +159,39 @@ ghostbird = {
 	ignore_portrait_duplication=no
 
 	species={
-		class="AVI"
-		portrait = "avi8"
+		class="owportraits"
+		portrait="ghostbird"
 		name = "PRESCRIPTED_species_name_ghostbird"
 		plural = "PRESCRIPTED_species_plural_ghostbird"
 		adjective = "PRESCRIPTED_species_adjective_ghostbird"
-		species_bio = "EMPIRE_DESIGN_ghostbird_desc"
 		name_list = "GHOSTBIRD"
 		gender=not_set
 		trait="trait_void_dweller_1"
-		trait="trait_solitary"
+		#trait="trait_solitary"
 		trait="trait_wasteful"
-		trait="trait_enduring"
-		trait="trait_conservational"
+		trait="trait_venerable"
 		trait="trait_conformists"
 		trait="trait_sedentary"
 		trait="trait_nonadaptive"
-		trait="trait_industrious"
+		#trait="trait_industrious"
 	}
 
 	room = "personality_evangelizing_zealots_room"
 	ethic="ethic_xenophobe"
-	ethic="ethic_fanatic_spiritualist"
+	ethic="ethic_spiritualist"
 	ethic="ethic_pacifist"
 	authority="auth_oligarchic"
 	civics = {
 		"civic_memorialist"
 		"civic_inwards_perfection"
-		"civic_pleasure_seekers"
 	}
     government="gov_theocratic_oligarchy"
 	advisor_voice_type="l_spiritualist"
-	origin = "origin_lost_colony"
+	origin = "origin_void_dwellers"
 
 	adjective = "PRESCRIPTED_adjective_ghostbird"
 	planet_name = "PRESCRIPTED_planet_name_ghostbird"
-	planet_class = "pc_habitat"
+	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_ghostbird"
 	initializer = "void_dweller_system"
 	graphical_culture="necroid_01"
@@ -224,12 +217,13 @@ ghostbird = {
 	ruler = {
 		gender = male
 		name = "PRESCRIPTED_ruler_name_ghostbird"
-		portrait = "avi8"
+		portrait="prisoner"
 		texture=0
 		attachment=0
-		clothes=1
+		clothes=0
 		ruler_title = "PRESCRIPTED_ruler_title_ghostbird"
-		trait="trait_ruler_eye_for_talent"
-		leader_class="scientist"
+		ruler_title_female = "PRESCRIPTED_ruler_title_ghostbird"
+		trait="leader_trait_principled"
+		leader_class="governor"
 	}
 }
