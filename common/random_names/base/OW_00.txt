@@ -15,9 +15,6 @@ asteroid_postfix = {
 }
 
 star_names = {
-	"Bright Spark"
-	"Sequestered Luminary"
-	"Night Light"
 	Aetherion
 }
 

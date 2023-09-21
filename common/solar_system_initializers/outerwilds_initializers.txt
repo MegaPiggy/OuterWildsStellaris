@@ -21,6 +21,16 @@ outerwilds_system_initializer = {
 
 	neighbor_system = {
 		hyperlane_jumps = { min = 1 max = 1 }
+		initializer = "night_light_system_initializer"
+	}
+
+	neighbor_system = {
+		hyperlane_jumps = { min = 1 max = 1 }
+		initializer = "sequestered_luminary_system_initializer"
+	}
+
+	neighbor_system = {
+		hyperlane_jumps = { min = 1 max = 1 }
 		initializer = "fury_system_initializer"
 	}
 
@@ -699,5 +709,120 @@ outsider_system_initializer = {
 			add_modifier = { modifier = ultra_rich days = -1 }
 			add_modifier = { modifier = ancient_harvesters days = -1 }
 		}
+	}
+}
+
+night_light_system_initializer = {
+	name = "NAME_NightLight"
+
+	class = "sc_b"
+
+	flags = { night_light_system }
+
+	init_effect = {
+		every_neighbor_system = { set_star_flag = empire_cluster }
+	}
+	asteroid_belt = {
+		type = icy_asteroid_belt
+		radius = 100
+	}
+	max_instances = 1
+
+	### 0
+	planet = {
+		name = "NAME_NightLight"
+		class = "pc_b_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		init_effect = {
+			set_deposit = d_energy_5
+		}
+		flags = { night_light_star }
+	}
+
+    change_orbit = 0
+
+	### 1
+	planet = {
+		name = "NAME_Snowball"
+		class = "pc_ice_asteroid"
+		orbit_distance = 100
+		orbit_angle = 1
+		size = 5
+		has_ring = no
+		init_effect = {
+			add_deposit = d_minerals_5
+			add_deposit = d_rare_crystals_1
+		}
+		flags = { night_light_snowball }
+	}
+}
+
+sequestered_luminary_system_initializer = {
+	name = "NAME_SequesteredLuminary"
+
+	class = "sc_f"
+
+	flags = { sequestered_luminary_system }
+
+	init_effect = {
+		every_neighbor_system = { set_star_flag = empire_cluster }
+	}
+	max_instances = 1
+
+	### 0
+	planet = {
+		name = "NAME_SequesteredLuminary"
+		class = "pc_f_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 20
+		init_effect = {
+			set_deposit = d_energy_5
+		}
+		flags = { sequestered_luminary_star }
+	}
+
+    change_orbit = 0
+
+	### 1
+	planet = {
+		name = "NAME_DauntingConfidant"
+		class = "pc_gas_giant"
+		orbit_distance = 120
+		orbit_angle = 1
+		size = 25
+		has_ring = no
+		init_effect = {
+			set_deposit = d_society_3
+		}
+		flags = { sequestered_luminary_daunting_confidant }
+
+    	change_orbit = 0
+
+		moon = {
+			name = "NAME_FrigidPygmy"
+			class = "pc_tundra"
+			orbit_distance = 20
+			size = 12
+			has_ring = no
+			orbit_angle = 90
+			flags = { sequestered_luminary_frigid_pygmy }
+		}
+	}
+
+	### 2
+	planet = {
+		name = "NAME_HinderingSkies"
+		class = "pc_gas_giant"
+		orbit_distance = 180
+		orbit_angle = 180
+		size = 30
+		has_ring = yes
+		init_effect = {
+			set_deposit = d_physics_3
+		}
+		flags = { sequestered_luminary_hindering_skies }
 	}
 }
