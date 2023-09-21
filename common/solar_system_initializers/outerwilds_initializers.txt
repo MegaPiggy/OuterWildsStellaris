@@ -658,7 +658,7 @@ outsider_system_initializer = {
 	### 1
 	planet = {
 		name = "NAME_TheCity"
-		class = "pc_nuked"
+		class = "pc_city"
 		orbit_distance = 90
 		orbit_angle = 1
 		size = 47
