@@ -1,4 +1,4 @@
-MAM = {
+owportraits = {
 	nomai = {
 		name = Nomai
 		plural = Nomai
@@ -6,9 +6,6 @@ MAM = {
 		home_system = "Bright Spark"
 		name_list = "NOMAI"
 	}
-}
-
-AQUATIC = {
 	hearthian = {
 		name = Hearthian
 		plural = Hearthians
@@ -16,14 +13,25 @@ AQUATIC = {
 		home_system = "Outer Wilds"
 		name_list = "HEARTHIAN"
 	}
-}
-
-AVI = {
 	ghostbird = {
 		name = Inhabitant
 		plural = Inhabitants
 		home_planet = "The Stranger"
 		home_system = "Arbiter"
 		name_list = "GHOSTBIRD"
+	}
+	anglerfish = {
+		name = Anglerfish
+		plural = Anglerfishes
+		home_planet = "Terra Lure"
+		home_system = "Angler Star"
+		name_list = "AQUATIC1"
+	}
+	jellyfish = {
+		name = Jellyfish
+		plural = Jellyfishes
+		home_planet = "Phosphor"
+		home_system = "Luminescence"
+		name_list = "AQUATIC1"
 	}
 }
