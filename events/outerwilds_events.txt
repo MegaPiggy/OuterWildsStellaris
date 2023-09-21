@@ -47,39 +47,6 @@ country_event = {
 
 namespace = ghostbird
 
-country_event = {
-	id = ghostbird.1
-	title = "ghostbird_system.name"
-	desc = "ghostbird_system.desc"
-	picture = GFX_evt_ghostbird_system
-	show_sound = event_mystic_reveal
-
-	is_triggered_only = yes
-
-	immediate = {
-		hidden_effect = {
-			owner = {
-				random_system_within_border = {
-					spawn_system = {
-						min_distance = 10
-						max_distance = 30
-						max_jumps = 0
-						initializer = "arbiter_system_initializer"
-					}
-					add_extra_hyperlane_to_spawned_system_effect = yes
-				}
-			}
-		}
-	}
-
-	after = {
-	}
-
-	option = {
-		name = OK
-	}
-}
-
 fleet_event = {
 	id = ghostbird.1
 	title = "ghostbird_homeworld_1.name"
@@ -190,5 +157,38 @@ fleet_event = {
 				days = -1
 			}
 		}
+	}
+}
+
+country_event = {
+	id = ghostbird.7
+	title = "ghostbird_system.name"
+	desc = "ghostbird_system.desc"
+	picture = GFX_evt_ghostbird_system
+	show_sound = event_mystic_reveal
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			owner = {
+				random_system_within_border = {
+					spawn_system = {
+						min_distance = 10
+						max_distance = 30
+						max_jumps = 0
+						initializer = "arbiter_system_initializer"
+					}
+					add_extra_hyperlane_to_spawned_system_effect = yes
+				}
+			}
+		}
+	}
+
+	after = {
+	}
+
+	option = {
+		name = OK
 	}
 }
