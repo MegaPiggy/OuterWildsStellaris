@@ -1,0 +1,16 @@
+#This mod was created with SpeciesCreator
+
+
+owportraits = {
+   archetype = BIOLOGICAL
+   possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
+   portraits = {
+       "hearthian"
+       "nomai"
+       "ghostbird"
+       "anglerfish"
+       "jellyfish"
+   }
+   graphical_culture = fungoid_01
+   move_pop_sound_effect = "moving_pop_confirmation"
+}
