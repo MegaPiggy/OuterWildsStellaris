@@ -2,19 +2,29 @@ portraits = {
     # Hearthians
     hal = { 
         greeting_sound = "reptilian_01_greetings" 
-        texturefile = "gfx/models/portraits/hal.dds"   
+        texturefile = "gfx/models/portraits/hearthian/hal.dds"   
     }
     marl = { 
         greeting_sound = "reptilian_01_greetings" 
-        texturefile = "gfx/models/portraits/marl.dds"   
+        texturefile = "gfx/models/portraits/hearthian/marl.dds"   
     }
     hornfels = { 
         greeting_sound = "reptilian_01_greetings" 
-        texturefile = "gfx/models/portraits/hornfels.dds"   
+        texturefile = "gfx/models/portraits/hearthian/hornfels.dds"   
     }
     porphy = { 
         greeting_sound = "reptilian_01_greetings" 
-        texturefile = "gfx/models/portraits/porphy.dds"   
+        texturefile = "gfx/models/portraits/hearthian/porphy.dds"   
+    }
+    self = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/hearthian/self.dds"   
+    }
+
+    # Travelers
+    suited_self = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/traveler/self.dds"   
     }
 
     # Nomai
@@ -51,6 +61,7 @@ portrait_groups = {
                     marl
                     hornfels
                     porphy
+                    self
                 }
             }
         }
@@ -61,6 +72,7 @@ portrait_groups = {
                     marl
                     hornfels
                     porphy
+                    self
                 }
             }
         }
@@ -71,16 +83,31 @@ portrait_groups = {
                     marl
                     hornfels
                     porphy
+                    self
                 }
             }
         }
         leader = {
             add = {
+                trigger = {
+                    leader_class = scientist
+                }
+                portraits = {
+                    suited_self
+                }
+            }
+            add = {
+                trigger = {
+                    NOT = {
+                        leader_class = scientist
+                    }
+                }
                 portraits = {
                     hal
                     marl
                     hornfels
                     porphy
+                    self
                 }
             }
         }
@@ -91,6 +118,7 @@ portrait_groups = {
                     marl
                     hornfels
                     porphy
+                    self
                 }
             }
         }
