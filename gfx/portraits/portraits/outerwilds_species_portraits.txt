@@ -26,6 +26,22 @@ portraits = {
         greeting_sound = "reptilian_01_greetings" 
         texturefile = "gfx/models/portraits/traveler/self.dds"   
     }
+    chert = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/traveler/chert.dds"   
+    }
+    esker = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/traveler/esker.dds"   
+    }
+    gabbro = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/traveler/gabbro.dds"   
+    }
+    riebeck = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/traveler/riebeck.dds"   
+    }
 
     # Nomai
     nomai = { 
@@ -94,6 +110,10 @@ portrait_groups = {
                 }
                 portraits = {
                     suited_self
+                    chert
+                    esker
+                    gabbro
+                    riebeck
                 }
             }
             add = {
