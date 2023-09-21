@@ -378,7 +378,7 @@ arbiter_system_initializer = {
 		orbit_distance = 60
 		orbit_angle = 81
 		size = 40
-		has_ring = no
+		has_ring = yes
 		flags = { ghostbird_ringed_planet }
 
         change_orbit = @base_moon_distance
