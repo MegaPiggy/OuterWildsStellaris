@@ -111,7 +111,7 @@ hearthian = {
 	}
 	government="gov_moral_democracy"
 	advisor_voice_type="l_aqu_vir"
-	origin = "origin_shoulders_of_giants"
+	origin = "origin_default"
 
 	adjective = "PRESCRIPTED_adjective_hearthian"
 	planet_name = "PRESCRIPTED_planet_name_hearthian"
