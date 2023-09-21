@@ -42,6 +42,10 @@ portraits = {
         greeting_sound = "reptilian_01_greetings" 
         texturefile = "gfx/models/portraits/traveler/riebeck.dds"   
     }
+    feldspar = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/traveler/feldspar.dds"   
+    }
 
     # Nomai
     nomai = { 
@@ -114,6 +118,7 @@ portrait_groups = {
                     esker
                     gabbro
                     riebeck
+                    feldspar
                 }
             }
             add = {
