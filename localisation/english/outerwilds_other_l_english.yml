@@ -1,0 +1,31 @@
+﻿l_english:
+ pc_focalpoint:0 "Focalpoint"
+ pc_focalpoint_desc:1 "This is not an actual object; rather, it is an imaginary point that two binary objects orbit."
+
+ outerwilds_system_initializer_NAME:0 "Outer Wilds System"
+ outerwilds_system_initializer_DESC:0 "System modeled after the Hearthian's solar system from Outer Wilds, with Orange Arbiter and adjacent stars nearby.\n\n$system_initializer_DESC$"
+ arbiter_system_initializer_NAME:0 "Orange Arbiter System"
+ arbiter_system_initializer_DESC:0 "System modeled after the Inhabitant's solar system from Outer Wilds.\n\n$system_initializer_DESC$"
+
+ ghostbird_system.name:0 "Orange Arbiter"
+ ghostbird_system.desc:0 "Spawned the Inhabitant's system from Outer Wilds near a random system within your border!"
+ hearthian_system.name:0 "Outer Wilds"
+ hearthian_system.desc:0 "Spawned the Hearthian's system from Outer Wilds near a random system within your border!"
+
+ site_stripped_for_stranger:0 "Stripped for Stranger"
+ site_stripped_for_stranger_intro:0 "The Science Ship has picked up a strange reading emanating from [From.Planet.GetName]."
+ ghostbird_homeworld_1.name:0 "Remnants of the Past"
+ ghostbird_homeworld_1.desc:0 "Only through archaeological proof and imagination can one depict a once flourishing civilization on the now desolate surface of [From.Planet.GetName]. All that's left of a civilization is only small remnants of what once was.\n\nMaybe some more searching could find what happened..."
+ ghostbird_homeworld_2.name:0 "Fossils of Fauna"
+ ghostbird_homeworld_2.desc:0 "After some digging our team found some fossils that resemble a fish, a bunny, and a dragonfly.\n\nThis is interesting but this doesn't explain what happened here..."
+ ghostbird_homeworld_3.name:0 "Possible Language"
+ ghostbird_homeworld_3.desc:0 "There are billboards with pictures of what the area around us once looked like. There is tree-like writing on each billboard but we don't have samples to translate it.\n\nHopefully we can find something me direct that will tell us what occurred on this moon."
+ ghostbird_homeworld_4.name:0 "Blueprints"
+ ghostbird_homeworld_4.desc:0 "Inside some of the ruined buildings are blueprints for a habitat. The drawing shows a rotating cylinder ring that simulates gravity through centrifugal force. The station has ship bays on both of its body's circular "faces", with each face having different designs.\n\nThis blueprint is very detailed and will need some more time to fully decode what it is."
+ ghostbird_homeworld_5.name:0 "Studying the Drawing"
+ ghostbird_homeworld_5.desc:0 "The name we gave the faces are sunward and shadow as one side faces towards a star and the other faces away.\nAbove the sunward face are five spokes connected to a circular frame, resembling a wheel. Hidden within these spokes are enormous green sails, which can be furled or unfurled to propel the Stranger.\nThe shadow side has five great spikes protruding out of the hull's outer edge at an angle. Within this is another circular frame (this one without the spokes) standing above a series of smaller spikes and pillars scattered across the face.\n\nThis all seems like a rather grand project for a species who has not gotten off their own planet yet."
+ ghostbird_homeworld_6.name:0 "Sacrificial Moon"
+ ghostbird_homeworld_6.desc:0 "Our team found an intact painting of a group of an owl-elk species looking through a telescope at a symbol that looks similar to an eye. We presume this is a signal they received from outside their solar system. After receiving the signal, they stripped their home moon of all its resources to build a spacecraft capable of reaching the source of it.\n\nOne thing we have learned from this endeavor is that resources are valuable. Don't use them all for something you might regret in the longrun.\nLet's hope they didn't regret their choice..."
+
+ ghostbird_homeworld_memento:0 "Homeworld Memento"
+ ghostbird_homeworld_memento_desc:0 "Ever since the archaeological uncovering of this ruined moon, the Empire's population have started to appreciate their resources a bit more."

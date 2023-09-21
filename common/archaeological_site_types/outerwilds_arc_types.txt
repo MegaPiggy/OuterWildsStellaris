@@ -1,0 +1,85 @@
+site_stripped_for_stranger = {				# Key of the site, used for name lookup etc.
+	desc = "site_stripped_for_stranger_intro"
+	picture = GFX_evt_tomb_world
+	stages = 3
+	weight = {
+		base = 0
+		modifier = {
+			add = 100
+			uninhabitable_regular_planet = yes
+		}
+	}
+	allow = {
+		exists = leader
+		leader = { leader_class = scientist }
+	}
+	visible = {
+		default_site_visible_trigger = yes
+	}
+
+	on_visible = {
+		country_event = { id = story.5 days = 30 }
+	}
+
+	stage = {
+		difficulty = 1
+		icon = GFX_archaeology_runes_A1
+		event = ghostbird.1
+	}
+
+	stage = {
+		difficulty = 2
+		icon = GFX_archaeology_runes_A2
+		event = ghostbird.2
+	}
+
+	stage = {
+		difficulty = 3
+		icon = GFX_archaeology_runes_A3
+		event = ghostbird.3
+	}
+
+	stage = {
+		difficulty = 4
+		icon = GFX_archaeology_runes_A4
+		event = ghostbird.4
+	}
+
+	stage = {
+		difficulty = 5
+		icon = GFX_archaeology_runes_A5
+		event = ghostbird.5
+	}
+
+	stage = {
+		difficulty = 6
+		icon = GFX_archaeology_runes_A6
+		event = ghostbird.6
+	}
+
+	on_roll_failed = {
+		from = {
+			standard_archaeological_site_on_roll_failed = { RANDOM_EVENTS = no_events } #maybe later?
+		}
+	}
+}
+
+# site_type_name = {				# Key of the site, used for name lookup etc.
+#	picture = <sprite key>		# GFX_* sprite key for the sites image
+#	desc = <triggered event desc>	# Description generator for the site, with scope this=archaeological site.
+#	max_instances = <int>			# Max instances of this type a galaxy can have, only checked when using 'create_archaeological_site = random'
+#	weight = <scriptable value>		# Weight used for random weight, only used when using 'create_archaeological_site = random'. scriptable value type is defined either by '<int>' or '<mean time to happen>'.
+#	stages = <int>					# Should match number of defined stages below.
+#	potential = <trigger>			# Trigger checking if a scope with this=fleet,from=archaeological site is potential to excavate (this will add/remove this option without giving the player a reason).
+#	allow = <trigger>				# Trigger checking if a scope with this=fleet,from=archaeological site is allowed to excavate (this will toggle enable/disabled mode on buttons etc).
+#	visible = <trigger>				# Trigger that checks if a scope with this=country can see the from=archaeological site
+#	stage = {						# Stage definition, order dependent.
+#		difficulty = <interval int>	# min max interval type. interval is defined either by '<int>' or '{ min = <int> max = <int> }' where the later will randomize a value between min and max.
+#		icon = <string>				# rune icon gfx type.
+#		event = <string>			# event to fire when the stage has been completed.
+#	}
+#	stage = {...}					# Second stage, the total number of 'stage' entries should match value of 'stages'
+#	on_roll_failed = <effect>			# Effect to fire when a roll fails, with scope this=fleet, from=archaeological site.
+#	on_create = <effect>			# Effect to fire upon site creation, with scope this=archaeological site.
+#	on_visible = <effect>			# Effect to fire upon site visible, with scope this=country, from=archaeological site.
+#}

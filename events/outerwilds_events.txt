@@ -1,0 +1,194 @@
+﻿########
+#
+# Outer Wilds Events
+#
+############################
+
+namespace = outerwilds
+
+country_event = {
+	id = outerwilds.1
+	title = "hearthian_system.name"
+	desc = "hearthian_system.desc"
+	picture = GFX_evt_hearthian_system
+	show_sound = event_mystic_reveal
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			owner = {
+				random_system_within_border = {
+					spawn_system = {
+						min_distance = 10
+						max_distance = 30
+						max_jumps = 0
+						initializer = "outerwilds_system_initializer"
+					}
+					add_extra_hyperlane_to_spawned_system_effect = yes
+				}
+			}
+		}
+	}
+
+	after = {
+	}
+
+	option = {
+		name = OK
+	}
+}
+
+########
+#
+# Outer Wilds Inhabitant Events
+#
+############################
+
+namespace = ghostbird
+
+country_event = {
+	id = ghostbird.1
+	title = "ghostbird_system.name"
+	desc = "ghostbird_system.desc"
+	picture = GFX_evt_ghostbird_system
+	show_sound = event_mystic_reveal
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			owner = {
+				random_system_within_border = {
+					spawn_system = {
+						min_distance = 10
+						max_distance = 30
+						max_jumps = 0
+						initializer = "arbiter_system_initializer"
+					}
+					add_extra_hyperlane_to_spawned_system_effect = yes
+				}
+			}
+		}
+	}
+
+	after = {
+	}
+
+	option = {
+		name = OK
+	}
+}
+
+fleet_event = {
+	id = ghostbird.1
+	title = "ghostbird_homeworld_1.name"
+	desc = "ghostbird_homeworld_1.desc"
+	picture = GFX_evt_ghostbird_homeworld_ruins
+	show_sound = event_ghost_town
+
+	archaeology = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = DIG
+		small_artifact_reward = yes
+	}
+}
+
+fleet_event = {
+	id = ghostbird.2
+	title = "ghostbird_homeworld_2.name"
+	desc = "ghostbird_homeworld_2.desc"
+	picture = GFX_evt_ghostbird_homeworld_fossils
+	show_sound = event_door_opening
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+fleet_event = {
+	id = ghostbird.3
+	title = "ghostbird_homeworld_3.name"
+	desc = "ghostbird_homeworld_3.desc"
+	picture = GFX_evt_ghostbird_homeworld_ruins
+	show_sound = event_wind_ruins
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = KEEP_SEARCHING
+		small_artifact_reward = yes
+	}
+}
+
+fleet_event = {
+	id = ghostbird.4
+	title = "ghostbird_homeworld_4.name"
+	desc = "ghostbird_homeworld_4.desc"
+	picture = GFX_evt_ghostbird_homeworld_stranger
+	show_sound = event_finding_loot
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = UNDERSTOOD
+		medium_artifact_reward = yes
+	}
+}
+
+fleet_event = {
+	id = ghostbird.5
+	title = "ghostbird_homeworld_5.name"
+	desc = "ghostbird_homeworld_5.desc"
+	picture = GFX_evt_ghostbird_homeworld_stranger
+	show_sound = event_mystic_reveal
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = DISCONCERTING
+		small_artifact_reward = yes
+	}
+}
+
+fleet_event = {
+	id = ghostbird.6
+	title = "ghostbird_homeworld_6.name"
+	desc = "ghostbird_homeworld_6.desc"
+	picture = GFX_evt_ghostbird_homeworld_eye
+	show_sound = event_collapsing_ruins
+	location = from
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = UNFORTUNATE
+		large_artifact_reward = yes
+		owner = {
+			add_modifier = {
+				modifier = ghostbird_homeworld_memento
+				days = -1
+			}
+		}
+	}
+}

@@ -1,0 +1,319 @@
+﻿HEARTHIAN = {
+	category = "Aquatic"
+
+	ship_names = {
+
+		generic = {
+			"Soaring Hatchling" "Fighting Hatchling" "Nimble Hatchling" "Defiant Hatchling" "Resilient Hatchling" "Furious Hatchling"
+			"Confident Hatchling" "Clever Hatchling" "Cunning Hatchling" "Prodigal Hatchling" "Jubilant Hatchling" "Impudent Hatchling"
+			"Crazy Hatchling" "Observant Hatchling" "Vengeful Hatchling" "Spiteful Hatchling" "Vindictive Hatchling" "Restless Hatchling"
+			"Ravenous Hatchling" "Ruthless Hatchling" "Brave Hatchling" "Fearless Hatchling" "Jovial Hatchling" "Indignant Hatchling"
+			"Sly Hatchling" "Silly Hatchling" "Happy Hatchling" "Unstable Hatchling" "Prudent Hatchling" "Solitary Hatchling" 
+			"Perceptive Hatchling" "Unpredictable Hatchling" "Impetuous Hatchling" "Baneful Hatchling" "Devious Hatchling" "Graceful Hatchling"
+			"Unyielding Hatchling" "Patient Hatchling" "Stalwart Hatchling" "Fierce Hatchling" "Unforgiving Hatchling" "Impervious Hatchling"
+			"Lucky Hatchling" "Courageous Hatchling" "Brash Hatchling" "Impertinent Hatchling" "Dependable Hatchling" "Spirited Hatchling"
+			"Wild Hatchling" "Vivacious Hatchling" "Ardent Hatchling" "Vigorous Hatchling" "Mettlesome Hatchling" "Lively Hatchling"
+			"Brisk Hatchling" "Animated Hatchling" "Tenacious Hatchling" "Pertinacious Hatchling" "Stubborn Hatchling" "Resolute Hatchling"
+			"Obstinate Hatchling" "Obdurate Hatchling" "Ferocious Hatchling" "Frenzied Hatchling" "Tempestuous Hatchling" "Turbulent Hatchling"
+			"Reckless Hatchling" "Savage Hatchling" "Unrestrained Hatchling" "Riotous Hatchling" "Insane Hatchling" "Boisterous Hatchling"
+			"Rowdy Hatchling" "Clamorous Hatchling" "Persistent Hatchling" "Vehement Hatchling" "Zealous Hatchling" "Passionate Hatchling"
+			"Rapacious Hatchling" "Valiant Hatchling" "Dauntless Hatchling" "Stout Hatchling" "Unkempt Hatchling" "Ungroomed Hatchling"
+			"Deranged Hatchling" "Demented Hatchling" "Impatient Hatchling" "Nonconforming Hatchling" "Imprudent Hatchling" "Rash Hatchling"
+			"Heedless Hatchling" "Oblivious Hatchling" "Violent Hatchling" "Undomesticated Hatchling" "Feral Hatchling" "Wayward Hatchling"
+			"Capricious Hatchling" "Volatile Hatchling" "Mercurial Hatchling" "Sprightly Hatchling" "Blithe Hatchling" "Merry Hatchling"
+			"Joyous Hatchling" "Cheerful Hatchling" "Buoyant Hatchling" "Invigorated Hatchling" "Mirthful Hatchling" "Spry Hatchling"
+			"Alert Hatchling" "Headstrong Hatchling" "Unruly Hatchling" "Refractory Hatchling" "Eccentric Hatchling" "Erratic Hatchling"
+			"Peculiar Hatchling" "Deviant Hatchling" "Testy Hatchling" "Cross Hatchling" "Irascible Hatchling" "Choleric Hatchling"
+			"Wrathful Hatchling" "Brusque Hatchling" "Gruff Hatchling" "Surly Hatchling" "Uncivil Hatchling" "Crabby Hatchling" 
+			"Sullen Hatchling" "Splenetic Hatchling" "Ominous Hatchling" "Gloomy Hatchling" "Dour Hatchling" "Imperious Hatchling" 
+			"Haughty Hatchling" "Proud Hatchling" "Scornful Hatchling" "Contemptuous Hatchling" "Supercilious Hatchling" "Singing Hatchling"
+			"Attentive Hatchling" "Watchful Hatchling" "Impish Hatchling" "Preposterous Hatchling" "Trifling Hatchling" "Zany Hatchling"
+			"Zen Hatchling" "Archaeologist Hatchling" "Astronomer Hatchling" "Curator Hatchling" "Warden Hatchling" "Rocket Hatchling"
+			"Woodsman Hatchling" "Incomprehensible Hatchling" "Bamboozling Hatchling" "Based Hatchling" "Wyrm Hatchling" "Shoe Hatchling"
+			"Corby Hatchling" "Piggy Hatchling" "Trifid Hatchling" "Locochoco Hatchling" "Cryptic Hatchling" "Funky Hatchling" "Idiot Hatchling"
+			"Cow Hatchling" "Nebula Hatchling" "Mega Hatchling" "Classic Hatchling" "Book Hatchling" "Clay Hatchling" "Lizard Hatchling"
+			"Turtle Hatchling" "Texture Hatchling" "Qwerty Hatchling" "Walker Hatchling" "Streetlight Hatchling" "Jammer Hatchling" "Ink Hatchling"
+			"Pickle Hatchling" "Greenpixel Hatchling" "Marl Hatchling" "Nolram Hatchling" "Substitute Hatchling" "Tlya Hatchling" "Cleric Hatchling"
+			"Fray Hatchling" "Tetraminus Hatchling" "Acamaeda Hatchling" "Paranoid Hatchling" "Artificial Hatchling" "Cigtu Hatchling" "Orbital Hatchling"
+			"Coder Hatchling" "Programmer Hatchling" "Artist Hatchling" "Writer Hatchling" "Damian Hatchling" "Endgame Hatchling" "Zero Hatchling"
+			"Gilded Hatchling" "Plumed Hatchling" "Revered Hatchling" "Honored Hatchling" "Perched Hatchling"
+		}
+	
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		transport = {
+		}
+	
+		military_station_small = {
+		}
+
+		ion_cannon = {
+		}
+		
+		#orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		#terraform_station = { }
+		#observation_station = { }
+		#outpost_station = {
+			#random_names = {
+			#	"Eye of the Universe" "Attentive Eye" "Watchful Eye" "Resting Eye" "Sharp Eye" "Scornful Eye" "Oblivious Eye" "Cunning Eye" "Zealous Eye" "Dauntless Eye" "Stubborn Eye"
+			#}
+			#sequential_name = "%O% Frontier Outpost"
+		#}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+
+	ship_class_names = {
+		generic = {
+			
+		}		
+	}
+
+	fleet_names = {
+		random_names = {
+			"Gold Attack Ship" "Iron Attack Ship" "Coal Attack Ship" "Copper Attack Ship" "Silver Attack Ship" "Bronze Attack Ship" "Tin Attack Ship" "Beskar Attack Ship" "Zinc Attack Ship"
+			"Durasteel Attack Ship" "Nickel Attack Ship" "Lead Attack Ship" "Mercury Attack Ship" "Aluminum Attack Ship" "Manganese Attack Ship" "Magnesium Attack Ship" "Platinum Attack Ship"
+			"Mythril Attack Ship" "Bismuth Attack Ship" "Cadmium Attack Ship" "Cobalt Attack Ship" "Chromium Attack Ship" "Molybdenum Attack Ship" "Tungsten Attack Ship" "Beryllium Attack Ship"
+			"Orichalcum Attack Ship" "Carbon Attack Ship" "Arsenic Attack Ship" "Phosphorus Attack Ship" "Gallium Attack Ship" "Indium Attack Ship" "Palladium Attack Ship" "Silicon Attack Ship"
+			"Adamantite Attack Ship" "Vanadium Attack Ship" "Titanium Attack Ship" "Boron Attack Ship" "Antimony Attack Ship" "Potassium Attack Ship" "Lithium Attack Ship" "Sodium Attack Ship"
+			"Duralumin Attack Ship" "Invar Attack Ship" "Plutonium Attack Ship" "Niobium Attack Ship" "Zirconium Attack Ship" "Brass Attack Ship" "Uranium Attack Ship" "Germanium Attack Ship"
+			"Constantan Attack Ship" "Billon Attack Ship" "Shakudo Attack Ship" "Rose Gold Attack Ship" "Electrum Attack Ship" "Damascus Attack Ship" "Celestrium Attack Ship" "Steel Attack Ship"
+			"Thorium Attack Ship" "Barium Attack Ship" "Rubidium Attack Ship" "Strontium Attack Ship" "Yttrium Attack Ship" "Technetium Attack Ship" "Cesium Attack Ship" "Lanthanum Attack Ship"
+			"Cerium Attack Ship" "Praseodymium Attack Ship" "Neodymium Attack Ship" "Promethium Attack Ship" "Samarium Attack Ship" "Europium Attack Ship" "Gadolinium Attack Ship" "Terbium Attack Ship"
+			"Rhodium Attack Ship" "Dysprosium Attack Ship" "Holmium Attack Ship" "Erbium Attack Ship" "Thulium Attack Ship" "Ytterbium Attack Ship" "Lutetium Attack Ship" "Hafnium Attack Ship"
+			"Osmium Attack Ship" "Rhenium Attack Ship" "Tantalum Attack Ship" "Thallium Attack Ship" "Polonium Attack Ship" "Francium Attack Ship" "Radium Attack Ship" "Actinium Attack Ship"
+			"Fermium Attack Ship" "Einsteinium Attack Ship" "Californium Attack Ship" "Berkelium Attack Ship" "Americium Attack Ship" "Curium Attack Ship" "Neptunium Attack Ship" "Protactinium Attack Ship"
+			"Mendelevium Attack Ship" "Nobelium Attack Ship" "Lawrencium Attack Ship" "Rutherfordium Attack Ship" "Dubnium Attack Ship" "Seaborgium Attack Ship" "Bohrium Attack Ship" "Hassium Attack Ship"
+			"Meitnerium Attack Ship" "Darmstadtium Attack Ship" "Roentgenium Attack Ship" "Copernicium Attack Ship" "Nihonium Attack Ship" "Flerovium Attack Ship" "Moscovium Attack Ship" "Livermorium Attack Ship"
+		}
+		sequential_name = HEARTHIAN_xxFLEETNAMES_ORD
+	}
+	
+	army_names = {
+	
+		machine_defense = {
+			sequential_name = HEARTHIAN_xxMACHINEDEFENSE_ORD
+		}
+		
+		machine_assault_1 = {
+			sequential_name = HEARTHIAN_xxMACHINEASSAULT1_ORD
+		}
+		
+		machine_assault_2 = {
+			sequential_name = HEARTHIAN_xxMACHINEASSAULT2_ORD
+		}
+		
+		machine_assault_3 = {
+			sequential_name = HEARTHIAN_xxMACHINEASSAULT3_ORD
+		}	
+	
+		defense_army = {
+			sequential_name = HEARTHIAN_xxDEFENSEARMY_ORD
+		}
+			
+		assault_army = {
+			sequential_name = HEARTHIAN_xxASSAULTARMY_ORD
+		}
+		
+		slave_army = {
+			sequential_name = HEARTHIAN_xxSLAVEARMY_ORD
+		}
+		
+		clone_army = { 
+			sequential_name = HEARTHIAN_xxCLONEARMY_ORD
+		}
+		
+		undead_army = {
+			sequential_name = HEARTHIAN_xxUNDEADARMY_ORD
+		}
+		
+		robotic_army = {
+			sequential_name = HEARTHIAN_xxROBOTICARMY_ORD
+		}
+		
+		robotic_defense_army = {
+			sequential_name = HEARTHIAN_xxROBOTICDEFENSEARMY_ORD
+		}
+		
+		psionic_army = { 
+			sequential_name = HEARTHIAN_xxPSIONICARMY_ORD
+		}
+		
+		xenomorph_army = {
+			sequential_name = HEARTHIAN_xxXENOMORPHARMY_ORD
+		}
+		
+		gene_warrior_army = {
+			sequential_name = HEARTHIAN_xxGENEWARRIORARMY_ORD
+		}
+		
+		occupation_army = {
+			sequential_name = HEARTHIAN_xxOCCUPATIONARMY_ORD
+		}
+
+		robotic_occupation_army = {
+			sequential_name = HEARTHIAN_xxROBOTICOCCUPATIONARMY_ORD
+		}
+
+		primitive_army = {
+			sequential_name = HEARTHIAN_PRIMITIVEARMYxx_SEQ
+		}
+		industrial_army = {
+			sequential_name = HEARTHIAN_INDUSTRIALARMYxx_SEQ
+		}
+		postatomic_army = {
+			sequential_name = HEARTHIAN_POSTATOMICARMYxx_SEQ
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {			
+		generic = {
+			names = {
+				MOL4_PLANET_StillHaven MOL4_PLANET_LonesomeRetreat
+				HIVE2_PLANET_Bounced_Comet HIVE2_PLANET_Caught_Starlight HIVE2_PLANET_Glowed_Oddly HIVE2_PLANET_Ground_Vibrated HIVE2_PLANET_Looked_Empty HIVE2_PLANET_Magnetized_Asteroid HIVE2_PLANET_Occluded_Anomaly HIVE2_PLANET_Piqued_Curiosity HIVE2_PLANET_Showed_Promise HIVE2_PLANET_Stirred_Atmosphere HIVE2_PLANET_Suggested_Prosperity
+				"Espied Serenity" "Faith Seeker" "Dark Destiny" "Lost Strings" "Constant Companion" "Tumbling Bean" "Precedent Cyclops" "Humble Abode" "Spared Stifler" "Bleak Hope" "Everlasting Sunset" "Lingering Chime" "Platinum Hue" "Terra Lure" "Daunting Confidant" "Forgotten Drifter"
+			}
+		}
+
+		pc_barren = {
+			names = {
+				"The Attlerock" "Lonely Hermit" "Blackrock" "Lunar Lookout" "The Nomad" "Snared Stone" "Captured Rock" "Bound Boulder" "Foreign Flint" "Forlorn Sojourn" "Forsaken Marble"
+			}
+		}
+
+		pc_molten = {
+			names = {
+				"Hollow's Lantern" "Magmatic Mediator" "Devil's Furnace" "Hell's Cape" "Scorched Porch" "Boiling Canyon" "Molten Desert" "Glowing Pebble" "Scorched Brazier" "Flaming Eden" "Light's Imitator" "Toasty Cherry" "Yawning Cinder"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				MOL4_PLANET_EndlessSands MOL4_PLANET_DuneSea
+				HIVE2_PLANET_Abundant_Silicates HIVE2_PLANET_Felt_Coarse HIVE2_PLANET_Hills_Flowed HIVE2_PLANET_Motes_Everywhere HIVE2_PLANET_Scoured_Clean HIVE2_PLANET_Shifted_Ground HIVE2_PLANET_Worn_Smooth
+				"Ember Twin" "Ash Twin" "Dried Tears" "Dusty Bramble" "Smoldering Gulch" "Crumbly Sands" "Bracket's Rest" "Dusty Haven" "Desert's Harbinger" "Still Glass" "Ruptured Desert" "Dusty Cleft" "Split Sands" "Sundered Ash" "Seared Stark"
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				MOL4_PLANET_FairLagoon MOL4_PLANET_EmeraldCoast MOL4_PLANET_ShadedBay MOL4_PLANET_ShelteredCove MOL4_PLANET_WindwardIsle MOL4_PLANET_GreenAtoll MOL4_PLANET_BoundlessShore MOL4_PLANET_FairwaterReach
+				MOL4_PLANET_EndlessKelpbed MOL4_PLANET_TropicFathom MOL4_PLANET_WildCoast MOL4_PLANET_WildShoals MOL4_PLANET_SeaLily MOL4_PLANET_ResplendentMangrove
+				AQUATIC2_PLANET_PillagersBayou AQUATIC2_PLANET_BrataryBay AQUATIC2_PLANET_StarBeach
+				HIVE2_PLANET_Embraced_Damp HIVE2_PLANET_Emergent_Fog HIVE2_PLANET_Encased_Warmth HIVE2_PLANET_Humid_Prospect HIVE2_PLANET_Life_Thrived HIVE2_PLANET_Mist_Glistened HIVE2_PLANET_Moistened_Abundance
+				"Layered Lagoon" "Swirling Pixie" "Deep Swamp" "Verdant Paradise" "Ravishing Reef" "Starlit Cove"
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				HIVE2_PLANET_Bronzed_Air HIVE2_PLANET_Calcified_Dust HIVE2_PLANET_Dried_Essence HIVE2_PLANET_Dried_Horizon HIVE2_PLANET_Dusted_Hulls HIVE2_PLANET_Parched_Place HIVE2_PLANET_Persistent_Haze
+				"Brittle Hollow" "Rocky Abode" "Rusted Crags" "Crag's Serenade" "Rocky Abode" "Rocky Ringbearer" "Sunbaked Stone" "Rocky Pebble" "Cracked Wasteland" "Single Cavn" "Cracked Hands" "Broken Heart" "Arid Rifts"
+				"Desiccant Dust" "Siccative Surface" "Endless Canyon"
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				HIVE2_PLANET_Brilliant_Coasts HIVE2_PLANET_Clouds_Scudded HIVE2_Cooled_Lava HIVE2_Dew_Formed HIVE2_Felt_Rumbling HIVE2_Glimpsed_Shore HIVE2_Ground_Ruptured HIVE2_Waves_Lashed
+				"Timber Hearth" "Maelstrom Basin" "River Lowlands" "Cinder Isles" "Hidden Gorge" "Forest Abode" "Twisting Climate" "Warm Beaches" "Rainy Valley" "Ancient Glade" "Wetrock" "Dwarf's Shallow"
+				"Terrene Turf" "Shrouded Woodlands"
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				NECROID4_PLANET_DireStraits
+				MOL4_PLANET_DeepSpire MOL4_PLANET_DarkNautilus MOL4_PLANET_DeepFathom MOL4_PLANET_SunkenReliquary MOL4_PLANET_FlowingWater MOL4_PLANET_SunkenReef MOL4_PLANET_OceanJewel MOL4_PLANET_SunkenSpiral MOL4_PLANET_WavesweptBounty
+				MOL4_PLANET_CoralKeep MOL4_PLANET_SeekersLanding MOL4_PLANET_FloatingIsland MOL4_PLANET_ShimmeringPearl MOL4_PLANET_IlluminatedReef MOL4_PLANET_HiddenPearl MOL4_PLANET_GlowingCay MOL4_PLANET_FarShore MOL4_PLANET_DriftingIsle MOL4_PLANET_SafeHarbor MOL4_PLANET_TheMooring MOL4_PLANET_ArmoredClamshell MOL4_PLANET_GleamingShell MOL4_PLANET_HeavyAnchor MOL4_PLANET_FarreachCove MOL4_PLANET_AbyssalAnchorage
+				AQUATIC2_PLANET_HardshellHarbor AQUATIC2_PLANET_SmugglersSurf AQUATIC2_PLANET_MidnightDock AQUATIC2_PLANET_BuccaneersBerth AQUATIC2_PLANET_MoonlitMooring AQUATIC2_PLANET_GawkersMourn AQUATIC2_PLANET_TiyankiPort AQUATIC2_PLANET_KrakensAnchor AQUATIC2_PLANET_PlunderersReprieve AQUATIC2_PLANET_FreebootersReef AQUATIC2_PLANET_GalleonsLanding AQUATIC2_PLANET_CorsairsHaven AQUATIC2_PLANET_RaidersRest AQUATIC2_PLANET_ScoundrelsJetty AQUATIC2_PLANET_ScoundrelsHideout AQUATIC2_PLANET_RedCloudHideaway AQUATIC2_PLANET_MutineersPier AQUATIC2_PLANET_PrivateersPrize AQUATIC2_PLANET_CrookedDen AQUATIC2_PLANET_RustbucketHeaps AQUATIC2_PLANET_VillainsHaven AQUATIC2_PLANET_RavagersCreek AQUATIC2_PLANET_HideyHole AQUATIC2_PLANET_LockesKey AQUATIC2_PLANET_SkullCove AQUATIC2_PLANET_CastawayHarbor AQUATIC2_PLANET_HooksCranny
+				HIVE2_PLANET_Dark_Pervaded HIVE2_PLANET_Mirrored_Sky HIVE2_PLANET_Shrank_Land HIVE2_PLANET_Stirred_Promise HIVE2_PLANET_Tides_Won HIVE2_PLANET_Waves_Consumed
+				"Giant's Deep" "Fleeting Droplet" "Leviathan's Abyss" "Big Blue" "Ravenous Tides" "Deep Waters" "Flotsam Wake" "Hindering Skies" "Whirlwind's Hurtle" "Garnet Tempest" "Crimson Typhoon" "Shrouded Haze"
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				MOL4_PLANET_YawningChasm MOL4_PLANET_SnowyDelta
+				HIVE2_PLANET_Belied_Stillness HIVE2_PLANET_Rock_Shattered HIVE2_PLANET_Stability_Pervaded HIVE2_PLANET_Wind_Froze
+				"Dark Bramble" "Frosty Crags" "Somber Thistle" "Frosty Drifter" "Frigid Pygmy" "Polar Steppe"
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				NECROID4_PLANET_EndlessWinter
+				MOL4_PLANET_FrozenShoals MOL4_PLANET_FrigidCoast MOL4_PLANET_GlacialLagoon MOL4_PLANET_IcyReef MOL4_PLANET_FrostedCoral
+				HIVE2_PLANET_Calved_Ice HIVE2_PLANET_Light_Waned HIVE2_PLANET_Ocean_Creaked HIVE2_PLANET_Shelf_Collapsed HIVE2_PLANET_Whitened_Paleness
+				"The Interloper" "Forever Frost" "Icy Ridges" "Frigid Seas" "Glacial Steam" "Hollow Ice" "Foggy Ice" "Snowball" "Cryo Caps" "Gelid Glaciers"
+			}
+		}
+		
+		pc_savannah = {		
+			names = {
+				MOL4_PLANET_Sun-soakedShell
+				HIVE2_PLANET_Drenched_Suddenly HIVE2_PLANET_Pooled_Waters HIVE2_PLANET_Rustled_Everywhere HIVE2_PLANET_Shaded_Steppe HIVE2_PLANET_Whisps_Soared
+				"Propitious Pasture" "Virtuous Veldt" "Pure Prairie" "Salutary Savanna" "Pleasant Pampa" "Merry Moor" "Hopeful Heath"
+			}	
+		}		
+
+		pc_alpine = {		
+			names = {	
+				HIVE2_PLANET_Conquered_Vista HIVE2_PLANET_Glacier_Creaked HIVE2_PLANET_Ground_Soared HIVE2_PLANET_Ravine_Sank HIVE2_PLANET_Ruptured_Cloud HIVE2_PLANET_Stream_Dammed
+				"Twilight Tor"
+			}	
+		}	
+
+		pc_nuked = {
+			names = {
+				NAME_Fallen_Outpost NAME_Ruinous_Core NAME_Silent_Colony NAME_Lost_Encampment NAME_Crumbling_Borough
+				"Grim Sepulcher" "Mirthless Mausoleum" "Cynical Catacomb" "Bleak Undercroft" "Cruel Cenotaph" "Merciless Memorial" "Ruthless Crypt" "Morbid Ossuary" "Revolting Reliquary" "Vicious Vault" "Brutal Barrow" "Grisly Grave"
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Arkose Chert Clay Esker Hal Hornfels Feldspar Gabbro Galena Gneiss Gossan Marl Mica Moraine Porphy Riebeck Rutile Slate Spinel Tektite Tephra Tuff 
+				Flint Novaculite Quartz Silica Shale Skarn Belomorite Umber Lazuli Monzon Opal Karst Juno Litho Marble Jasper Salt Cinnabar Phosphophyllite 
+				Pebble Peridot Hematite Fault Malach Agave Azurite Bennu Pumice Scoria Pyrite Sparks Skarn Dreika Kyan Voyes Diatom Shoshon Anand Fulgur Tuya 
+				Olivine Breccia Apatite Fluor Howl Basalt Andes Kiwen Aren Ignei Rhyol Sandes Lime Magne Gran Talc Garnet Agate Alum Silt Cupri Dolom Euclase Ioli
+				Tourmaline Zircon Ulex Trinitite Malva Jade Floe Thulite Rosaline Amber Onyx Carnelian Topaz Amethyst Sapphire Emerald Ruby Aquamarine Citrine Tanzan 
+				Pearl Alexandrite Turquoise Diamond Cal
+			}
+		}
+	}

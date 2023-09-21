@@ -1,0 +1,26 @@
+asteroid_prefix = {
+	EOTE-
+	NOM-
+	OW-
+	STR-
+	INHAB-
+}
+
+asteroid_postfix = {
+	EOTU
+	AI
+	VENTURES
+	ANGER
+	ITANTS
+}
+
+star_names = {
+	"Bright Spark"
+	"Sequestered Luminary"
+	"Night Light"
+	Aetherion
+}
+
+nebula_names = {	
+	"Gloaming Nebula"
+}

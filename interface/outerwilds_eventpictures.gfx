@@ -1,0 +1,32 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_evt_ghostbird_system"
+		texturefile = "gfx/event_pictures/ghostbird_system.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ghostbird_homeworld_fossils"
+		texturefile = "gfx/event_pictures/ghostbird_homeworld_fossils.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ghostbird_homeworld_ruins"
+		texturefile = "gfx/event_pictures/ghostbird_homeworld_ruins.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ghostbird_homeworld_stranger"
+		texturefile = "gfx/event_pictures/ghostbird_homeworld_stranger.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_ghostbird_homeworld_eye"
+		texturefile = "gfx/event_pictures/ghostbird_homeworld_eye.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+}

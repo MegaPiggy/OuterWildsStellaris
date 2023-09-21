@@ -1,0 +1,29 @@
+MAM = {
+	nomai = {
+		name = Nomai
+		plural = Nomai
+		home_planet = "Vessel"
+		home_system = "Bright Spark"
+		name_list = "NOMAI"
+	}
+}
+
+AQUATIC = {
+	hearthian = {
+		name = Hearthian
+		plural = Hearthians
+		home_planet = "Timber Hearth"
+		home_system = "Outer Wilds"
+		name_list = "HEARTHIAN"
+	}
+}
+
+AVI = {
+	ghostbird = {
+		name = Inhabitant
+		plural = Inhabitants
+		home_planet = "The Stranger"
+		home_system = "Arbiter"
+		name_list = "GHOSTBIRD"
+	}
+}

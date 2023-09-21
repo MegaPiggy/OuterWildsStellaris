@@ -1,0 +1,5 @@
+	NInterface = {
+
+		SHIP_NAME_SIZE_MAX						= 50	# Max number of letters in ship names
+
+	}

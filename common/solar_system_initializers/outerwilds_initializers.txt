@@ -1,0 +1,467 @@
+@base_moon_distance = 10
+
+outerwilds_system_initializer = {
+	name = "NAME_OuterWilds"
+
+	class = "sc_g"
+
+	flags = { empire_home_system hearthian_system }
+
+	usage = custom_empire
+	max_instances = 1
+
+	init_effect = {
+		every_neighbor_system = { set_star_flag = empire_cluster }
+	}
+
+	neighbor_system = {
+		hyperlane_jumps = { min = 1 max = 1 }
+		initializer = "arbiter_system_initializer"
+	}
+
+	neighbor_system = {
+		hyperlane_jumps = { min = 1 max = 1 }
+		initializer = "fury_system_initializer"
+	}
+
+	### 0
+	planet = {
+		name = "NAME_OuterWilds"
+		class = "pc_g_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		init_effect = {
+			set_deposit = d_energy_5
+		}
+		flags = { hearthian_star }
+
+		moon = {
+			name = "NAME_SunStation"
+			class = "pc_habitat"
+			orbit_distance = 5
+			size = 10
+			has_ring = no
+			orbit_angle = 90
+			flags = { hearthian_sun_station }
+
+			init_effect = {
+				set_deposit = d_engineering_3
+				add_deposit = d_forgotten_civilization
+			}
+		}
+	}
+
+    change_orbit = 30
+
+	planet = {
+		name = "NAME_HourglassTwins"
+		class = "pc_focalpoint"
+		orbit_distance = 10
+		orbit_angle = 1
+		size = 30
+		has_ring = no
+		init_effect = {
+			prevent_anomaly = yes
+		}
+		flags = { hearthian_focalpoint }
+
+   		change_orbit = 10
+
+		moon = {
+			name = "NAME_CaveTwin"
+			class = "pc_arid"
+			orbit_distance = 0
+			size = 20
+			has_ring = no
+			orbit_angle = 180
+			flags = { hearthian_cave_planet }
+
+			init_effect = {
+				prevent_anomaly = yes
+				add_deposit = d_minerals_5
+				add_deposit = d_arid_highlands
+				add_deposit = d_relic_dense_ruins
+				add_deposit = d_forgotten_civilization
+				add_deposit = d_artifacts_3
+				add_modifier = {
+					modifier = "nascent_locust"
+					days = -1
+				}
+			}
+		}
+
+		moon = {
+			name = "NAME_TowerTwin"
+			class = "pc_desert"
+			orbit_distance = 0
+			size = 20
+			has_ring = no
+			orbit_angle = 180
+			flags = { hearthian_tower_planet }
+
+			init_effect = {
+				prevent_anomaly = yes
+				add_deposit = d_volatile_motes_1
+				add_deposit = d_immense_solar_array
+				add_deposit = d_forgotten_civilization
+				add_deposit = d_artifacts_3
+			}
+		}
+	}
+
+	### 3
+	planet = {
+		name = "NAME_TimberHearth"
+		class = "pc_continental"
+		orbit_distance = 45
+		orbit_angle = 40
+		size = 30
+		has_ring = no
+		starting_planet = yes
+		init_effect = {
+			prevent_anomaly = yes
+			add_deposit = d_minerals_5
+			add_deposit = d_underground_mine
+			add_deposit = d_impact_crater
+			add_deposit = d_bountiful_plains
+			add_deposit = d_ore_rich_caverns
+			add_deposit = d_rushing_waterfalls
+			add_deposit = d_geothermal_vent
+			add_deposit = d_artifacts_1
+			add_deposit = d_ruined_building_blocker
+			add_deposit = d_sinkhole_subterraneans
+			add_deposit = d_forgotten_civilization
+		}
+		flags = { hearthian_planet }
+
+		moon = {
+			name = "NAME_Attlerock"
+			class = "pc_barren"
+			orbit_distance = 10
+			size = 10
+			has_ring = no
+			orbit_angle = 60
+			flags = { hearthian_moon }
+
+			init_effect = {
+				prevent_anomaly = yes
+				add_deposit = d_rare_crystals_1
+				add_deposit = d_forgotten_civilization
+				add_deposit = d_impact_crater
+			}
+		}
+	}
+
+	### 4
+	planet = {
+		name = "NAME_BrittleHollow"
+		class = "pc_tundra"
+		orbit_distance = 45
+		orbit_angle = -60
+		size = 32
+		has_ring = no
+		flags = { hearthian_hollow_planet }
+		init_effect = {
+			prevent_anomaly = yes
+			add_deposit = d_dark_matter_deposit_1
+			add_deposit = d_energy_5
+			add_deposit = d_relic_dense_ruins
+			add_deposit = d_forgotten_civilization
+			add_deposit = d_artifacts_3
+		}
+
+		moon = {
+			name = "NAME_HollowsLantern"
+			class = "pc_molten"
+			orbit_distance = 10
+			size = 10
+			has_ring = no
+			orbit_angle = 10
+			flags = { hearthian_hollow_moon }
+
+			init_effect = {
+				prevent_anomaly = yes
+				add_deposit = d_energy_5
+				add_deposit = d_ruined_building_blocker
+				add_deposit = d_volcanic_active_planet
+				add_deposit = d_active_volcano
+				add_deposit = d_active_volcano
+				add_deposit = d_active_volcano
+				add_deposit = d_active_volcano
+				add_deposit = d_artifacts_1
+			}
+		}
+	}
+
+	### 5
+	planet = {
+		name = "NAME_GiantsDeep"
+		class = "pc_ocean"
+		orbit_distance = 45
+		orbit_angle = -40
+		size = 40
+		has_ring = no
+		flags = { hearthian_giant_planet }
+
+		init_effect = {
+			prevent_anomaly = yes
+			add_deposit = d_exotic_gases_3
+			add_deposit = d_ruined_building_blocker
+			add_deposit = d_forgotten_civilization
+			add_deposit = d_artifacts_3
+			set_planet_entity = {
+				entity = hearthian_giants_deep_entity
+				atmosphere_color = hsv { 0.196 0.49 0.275 }
+				atmosphere_intensity = 0.1
+				atmosphere_width = 1.0
+			}
+		}
+
+		moon = {
+			name = "NAME_OrbitalProbeCannon"
+			class = "pc_habitat"
+			orbit_distance = 10
+			size = 10
+			has_ring = no
+			orbit_angle = 10
+			flags = { hearthian_opc }
+
+			init_effect = {
+				prevent_anomaly = yes
+				add_deposit = d_engineering_3
+				add_deposit = d_forgotten_civilization
+				add_deposit = d_artifacts_1
+			}
+		}
+
+		moon = {
+			name = "NAME_QuantumMoon"
+			class = "pc_shrouded"
+			orbit_distance = 15
+			size = 10
+			has_ring = no
+			orbit_angle = 20
+			flags = { hearthian_quantum_moon }
+			entity = "hearthian_quantum_moon_entity"
+
+			init_effect = {
+				prevent_anomaly = yes
+				add_deposit = d_physics_3
+				add_deposit = d_forgotten_civilization
+				add_deposit = d_space_time_anomaly
+			}
+		}
+	}
+
+	### 6
+	planet = {
+		name = "NAME_DarkBramble"
+		class = "pc_arctic"
+		orbit_distance = 45
+		orbit_angle = 60
+		size = 25
+		has_ring = no
+		flags = { hearthian_bramble_planet }
+
+		init_effect = {
+			prevent_anomaly = yes
+			add_deposit = d_physics_3
+			add_deposit = d_hostile_fauna
+		}
+	}
+
+	planet = {
+		name = "NAME_Interloper"
+		class = "pc_ice_asteroid"
+		orbit_distance = 45
+		orbit_angle = 200
+		size = 5
+		has_ring = no
+		flags = { hearthian_bramble_planet }
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_deposit = d_zro_deposit_1
+		}
+	}
+}
+
+arbiter_system_initializer = {
+	name = "NAME_OrangeArbiter"
+
+	class = "sc_k"
+
+	flags = { ghostbird_system }
+
+	init_effect = {
+		every_neighbor_system = { set_star_flag = empire_cluster }
+	}
+	max_instances = 1
+
+	### 0
+	planet = {
+		name = "NAME_OrangeArbiter"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 35
+		init_effect = {
+			set_deposit = d_energy_5
+		}
+		flags = { ghostbird_star }
+	}
+
+    change_orbit = 10
+
+	### 1
+	planet = {
+		name = "NAME_TwistingClimate"
+		class = "pc_barren"
+		orbit_distance = 30
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+		flags = { ghostbird_purple_planet }
+	}
+
+    change_orbit = 30
+
+	### 2
+	planet = {
+		name = "NAME_CrimsonGale"
+		class = "pc_gas_giant"
+		orbit_distance = 45
+		orbit_angle = 20
+		size = 30
+		has_ring = no
+		flags = { ghostbird_red_planet }
+		init_effect = {
+			set_deposit = d_physics_3
+		}
+		
+        change_orbit = @base_moon_distance
+
+		moon = {
+			name = "NAME_MoltenCherry"
+			class = "pc_molten"
+			orbit_distance = 10
+			size = 10
+			has_ring = no
+			orbit_angle = 10
+			flags = { ghostbird_red_moon }
+
+			init_effect = {
+				set_deposit = d_energy_5
+			}
+		}
+
+		init_effect = {
+			set_planet_entity = {
+				entity = crimson_gale_entity
+				atmosphere_color = hsv { 0.996 0.239 0.114 }
+				atmosphere_intensity = 0.1
+				atmosphere_width = 1.0
+			}
+		}
+	}
+
+	### 3
+	planet = {
+		name = "NAME_ShroudedTempest"
+		class = "pc_gas_giant"
+		orbit_distance = 60
+		orbit_angle = 81
+		size = 40
+		has_ring = no
+		flags = { ghostbird_ringed_planet }
+
+        change_orbit = @base_moon_distance
+
+		moon = {
+			name = "NAME_StrangeHome"
+			class = "pc_nuked"
+			orbit_distance = 20
+			size = 25
+			has_ring = no
+			orbit_angle = 60
+			flags = { ghostbird_moon }
+			entity = "ghostbird_homeworld_entity"
+
+			init_effect = {
+				prevent_anomaly = yes
+				create_archaeological_site = site_stripped_for_stranger
+			}
+		}
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_deposit = d_exotic_gases_3
+			set_planet_entity = {
+				entity = ghostbird_ringed_planet_entity
+				atmosphere_color = hsv { 0.192 0.87 0.71 }
+				atmosphere_intensity = 0.1
+				atmosphere_width = 1.0
+			}
+		}
+	}
+
+	### 4
+	planet = {
+		name = "NAME_BrokenHeart"
+		class = "pc_shattered"
+		orbit_distance = 60
+		orbit_angle = -50
+		size = 25
+		has_ring = no
+		flags = { ghostbird_dark_planet }
+		
+		init_effect = {
+			prevent_anomaly = yes
+			set_deposit = d_physics_3
+		}
+	}
+}
+
+fury_system_initializer = {
+	name = "NAME_Fury"
+
+	class = "sc_m"
+
+	flags = { fury_system }
+
+	init_effect = {
+		every_neighbor_system = { set_star_flag = empire_cluster }
+	}
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 100
+	}
+	max_instances = 1
+
+	### 0
+	planet = {
+		name = "NAME_Fury"
+		class = "pc_m_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 40
+		init_effect = {
+			set_deposit = d_energy_5
+		}
+		flags = { fury_star }
+	}
+
+    change_orbit = 10
+
+	### 1
+	planet = {
+		name = "NAME_Calamity"
+		class = "pc_black_hole"
+		orbit_distance = 30
+		orbit_angle = 1
+		size = 20
+		has_ring = no
+		flags = { fury_black_hole }
+	}
+}

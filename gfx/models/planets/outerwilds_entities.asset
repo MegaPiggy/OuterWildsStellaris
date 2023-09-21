@@ -1,0 +1,197 @@
+entity = {
+	name = "focalpoint_entity"
+	pdxmesh = "planet_clouded_mesh"
+	
+	#planet surface texture override	
+	meshsettings = {
+		name = "planet_geosphereShape"
+		texture_diffuse = "nodiffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "nospec.dds"
+	}
+	
+		
+	##cloud texture override
+	meshsettings = {
+		name = "clouds_geosphereShape"
+		texture_diffuse = "nodiffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "nospec.dds"
+	}
+	
+	##pole texture override
+	meshsettings = {
+		name = "polesShape"
+		texture_diffuse = "nodiffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "nospec.dds"
+	}
+	
+			
+	##cloud shadow texture override
+	meshsettings = {
+		name = "clouds_shadow_geosphereShape"
+		texture_diffuse = "nodiffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "nospec.dds"
+	}
+	
+	default_state = "idle"
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_planet_class" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_planet_class_02" } }
+	}
+	
+	scale = 0
+}
+
+entity = {
+	name = "hearthian_giants_deep_entity"
+	pdxmesh = "planet_no_pole_no_clouds_mesh"
+
+	meshsettings = {
+	name = "planet_geosphereShape"
+	texture_diffuse = "hearthian_giants_deep_diffuse.dds"
+	texture_normal = "ghostbird_ringed_planet_normal.dds"
+	texture_specular = "gas_giant_01_specular.dds"
+	shader = PdxMeshGasGiant
+	}
+
+	default_state = "idle"
+	playback_rate = -1.0 # Rotation is reversed
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "gas_giant_amb_hum" } }
+	}
+	scale = 1.2
+
+	game_data = {
+		uv_animation_speed = 0.1
+	}
+}
+
+entity = {
+	name = "ghostbird_ringed_planet_entity"
+	pdxmesh = "planet_no_pole_no_clouds_mesh"
+
+	meshsettings = {
+		name = "planet_geosphereShape"
+		texture_diffuse = "ghostbird_ringed_planet_diffuse.dds"
+		texture_normal = "ghostbird_ringed_planet_normal.dds"
+		texture_specular = "gas_giant_01_specular.dds"
+		shader = PdxMeshGasGiant
+	}
+
+	default_state = "idle"
+	playback_rate = -3.5 # Rotation is reversed
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "gas_giant_amb_hum" } }
+	}
+	scale = 1.2
+
+	game_data = {
+		uv_animation_speed = 0.1
+	}
+}
+
+entity = {
+	name = "ghostbird_homeworld_entity"
+	pdxmesh = "planet_clouded_mesh"
+
+	meshsettings = {
+		name = "planet_geosphereShape"
+		texture_diffuse = "ghostbird_homeworld_diffuse.dds"
+		texture_normal = "ghostbird_homeworld_normal.dds"
+		texture_specular = "ghostbird_homeworld_spec.dds"
+	}
+
+	default_state = "idle"
+	state = {
+		name = "idle"
+		animation = "idle"
+		time_offset = { 0 100 }
+		start_event = {
+			trigger_once = yes
+			sound = { soundeffect = "amb_planet_class" }
+		}
+		start_event = {
+			trigger_once = yes
+			sound = { soundeffect = "amb_planet_class_02" }
+		}
+	}
+}
+
+entity = {
+	name = "crimson_gale_entity"
+	pdxmesh = "planet_no_pole_no_clouds_mesh"
+
+	meshsettings = {
+		name = "planet_geosphereShape"
+		texture_diffuse = "ghostbird_crimsongale_diffuse.dds"
+		texture_normal = "ghostbird_crimsongale_normal.dds"
+		texture_specular = "gas_giant_01_specular.dds"
+		shader = PdxMeshGasGiant
+	}
+
+	default_state = "idle"
+	playback_rate = -4.0 # Rotation is reversed
+	state = { name = "idle" animation = "idle" time_offset = { 0 100 }
+		start_event = { trigger_once = yes sound = { soundeffect = "gas_giant_amb_hum" } }
+	}
+	scale = 1.2
+
+	game_data = {
+		uv_animation_speed = 0.1
+	}
+}
+
+entity = {
+	name = "hearthian_quantum_moon_entity"
+	pdxmesh = "planet_clouded_mesh"
+
+	meshsettings = {
+		name = "planet_geosphereShape"
+		texture_diffuse = "toxic_01_purple_diffuse.dds"
+		texture_normal = "toxic_01_normal.dds"
+		texture_specular = "toxic_01_spec.dds"
+	}
+
+	##pole texture override
+	meshsettings = {
+		name = "polesShape"
+		texture_diffuse = "poles_1_diffuse.dds"
+		texture_normal = "poles_1_normal.dds"
+		texture_specular = "poles_1_specular.dds"
+	}
+
+	##cloud texture override
+	meshsettings = {
+		name = "clouds_geosphereShape"
+		texture_diffuse = "toxic_clouds_purple_diffuse.dds"
+		texture_normal = "toxic_clouds_normal.dds"
+		texture_specular = "toxic_clouds_specular.dds"
+	}
+
+	##cloud shadow texture override
+	meshsettings = {
+		name = "clouds_shadow_geosphereShape"
+		texture_diffuse = "toxic_cloud_shadow_diffuse.dds"
+		texture_normal = "nonormal.dds"
+		texture_specular = "nospec.dds"
+	}
+
+	default_state = "idle"
+	state = { name = "idle" animation = "idle"
+		event = { time = 0 node = "flash_01" particle = "planet_lightning_particle" keep_particle = yes }
+		event = { time = 2 node = "flash_02" particle = "planet_lightning_particle" keep_particle = yes }
+		event = { time = 0.7 node = "flash_03" particle = "planet_lightning_particle" keep_particle = yes }
+		event = { time = 2.7 node = "flash_04" particle = "planet_lightning_particle" keep_particle = yes }
+		event = { time = 3 node = "flash_05" particle = "planet_lightning_particle" keep_particle = yes }
+		event = { time = 4.3 node = "flash_06" particle = "planet_lightning_particle" keep_particle = yes }
+		event = { time = 7 node = "flash_07" particle = "planet_lightning_particle" keep_particle = yes }
+		event = { time = 5 node = "flash_08" particle = "planet_lightning_particle" keep_particle = yes }
+		event = { time = 5.1 node = "flash_09" particle = "planet_lightning_particle" keep_particle = yes }
+		event = { time = 6.5 node = "flash_10" particle = "planet_lightning_particle" keep_particle = yes }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_toxic_world_a" } }
+		start_event = { trigger_once = yes sound = { soundeffect = "amb_toxic_world_b" } }
+	}
+}
