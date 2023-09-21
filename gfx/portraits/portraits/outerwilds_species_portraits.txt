@@ -20,6 +20,30 @@ portraits = {
         greeting_sound = "reptilian_01_greetings" 
         texturefile = "gfx/models/portraits/hearthian/self.dds"   
     }
+    gneiss = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/hearthian/gneiss.dds"   
+    }
+    gossan = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/hearthian/gossan.dds"   
+    }
+    rutile = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/hearthian/rutile.dds"   
+    }
+    spinel = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/hearthian/spinel.dds"   
+    }
+    tektite = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/hearthian/tektite.dds"   
+    }
+    tuff = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/hearthian/tuff.dds"   
+    }
 
     # Travelers
     suited_self = { 
@@ -48,15 +72,27 @@ portraits = {
     }
 
     # Nomai
-    nomai = { 
+    new_nomai = { 
         greeting_sound = "mammalian_01_greetings" 
-        texturefile = "gfx/models/portraits/nomai.dds"   
+        texturefile = "gfx/models/portraits/nomai/new_nomai.dds"   
+    }
+    old_nomai = {
+        greeting_sound = "mammalian_01_greetings" 
+        texturefile = "gfx/models/portraits/nomai/old_nomai.dds"   
     }
 
     # Ghostbirds
-    ghostbird = { 
+    ghostbird_0 = { 
         greeting_sound = "avian_01_greetings" 
-        texturefile = "gfx/models/portraits/ghostbird.dds"   
+        texturefile = "gfx/models/portraits/ghostbird/ghostbird_0.dds"   
+    }
+    ghostbird_1 = { 
+        greeting_sound = "avian_01_greetings" 
+        texturefile = "gfx/models/portraits/ghostbird/ghostbird_1.dds"   
+    }
+    prisoner = { 
+        greeting_sound = "avian_01_greetings" 
+        texturefile = "gfx/models/portraits/ghostbird/prisoner.dds"   
     }
 
     # Joke
@@ -72,38 +108,58 @@ portraits = {
 }
 
 portrait_groups = {
+    # Hearthian group
+    # Regular villagers for most images, travelers for scientists
     hearthian = {
         default = hal
         game_setup = {
             add = {
                 portraits = {
+                    gneiss
+                    gossan
                     hal
                     marl
                     hornfels
                     porphy
+                    rutile
                     self
+                    spinel
+                    tektite
+                    tuff
                 }
             }
         }
         species = {
             add = {
                 portraits = {
+                    gneiss
+                    gossan
                     hal
                     marl
                     hornfels
                     porphy
+                    rutile
                     self
+                    spinel
+                    tektite
+                    tuff
                 }
             }
         }
         pop = {
             add = {
                 portraits = {
+                    gneiss
+                    gossan
                     hal
                     marl
                     hornfels
                     porphy
+                    rutile
                     self
+                    spinel
+                    tektite
+                    tuff
                 }
             }
         }
@@ -128,22 +184,130 @@ portrait_groups = {
                     }
                 }
                 portraits = {
+                    gneiss
+                    gossan
                     hal
                     marl
                     hornfels
                     porphy
+                    rutile
                     self
+                    spinel
+                    tektite
+                    tuff
                 }
             }
         }
         ruler = {
             add = {
                 portraits = {
+                    gneiss
+                    gossan
                     hal
                     marl
                     hornfels
                     porphy
+                    rutile
                     self
+                    spinel
+                    tektite
+                    tuff
+                }
+            }
+        }
+    }
+
+    # All this just because I have two Nomai images
+    nomai = {
+        default = new_nomai
+        game_setup = {
+            add = {
+                portraits = {
+                    new_nomai
+                    old_nomai
+                }
+            }
+        }
+        species = {
+            add = {
+                portraits = {
+                    new_nomai
+                    old_nomai
+                }
+            }
+        }
+        pop = {
+            add = {
+                portraits = {
+                    new_nomai
+                    old_nomai
+                }
+            }
+        }
+        leader = {
+            add = {
+                portraits = {
+                    new_nomai
+                    old_nomai
+                }
+            }
+        }
+        ruler = {
+            add = {
+                portraits = {
+                    new_nomai
+                    old_nomai
+                }
+            }
+        }
+    }
+
+    # Ghostbirds
+    # Might do some special thing with the prisoner as a leader (like release him via an event)
+    ghostbird = {
+        default = ghostbird_0
+        game_setup = {
+            add = {
+                portraits = {
+                    ghostbird_0
+                    ghostbird_1
+                    prisoner
+                }
+            }
+        }
+        species = {
+            add = {
+                portraits = {
+                    ghostbird_0
+                    ghostbird_1
+                    prisoner
+                }
+            }
+        }
+        pop = {
+            add = {
+                portraits = {
+                    ghostbird_0
+                    ghostbird_1
+                    prisoner
+                }
+            }
+        }
+        leader = {
+            add = {
+                portraits = {
+                    ghostbird_0
+                    ghostbird_1
+                    prisoner
+                }
+            }
+        }
+        ruler = {
+            add = {
+                portraits = {
+                    ghostbird_0
+                    ghostbird_1
+                    prisoner
                 }
             }
         }
