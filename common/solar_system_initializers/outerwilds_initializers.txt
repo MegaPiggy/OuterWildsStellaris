@@ -29,6 +29,11 @@ outerwilds_system_initializer = {
 		initializer = "prima_maxima_system_initializer"
 	}
 
+	neighbor_system = {
+		hyperlane_jumps = { min = 1 max = 1 }
+		initializer = "outsider_system_initializer"
+	}
+
 	### 0
 	planet = {
 		name = "NAME_OuterWilds"
@@ -37,6 +42,7 @@ outerwilds_system_initializer = {
 		orbit_angle = 1
 		size = 30
 		init_effect = {
+			prevent_anomaly = yes
 			set_deposit = d_energy_5
 		}
 		flags = { hearthian_star }
@@ -51,6 +57,7 @@ outerwilds_system_initializer = {
 			flags = { hearthian_sun_station }
 
 			init_effect = {
+				prevent_anomaly = yes
 				set_deposit = d_engineering_3
 				add_deposit = d_forgotten_civilization
 			}
@@ -328,6 +335,9 @@ arbiter_system_initializer = {
 		size = 20
 		has_ring = no
 		flags = { ghostbird_purple_planet }
+		init_effect = {
+			prevent_anomaly = yes
+		}
 	}
 
     change_orbit = 30
@@ -341,9 +351,6 @@ arbiter_system_initializer = {
 		size = 30
 		has_ring = no
 		flags = { ghostbird_red_planet }
-		init_effect = {
-			set_deposit = d_physics_3
-		}
 		
         change_orbit = @base_moon_distance
 
@@ -357,11 +364,14 @@ arbiter_system_initializer = {
 			flags = { ghostbird_red_moon }
 
 			init_effect = {
+				prevent_anomaly = yes
 				set_deposit = d_energy_5
 			}
 		}
 
 		init_effect = {
+			set_deposit = d_physics_3
+			prevent_anomaly = yes
 			set_planet_entity = {
 				entity = crimson_gale_entity
 				atmosphere_color = hsv { 0.996 0.239 0.114 }
@@ -586,5 +596,108 @@ prima_maxima_system_initializer = {
 		size = 27
 		has_ring = no
 		flags = { prima_maxima_betwixt }
+	}
+}
+
+outsider_system_initializer = {
+	name = "NAME_TheOutsider"
+
+	class = "sc_b"
+
+	flags = { outsider_system }
+
+	init_effect = {
+		spawn_megastructure = { type = "dyson_sphere_ruined" }
+		every_neighbor_system = { set_star_flag = empire_cluster }
+	}
+	max_instances = 1
+
+	### 0
+	planet = {
+		name = "NAME_TheOutsider"
+		class = "pc_b_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 32
+		init_effect = {
+			set_deposit = d_energy_5
+		}
+		flags = { outsider_star }
+		init_effect = {
+			prevent_anomaly = yes
+		}
+	}
+
+    change_orbit = 0
+
+	### 1
+	planet = {
+		name = "NAME_TheCity"
+		class = "pc_nuked"
+		orbit_distance = 90
+		orbit_angle = 1
+		size = 47
+		has_ring = no
+		flags = { outsider_city }
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			add_deposit = d_society_9
+			add_modifier = { modifier = building_blocks days = -1 }
+			add_modifier = { modifier = perfect_organization_modifier days = -1 }
+		}
+	}
+
+	### 2
+	planet = {
+		name = "NAME_TheDevice"
+		class = "pc_machine"
+		orbit_distance = 30
+		orbit_angle = 90
+		size = 31
+		has_ring = no
+		flags = { outsider_device }
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			add_deposit = d_engineering_5
+		}
+	}
+
+	### 3
+	planet = {
+		name = "NAME_TheLibrary"
+		class = "pc_machine"
+		orbit_distance = 10
+		orbit_angle = 90
+		size = 35
+		has_ring = no
+		flags = { outsider_library }
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			add_deposit = d_physics_5
+		}
+	}
+
+	### 4
+	planet = {
+		name = "NAME_TheFarm"
+		class = "pc_nuked"
+		orbit_distance = 20
+		orbit_angle = 90
+		size = 40
+		has_ring = no
+		flags = { outsider_farm }
+		init_effect = {
+			prevent_anomaly = yes
+			clear_deposits = yes
+			add_deposit = d_harvester_fields
+			add_deposit = d_organic_landfill
+			add_modifier = { modifier = building_blocks days = -1 }
+			add_modifier = { modifier = lush_planet days = -1 }
+			add_modifier = { modifier = ultra_rich days = -1 }
+			add_modifier = { modifier = ancient_harvesters days = -1 }
+		}
 	}
 }
