@@ -29,7 +29,7 @@
  PRESCRIPTED_species_plural_ghostbird:0 "Inhabitants"
  PRESCRIPTED_species_adjective_ghostbird:1 "Inhabitant $1$"
  PRESCRIPTED_adjective_ghostbird:0 "Inhabitant"
- PRESCRIPTED_ship_prefix_ghostbird:0 "GB"
+ PRESCRIPTED_ship_prefix_ghostbird:0 "IP"
  PRESCRIPTED_planet_name_ghostbird:0 "The Stranger"
  PRESCRIPTED_system_name_ghostbird:0 "Arbiter"
  PRESCRIPTED_ruler_name_ghostbird:0 "Kaepora"
