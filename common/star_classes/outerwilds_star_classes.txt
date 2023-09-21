@@ -15,4 +15,25 @@ sc_trinary_fury = { # Fury Trinary System
 	}
 	spawn_odds = 0
 	num_planets = { min = 3 max = 5 }
+
+	is_environmental_hazard = yes
+	modifier = {
+		ship_disengage_chance_reduction = 0.5
+		ship_emergency_ftl_min_days_mult = 0.5
+	}
+}
+
+sc_binary_prima_maxima = { # Prima Maxima Binary Star System: Orange star around a Blue star
+	class = a_star
+	icon = prima_maxima_binary_star
+	planet = {
+		key = pc_a_star
+		class = a_star
+	}
+	planet = {
+		key = pc_k_star
+		class = k_star
+	}
+	spawn_odds = 0
+	num_planets = { min = 1 max = 1 }
 }

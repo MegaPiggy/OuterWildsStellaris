@@ -24,6 +24,11 @@ outerwilds_system_initializer = {
 		initializer = "fury_system_initializer"
 	}
 
+	neighbor_system = {
+		hyperlane_jumps = { min = 1 max = 1 }
+		initializer = "prima_maxima_system_initializer"
+	}
+
 	### 0
 	planet = {
 		name = "NAME_OuterWilds"
@@ -465,7 +470,7 @@ fury_system_initializer = {
 		flags = { fury_rage }
 	}
 
-	### 1
+	### 2
 	planet = {
 		name = "NAME_Oddity"
 		class = "pc_barren_cold"
@@ -476,7 +481,7 @@ fury_system_initializer = {
 		flags = { fury_oddity }
 	}
 
-	### 1
+	### 3
 	planet = {
 		name = "NAME_Serenity"
 		class = "pc_ocean"
@@ -499,7 +504,7 @@ fury_system_initializer = {
 		}
 	}
 
-	### 1
+	### 4
 	planet = {
 		name = "NAME_Calamity"
 		class = "pc_black_hole"
@@ -522,7 +527,7 @@ fury_system_initializer = {
 		}
 	}
 
-	### 1
+	### 5
 	planet = {
 		name = "NAME_Dwarf"
 		class = "pc_t_star"
@@ -531,5 +536,55 @@ fury_system_initializer = {
 		size = 30
 		has_ring = no
 		flags = { fury_dwarf }
+	}
+}
+
+prima_maxima_system_initializer = {
+	name = "NAME_PrimaMaxima"
+
+	class = "sc_binary_prima_maxima"
+
+	flags = { prima_maxima_system }
+
+	init_effect = {
+		every_neighbor_system = { set_star_flag = empire_cluster }
+	}
+	max_instances = 1
+
+	### 0
+	planet = {
+		name = "NAME_Prima"
+		class = "pc_a_star"
+		orbit_distance = 25
+		orbit_angle = 1
+		size = 30
+		init_effect = {
+			set_deposit = d_energy_5
+		}
+		flags = { prima_maxima_blue }
+	}
+
+	### 1
+	planet = {
+		name = "NAME_Maxima"
+		class = "pc_k_star"
+		orbit_distance = 0
+		orbit_angle = 180
+		size = 25
+		has_ring = no
+		flags = { prima_maxima_orange }
+	}
+
+    change_orbit = 0
+
+	### 2
+	planet = {
+		name = "NAME_Betwixt"
+		class = "pc_continental"
+		orbit_distance = 200
+		orbit_angle = 90
+		size = 27
+		has_ring = no
+		flags = { prima_maxima_betwixt }
 	}
 }
