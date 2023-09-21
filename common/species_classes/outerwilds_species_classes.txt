@@ -7,7 +7,9 @@ owportraits = {
    portraits = {
        "hearthian"
        "nomai"
-       "inhabitant"
+       "ghostbird"
+       "anglerfish"
+       "jellyfish"
    }
    graphical_culture = fungoid_01
    move_pop_sound_effect = "moving_pop_confirmation"
