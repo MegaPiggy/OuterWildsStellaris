@@ -1,0 +1,98 @@
+portraits = {
+    # Hearthians
+    hal = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/hal.dds"   
+    }
+    marl = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/marl.dds"   
+    }
+    hornfels = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/hornfels.dds"   
+    }
+    porphy = { 
+        greeting_sound = "reptilian_01_greetings" 
+        texturefile = "gfx/models/portraits/porphy.dds"   
+    }
+
+    # Nomai
+    nomai = { 
+        greeting_sound = "mammalian_01_greetings" 
+        texturefile = "gfx/models/portraits/nomai.dds"   
+    }
+
+    # Ghostbirds
+    ghostbird = { 
+        greeting_sound = "avian_01_greetings" 
+        texturefile = "gfx/models/portraits/ghostbird.dds"   
+    }
+
+    # Joke
+    jellyfish = {
+        greeting_sound = "molluscoid_01_greetings" 
+        texturefile = "gfx/models/portraits/jellyfish.dds"   
+    }
+
+    anglerfish = {
+        greeting_sound = "molluscoid_01_greetings" 
+        texturefile = "gfx/models/portraits/anglerfish.dds"   
+    }
+}
+
+portrait_groups = {
+    hearthian = {
+        default = hal
+        game_setup = {
+            add = {
+                portraits = {
+                    hal
+                    marl
+                    hornfels
+                    porphy
+                }
+            }
+        }
+        species = {
+            add = {
+                portraits = {
+                    hal
+                    marl
+                    hornfels
+                    porphy
+                }
+            }
+        }
+        pop = {
+            add = {
+                portraits = {
+                    hal
+                    marl
+                    hornfels
+                    porphy
+                }
+            }
+        }
+        leader = {
+            add = {
+                portraits = {
+                    hal
+                    marl
+                    hornfels
+                    porphy
+                }
+            }
+        }
+        ruler = {
+            add = {
+                portraits = {
+                    hal
+                    marl
+                    hornfels
+                    porphy
+                }
+            }
+        }
+    }
+}
