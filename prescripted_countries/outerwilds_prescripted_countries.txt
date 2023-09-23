@@ -6,7 +6,7 @@ nomai = {
 	ignore_portrait_duplication=no
 
 	species={
-		class="owportraits"
+		class="outerwilds"
 		portrait="nomai"
 		name = "PRESCRIPTED_species_name_nomai"
 		plural = "PRESCRIPTED_species_plural_nomai"
@@ -86,7 +86,7 @@ hearthian = {
 	ignore_portrait_duplication=no
 
 	species={
-		class="owportraits"
+		class="outerwilds"
 		portrait="hearthian"
 		name = "PRESCRIPTED_species_name_hearthian"
 		plural = "PRESCRIPTED_species_plural_hearthian"
@@ -159,7 +159,7 @@ ghostbird = {
 	ignore_portrait_duplication=no
 
 	species={
-		class="owportraits"
+		class="outerwilds"
 		portrait="ghostbird"
 		name = "PRESCRIPTED_species_name_ghostbird"
 		plural = "PRESCRIPTED_species_plural_ghostbird"

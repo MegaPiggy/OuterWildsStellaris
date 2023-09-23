@@ -1,4 +1,4 @@
-owportraits = {
+outerwilds = {
 	nomai = {
 		name = Nomai
 		plural = Nomai
