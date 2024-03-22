@@ -8,7 +8,7 @@ outerwilds = {
        "anglerfish"
        "jellyfish"
    }
-   graphical_culture = fungoid_01
+   graphical_culture = hearthian
    move_pop_sound_effect = "moving_pop_confirmation"
 }
 hearthian = {
