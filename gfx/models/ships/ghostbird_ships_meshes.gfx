@@ -1,0 +1,289 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "ghostbird_ship"
+		file = "gfx/models/ships/ghostbird/ghostbird_ship.mesh"
+		scale = 1.0
+	}
+	
+#######  corvette sections  #######	
+	
+	pdxmesh = {
+		name = "ghostbird_corvette_M1S1_mesh"
+		file = "gfx/models/ships/ghostbird/ghostbird_ship.mesh" ## "gfx/models/ships/corvette_assets/ghostbird_corvette_M1S1.mesh"
+		scale = 1.0
+	}
+		
+	pdxmesh = {
+		name = "ghostbird_corvette_S3_mesh"
+		file = "gfx/models/ships/ghostbird/ghostbird_ship.mesh" ## "gfx/models/ships/corvette_assets/ghostbird_corvette_S3.mesh"
+		scale = 1.0
+	}	
+	
+	pdxmesh = {
+		name = "ghostbird_corvette_S1_mesh"
+		file = "gfx/models/ships/ghostbird/ghostbird_ship.mesh" ## "gfx/models/ships/corvette_assets/ghostbird_corvette_S1.mesh"
+		scale = 1.0
+	}	
+
+	
+#######  destroyer bow sections  #######	
+
+	pdxmesh = {
+		name = "ghostbird_destroyer_bow_L1_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/destroyer_assets/ghostbird_destroyer_bow_L1.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "ghostbird_destroyer_bow_M1S2_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/destroyer_assets/ghostbird_destroyer_bow_M1S2.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "ghostbird_destroyer_bow_S3_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/destroyer_assets/ghostbird_destroyer_bow_S3.mesh"
+		scale = 1.0
+	}
+	
+#######  destroyer stern sections  #######	
+	
+	pdxmesh = {
+		name = "ghostbird_destroyer_stern_S2_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/destroyer_assets/ghostbird_destroyer_stern_S2.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "ghostbird_destroyer_stern_M1_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/destroyer_assets/ghostbird_destroyer_stern_M1.mesh"
+		scale = 1.0
+	}
+	
+#######  cruiser bow sections  #######	
+	
+	pdxmesh = {
+		name = "ghostbird_cruiser_bow_L1_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/cruiser_assets/ghostbird_cruiser_bow_L1.mesh"
+		scale = 1.0
+	}
+		
+	pdxmesh = {
+		name = "ghostbird_cruiser_bow_M1S2_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/cruiser_assets/ghostbird_cruiser_bow_M1S2.mesh"
+		scale = 1.0
+	}	
+	
+	pdxmesh = {
+		name = "ghostbird_cruiser_bow_M2_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/cruiser_assets/ghostbird_cruiser_bow_M2.mesh"
+		scale = 1.0
+	}
+		
+#######  cruiser mid sections  #######			
+		
+	
+	pdxmesh = {
+		name = "ghostbird_cruiser_mid_S2HB_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/cruiser_assets/ghostbird_cruiser_mid_S2HB.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "ghostbird_cruiser_mid_L1M1_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/cruiser_assets/ghostbird_cruiser_mid_L1M1.mesh"
+		scale = 1.0
+	}
+				
+	pdxmesh = {
+		name = "ghostbird_cruiser_mid_M3_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/cruiser_assets/ghostbird_cruiser_mid_M3.mesh"
+		scale = 1.0
+	}		
+	
+	pdxmesh = {
+		name = "ghostbird_cruiser_mid_M2S2_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/cruiser_assets/ghostbird_cruiser_mid_M2S2.mesh"
+		scale = 1.0
+	}
+	
+#######  cruiser stern sections  #######	
+		
+	pdxmesh = {
+		name = "ghostbird_cruiser_stern_M1_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/cruiser_assets/ghostbird_cruiser_stern_M1.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "ghostbird_cruiser_stern_S2_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/cruiser_assets/ghostbird_cruiser_stern_S2.mesh"
+		scale = 1.0
+	}		
+
+	
+#######  Battleship bow sections  #######	
+	
+	pdxmesh = {
+		name = "ghostbird_battleship_bow_L1M1S2_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_bow_L1M1S2.mesh"
+		scale = 1.0
+	}
+		
+	pdxmesh = {
+		name = "ghostbird_battleship_bow_L1S4_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_bow_L1S4.mesh"
+		scale = 1.0
+	}	
+		
+	pdxmesh = {
+		name = "ghostbird_battleship_bow_L2_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_bow_L2.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "ghostbird_battleship_bow_M1S2SHB_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_bow_M1S2SHB.mesh"
+		scale = 1.0
+	}
+	
+		pdxmesh = {
+		name = "ghostbird_battleship_bow_M2S4_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_bow_M2S4.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "ghostbird_battleship_bow_M3S2_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_bow_M3S2.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "ghostbird_battleship_bow_XL1_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_bow_XL1.mesh"
+		scale = 1.0
+	}	
+		
+#######  Battleship mid sections  #######			
+		
+		
+	pdxmesh = {
+		name = "ghostbird_battleship_mid_L1M4_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_mid_L1M4.mesh"
+		scale = 1.0
+	}
+	
+	
+		pdxmesh = {
+		name = "ghostbird_battleship_mid_L2M2_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_mid_L2M2.mesh"
+		scale = 1.0
+	}	
+		
+	pdxmesh = {
+		name = "ghostbird_battleship_mid_L2S4_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_mid_L2S4.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "ghostbird_battleship_mid_L3_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_mid_L3.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "ghostbird_battleship_mid_M4SHB_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_mid_M4SHB.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "ghostbird_battleship_mid_S4LHB_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_mid_S4LHB.mesh"
+		scale = 1.0
+	}
+				
+		
+#######  Battleship stern sections  #######	
+		
+		
+	pdxmesh = {
+		name = "ghostbird_battleship_stern_L1_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_stern_L1.mesh"
+		scale = 1.0
+	}
+		
+	pdxmesh = {
+		name = "ghostbird_battleship_stern_M1S2_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_stern_M1S2.mesh"
+		scale = 1.0
+	}	
+
+	pdxmesh = {
+		name = "ghostbird_battleship_stern_M2_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_stern_M2.mesh"
+		scale = 1.0
+	}
+		
+	pdxmesh = {
+		name = "ghostbird_battleship_stern_S4_mesh"
+		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/battleship_assets/ghostbird_battleship_stern_S4.mesh"
+		scale = 1.0
+	}
+
+	
+####### small ships  #######	
+	pdxmesh = {
+		name = "ghostbird_bomber_mesh"
+		file = "gfx/models/ships/ghostbird/ghostbird_ship.mesh" ## "gfx/models/ships/strikecraft_assets/ghostbird_bomber.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "ghostbird_launcher_mesh"
+		file = "gfx/models/ships/ghostbird/ghostbird_ship.mesh" ## "gfx/models/ships/strikecraft_assets/ghostbird_launcher.mesh"
+		scale = 1.0
+	}
+	
+		pdxmesh = {
+		name = "ghostbird_fighter_mesh"
+		file = "gfx/models/ships/ghostbird/ghostbird_ship.mesh" ## "gfx/models/ships/strikecraft_assets/ghostbird_fighter.mesh"
+		scale = 1.0
+	}
+	
+	
+####### civilian ships  #######	
+	
+	pdxmesh = {
+		name = "ghostbird_science_mesh"
+		file = "gfx/models/ships/ghostbird/ghostbird_ship.mesh" ## "gfx/models/ships/civilian_assets/science_ship/ghostbird_science.mesh"
+		scale = 1.0
+	}
+	
+	pdxmesh = {
+		name = "ghostbird_construction_mesh"
+		file = "gfx/models/ships/ghostbird/ghostbird_ship.mesh" ## "gfx/models/ships/civilian_assets/construction_ship/ghostbird_construction.mesh"
+		scale = 1.0
+		
+		animation = { id = "idle"						type = "ghostbird_construction_idle_animation" }
+		animation = { id = "working"					type = "ghostbird_construction_working_animation" }
+		animation = { id = "working_looping"			type = "ghostbird_construction_working_looping_animation" }
+	}
+	
+	pdxmesh = {
+		name = "ghostbird_transport_mesh"
+		file = "gfx/models/ships/ghostbird/ghostbird_ship.mesh" ## "gfx/models/ships/civilian_assets/transport_ship/ghostbird_transport.mesh"
+		scale = 1.0
+	}
+	
+		pdxmesh = {
+		name = "ghostbird_colony_mesh"
+		file = "gfx/models/ships/ghostbird/ghostbird_ship.mesh" ## "gfx/models/ships/civilian_assets/colony_ship/ghostbird_colony.mesh"
+		scale = 1.0
+	}
+	
+}

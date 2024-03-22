@@ -11,3 +11,11 @@ outerwilds = {
    graphical_culture = fungoid_01
    move_pop_sound_effect = "moving_pop_confirmation"
 }
+ghostbird = {
+	randomized = no
+	portraits = {
+	}
+	
+	graphical_culture = ghostbird
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
