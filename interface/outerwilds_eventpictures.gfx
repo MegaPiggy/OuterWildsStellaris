@@ -29,4 +29,23 @@ spriteTypes = {
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaystransparent = yes
 	}
+
+	spriteType = {
+		name = "GFX_evt_foxle_system"
+		texturefile = "gfx/event_pictures/foxle_system.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_foxle_plaque"
+		texturefile = "gfx/event_pictures/foxle_plaque.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_evt_foxle_escape_pod"
+		texturefile = "gfx/event_pictures/foxle_escape_pod.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
 }

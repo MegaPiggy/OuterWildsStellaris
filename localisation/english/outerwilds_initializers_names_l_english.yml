@@ -51,3 +51,11 @@
 
  NAME_NightLight:0 "Night Light"
  NAME_Snowball:0 "Snowball"
+
+ NAME_HearthsNeighbor:0 "Hearth's Neighbor"
+ NAME_NeighborSun:0 "Neighbor Sun"
+ NAME_LonelyHermit:0 "Lonely Hermit"
+ NAME_AlpineCore:0 "Alpine Core"
+ NAME_LavaCore:0 "Lava Core"
+ NAME_LakeCore:0 "Lake Core"
+ NAME_DerelictShip:0 "Derelict Ship"

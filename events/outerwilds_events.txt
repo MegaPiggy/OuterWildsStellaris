@@ -192,3 +192,80 @@ country_event = {
 		name = OK
 	}
 }
+
+########
+#
+# Hearth's Neighbor Events
+#
+############################
+
+namespace = hearthsneighbor
+
+fleet_event = {
+	id = hearthsneighbor.1
+	title = "foxle_plaque.name"
+	desc = "foxle_plaque.desc"
+	picture = GFX_evt_foxle_plaque
+	show_sound = event_ghost_town
+
+	archaeology = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = DIG
+		small_artifact_reward = yes
+	}
+}
+
+fleet_event = {
+	id = hearthsneighbor.2
+	title = "foxle_escape_pod.name"
+	desc = "foxle_escape_pod.desc"
+	picture = GFX_evt_foxle_escape_pod
+	show_sound = event_ghost_town
+
+	archaeology = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = CURIOUS
+		small_artifact_reward = yes
+	}
+}
+
+fleet_event = {
+	id = hearthsneighbor.3
+	title = "foxle_system.name"
+	desc = "foxle_system.desc"
+	picture = GFX_evt_foxle_system
+	show_sound = event_mystic_reveal
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			owner = {
+				random_system_within_border = {
+					spawn_system = {
+						min_distance = 10
+						max_distance = 30
+						max_jumps = 0
+						initializer = "foxle_system_initializer"
+					}
+					add_extra_hyperlane_to_spawned_system_effect = yes
+				}
+			}
+		}
+	}
+
+	after = {
+	}
+
+	option = {
+		name = OK
+	}
+}

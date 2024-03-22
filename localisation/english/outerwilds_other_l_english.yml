@@ -14,6 +14,15 @@
  hearthian_system.name:0 "Outer Wilds"
  hearthian_system.desc:0 "Spawned the Hearthian's system from Outer Wilds near a random system within your border!"
 
+ site_hearths_neighbor:0 "Hearth's Neighbor"
+ site_hearths_neighbor_intro:0 "The Science Ship has picked up a strange reading emanating from [From.Planet.GetName]."
+ foxle_plaque.name:0 "Plaque"
+ foxle_plaque.desc:0 "This is a strange, ancient metal plate found in the river in a grove near the village. Its origins are unknown; it is clearly not Nomai or Hearthian. Unfortunately, this is the only trace of said civilization that has ever been found."
+ foxle_escape_pod.name:0 "Escape Pod"
+ foxle_escape_pod.desc:0 "There's no mistaking it, this is the source of the museum's plate! It's been torn off the hull at some point, but this is definitely the same metal and paint. Judging by the structure, this is some kind of escape pod. It seems to be in a good shape, so the inhabitant(s) of it likely survived entry. Perhaps, one day, you can discover what happened to the survivors? It would have been very long ago, but, there's gotta be a chance."
+ foxle_system.name:0 "Neighboring Star"
+ foxle_system.desc:0 "The carving on the plate depicts our solar system and what seems to be our nearest system, Hearth's Neighbor. Could it have come from all the way over there?"
+
  site_stripped_for_stranger:0 "Stripped for Stranger"
  site_stripped_for_stranger_intro:0 "The Science Ship has picked up a strange reading emanating from [From.Planet.GetName]."
  ghostbird_homeworld_1.name:0 "Remnants of the Past"

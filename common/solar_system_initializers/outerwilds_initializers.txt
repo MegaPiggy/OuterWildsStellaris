@@ -10,10 +10,6 @@ outerwilds_system_initializer = {
 	usage = custom_empire
 	max_instances = 1
 
-	init_effect = {
-		every_neighbor_system = { set_star_flag = empire_cluster }
-	}
-
 	neighbor_system = {
 		hyperlane_jumps = { min = 1 max = 1 }
 		initializer = "arbiter_system_initializer"
@@ -154,6 +150,7 @@ outerwilds_system_initializer = {
 			add_deposit = d_ruined_building_blocker
 			add_deposit = d_sinkhole_subterraneans
 			add_deposit = d_forgotten_civilization
+			save_event_target_as = hearthian_planet
 		}
 		flags = { hearthian_planet }
 
@@ -305,6 +302,18 @@ outerwilds_system_initializer = {
 		init_effect = {
 			prevent_anomaly = yes
 			set_deposit = d_zro_deposit_1
+		}
+	}
+	
+	init_effect = {
+		every_neighbor_system = { set_star_flag = empire_cluster }
+		if = {
+			limit = {
+				starting_system = no
+			}
+			event_target:hearthian_planet = {
+				create_archaeological_site = site_hearths_neighbor
+			}
 		}
 	}
 }
@@ -839,5 +848,52 @@ sequestered_luminary_system_initializer = {
 			set_deposit = d_physics_3
 		}
 		flags = { sequestered_luminary_hindering_skies }
+	}
+}
+
+foxle_system_initializer = {
+	name = "NAME_HearthsNeighbor"
+
+	class = "sc_b"
+
+	flags = { hearths_neighbor_system }
+
+	init_effect = {
+		every_neighbor_system = { set_star_flag = empire_cluster }
+	}
+	max_instances = 1
+
+	### 0
+	planet = {
+		name = "NAME_NeighborSun"
+		class = "pc_b_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 25
+		init_effect = {
+			set_deposit = d_energy_5
+		}
+		flags = { hearths_neighbor_star }
+	}
+
+    change_orbit = 0
+
+	### 1
+	planet = {
+		name = "NAME_LonelyHermit"
+		class = "pc_arid"
+		orbit_distance = 90
+		orbit_angle = 45
+		size = 32
+		has_ring = no
+		flags = { hearths_neighbor_planet }
+		init_effect = {
+			prevent_anomaly = yes
+			add_deposit = d_dark_matter_deposit_1
+			set_deposit = d_society_3
+			add_deposit = d_relic_dense_ruins
+			add_deposit = d_forgotten_civilization
+			add_deposit = d_artifacts_3
+		}
 	}
 }
