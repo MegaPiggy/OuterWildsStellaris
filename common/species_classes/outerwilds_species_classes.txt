@@ -11,6 +11,22 @@ outerwilds = {
    graphical_culture = fungoid_01
    move_pop_sound_effect = "moving_pop_confirmation"
 }
+hearthian = {
+	randomized = no
+	portraits = {
+	}
+	
+	graphical_culture = hearthian
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
+nomai = {
+	randomized = no
+	portraits = {
+	}
+	
+	graphical_culture = nomai
+	move_pop_sound_effect = "moving_pop_confirmation"
+}
 ghostbird = {
 	randomized = no
 	portraits = {

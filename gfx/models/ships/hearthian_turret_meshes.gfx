@@ -1,0 +1,81 @@
+ObjectTypes = {
+
+	#######  Turrets  #######	
+	
+	pdxmesh = {
+		name = "hearthian_turret_projectile_large_mesh"
+		file = "gfx/models/ships/weapons_assets/turrets/turret_projectile_large_invis.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hearthian_turret_projectile_medium_mesh"
+		file = "gfx/models/ships/weapons_assets/turrets/turret_projectile_medium_invis.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hearthian_turret_projectile_small_mesh"
+		file = "gfx/models/ships/weapons_assets/turrets/turret_projectile_small_invis.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hearthian_turret_missile_large_mesh"
+		file = "gfx/models/ships/weapons_assets/turrets/turret_missile_large_invis.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_large_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_large_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hearthian_turret_missile_medium_mesh"
+		file = "gfx/models/ships/weapons_assets/turrets/turret_missile_medium_invis.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_medium_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_medium_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hearthian_turret_missile_small_mesh"
+		file = "gfx/models/ships/weapons_assets/turrets/turret_missile_small_invis.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "hearthian_turret_point_defense_mesh"
+		file = "gfx/models/ships/weapons_assets/turrets/turret_point_defense_invis.mesh"
+		#	animation = { id = "idle"		type = "turret_projectile_small_idle_animation" }
+		#	animation = { id = "attack"		type = "turret_projectile_small_attack_animation" }	
+		scale = 1.0
+		meshsettings = {
+			shader = "PdxMeshShip"
+		}
+	}
+}
