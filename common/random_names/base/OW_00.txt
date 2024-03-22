@@ -15,7 +15,20 @@ asteroid_postfix = {
 }
 
 star_names = {
-	Aetherion
+	Medley
+	Carson
+	Guardian
+	Gleam
+	Glint
+	Jolt
+	Hecatome
+	Inferno
+	Magnificence
+	"Raging Giant"
+	"Bright Jewel"
+	"Scorched Fire"
+	Nevlar
+	Tevlar
 }
 
 nebula_names = {	

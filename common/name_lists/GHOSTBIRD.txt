@@ -249,7 +249,7 @@
 			names = {
 				HIVE2_PLANET_Brilliant_Coasts HIVE2_PLANET_Clouds_Scudded HIVE2_Cooled_Lava HIVE2_Dew_Formed HIVE2_Felt_Rumbling HIVE2_Glimpsed_Shore HIVE2_Ground_Ruptured HIVE2_Waves_Lashed
 				"Timber Hearth" "Maelstrom Basin" "River Lowlands" "Cinder Isles" "Hidden Gorge" "Forest Abode" "Twisting Climate" "Warm Beaches" "Rainy Valley" "Ancient Glade" "Wetrock" "Dwarf's Shallow"
-				"Terrene Turf" "Shrouded Woodlands"
+				"Terrene Turf" "Shrouded Woodlands" "Greenrock"
 			}
 		}
 		
@@ -277,7 +277,7 @@
 				NECROID4_PLANET_EndlessWinter
 				MOL4_PLANET_FrozenShoals MOL4_PLANET_FrigidCoast MOL4_PLANET_GlacialLagoon MOL4_PLANET_IcyReef MOL4_PLANET_FrostedCoral
 				HIVE2_PLANET_Calved_Ice HIVE2_PLANET_Light_Waned HIVE2_PLANET_Ocean_Creaked HIVE2_PLANET_Shelf_Collapsed HIVE2_PLANET_Whitened_Paleness
-				"The Interloper" "Forever Frost" "Icy Ridges" "Frigid Seas" "Glacial Steam" "Hollow Ice" "Foggy Ice" "Snowball" "Cryo Caps" "Gelid Glaciers"
+				"The Interloper" "Forever Frost" "Icy Ridges" "Frigid Seas" "Glacial Steam" "Hollow Ice" "Foggy Ice" "Snowball" "Cryo Caps" "Gelid Glaciers" "Icy Seas"
 			}
 		}
 		
