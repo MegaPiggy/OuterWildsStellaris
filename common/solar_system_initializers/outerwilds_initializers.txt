@@ -5,7 +5,7 @@ outerwilds_system_initializer = {
 
 	class = "sc_g"
 
-	flags = { empire_home_system hearthian_system }
+	flags = { empire_home_system hearthian_system mzilli_supernova_system mzilli_supernova_system_unset crisis_spawn_exclude }
 
 	usage = custom_empire
 	max_instances = 1
@@ -55,7 +55,7 @@ outerwilds_system_initializer = {
 			prevent_anomaly = yes
 			set_deposit = d_energy_5
 		}
-		flags = { hearthian_star }
+		flags = { hearthian_star mzilli_kaboom }
 
 		moon = {
 			name = "NAME_SunStation"
@@ -64,7 +64,7 @@ outerwilds_system_initializer = {
 			size = 10
 			has_ring = no
 			orbit_angle = 90
-			flags = { hearthian_sun_station }
+			flags = { hearthian_sun_station mzilli_supernova_vaporized }
 
 			init_effect = {
 				prevent_anomaly = yes
@@ -86,7 +86,7 @@ outerwilds_system_initializer = {
 		init_effect = {
 			prevent_anomaly = yes
 		}
-		flags = { hearthian_focalpoint }
+		flags = { hearthian_focalpoint mzilli_supernova_vaporized }
 
    		change_orbit = 10
 
@@ -97,7 +97,7 @@ outerwilds_system_initializer = {
 			size = 20
 			has_ring = no
 			orbit_angle = 180
-			flags = { hearthian_cave_planet }
+			flags = { hearthian_cave_planet mzilli_supernova_shattered }
 
 			init_effect = {
 				prevent_anomaly = yes
@@ -120,7 +120,7 @@ outerwilds_system_initializer = {
 			size = 20
 			has_ring = no
 			orbit_angle = 180
-			flags = { hearthian_tower_planet }
+			flags = { hearthian_tower_planet mzilli_supernova_shattered }
 
 			init_effect = {
 				prevent_anomaly = yes
@@ -155,7 +155,7 @@ outerwilds_system_initializer = {
 			add_deposit = d_sinkhole_subterraneans
 			add_deposit = d_forgotten_civilization
 		}
-		flags = { hearthian_planet }
+		flags = { hearthian_planet mzilli_supernova_shattered mzilli_supernova_unset }
 
 		moon = {
 			name = "NAME_Attlerock"
@@ -164,7 +164,7 @@ outerwilds_system_initializer = {
 			size = 10
 			has_ring = no
 			orbit_angle = 60
-			flags = { hearthian_moon }
+			flags = { hearthian_moon mzilli_supernova_vaporized }
 
 			init_effect = {
 				prevent_anomaly = yes
@@ -183,7 +183,7 @@ outerwilds_system_initializer = {
 		orbit_angle = -60
 		size = 32
 		has_ring = no
-		flags = { hearthian_hollow_planet }
+		flags = { hearthian_hollow_planet mzilli_supernova_shattered }
 		init_effect = {
 			prevent_anomaly = yes
 			add_deposit = d_dark_matter_deposit_1
@@ -200,7 +200,7 @@ outerwilds_system_initializer = {
 			size = 10
 			has_ring = no
 			orbit_angle = 10
-			flags = { hearthian_hollow_moon }
+			flags = { hearthian_hollow_moon mzilli_supernova_vaporized }
 
 			init_effect = {
 				prevent_anomaly = yes
@@ -224,7 +224,7 @@ outerwilds_system_initializer = {
 		orbit_angle = -40
 		size = 40
 		has_ring = no
-		flags = { hearthian_giant_planet }
+		flags = { hearthian_giant_planet mzilli_supernova_shattered  }
 
 		init_effect = {
 			prevent_anomaly = yes
@@ -247,7 +247,7 @@ outerwilds_system_initializer = {
 			size = 10
 			has_ring = no
 			orbit_angle = 10
-			flags = { hearthian_opc }
+			flags = { hearthian_opc mzilli_supernova_vaporized }
 
 			init_effect = {
 				prevent_anomaly = yes
@@ -264,7 +264,7 @@ outerwilds_system_initializer = {
 			size = 10
 			has_ring = no
 			orbit_angle = 20
-			flags = { hearthian_quantum_moon }
+			flags = { hearthian_quantum_moon mzilli_supernova_vaporized }
 			entity = "hearthian_quantum_moon_entity"
 
 			init_effect = {
@@ -284,7 +284,7 @@ outerwilds_system_initializer = {
 		orbit_angle = 60
 		size = 25
 		has_ring = no
-		flags = { hearthian_bramble_planet }
+		flags = { hearthian_bramble_planet mzilli_supernova_shattered }
 
 		init_effect = {
 			prevent_anomaly = yes
@@ -300,7 +300,7 @@ outerwilds_system_initializer = {
 		orbit_angle = 200
 		size = 5
 		has_ring = no
-		flags = { hearthian_bramble_planet }
+		flags = { hearthian_bramble_planet mzilli_supernova_vaporized }
 
 		init_effect = {
 			prevent_anomaly = yes
