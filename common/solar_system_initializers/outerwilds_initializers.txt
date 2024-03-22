@@ -40,6 +40,11 @@ outerwilds_system_initializer = {
 		initializer = "sequestered_luminary_system_initializer"
 	}
 
+	neighbor_system = {
+		hyperlane_jumps = { min = 2 max = 3 }
+		initializer = "unnamed_mystery_system_initializer"
+	}
+
 	### 0
 	planet = {
 		name = "NAME_OuterWilds"
@@ -102,10 +107,6 @@ outerwilds_system_initializer = {
 				add_deposit = d_relic_dense_ruins
 				add_deposit = d_forgotten_civilization
 				add_deposit = d_artifacts_3
-				add_modifier = {
-					modifier = "nascent_locust"
-					days = -1
-				}
 			}
 		}
 
@@ -304,7 +305,7 @@ outerwilds_system_initializer = {
 			set_deposit = d_zro_deposit_1
 		}
 	}
-	
+
 	init_effect = {
 		every_neighbor_system = { set_star_flag = empire_cluster }
 		if = {
@@ -889,11 +890,154 @@ foxle_system_initializer = {
 		flags = { hearths_neighbor_planet }
 		init_effect = {
 			prevent_anomaly = yes
-			add_deposit = d_dark_matter_deposit_1
 			set_deposit = d_society_3
+			add_deposit = d_dark_matter_deposit_1
 			add_deposit = d_relic_dense_ruins
 			add_deposit = d_forgotten_civilization
 			add_deposit = d_artifacts_3
 		}
+	}
+}
+
+unnamed_mystery_system_initializer = {
+	name = "NAME_Aetherion"
+
+	class = "sc_b"
+
+	flags = { unnamed_mystery_system }
+
+	init_effect = {
+		every_neighbor_system = { set_star_flag = empire_cluster }
+	}
+	max_instances = 1
+
+	### 0
+	planet = {
+		name = "NAME_Aetherion"
+		class = "pc_b_star"
+		orbit_distance = 0
+		orbit_angle = 1
+		size = 30
+		init_effect = {
+			set_deposit = d_energy_5
+		}
+		flags = { unnamed_mystery_star }
+	}
+
+    change_orbit = 30
+
+	### 1
+	planet = {
+		name = "NAME_Zephyria"
+		class = "pc_desert"
+		orbit_distance = 70
+		orbit_angle = 45
+		size = 30
+		has_ring = no
+		flags = { unnamed_mystery_zephyria }
+
+		init_effect = {
+			set_deposit = d_society_3
+		}
+
+		moon = {
+			name = "NAME_GhostMoon"
+			class = "pc_shrouded"
+			orbit_distance = 15
+			size = 13
+			has_ring = no
+			orbit_angle = 20
+			flags = { unnamed_mystery_ghost_moon }
+			entity = "hearthian_quantum_moon_entity"
+
+			init_effect = {
+				prevent_anomaly = yes
+				add_deposit = d_physics_3
+				add_deposit = d_forgotten_civilization
+				add_deposit = d_space_time_anomaly
+			}
+		}
+	}
+
+	### 2
+	planet = {
+		name = "NAME_Thalassia"
+		class = "pc_tropical"
+		orbit_distance = 35
+		orbit_angle = 45
+		size = 37
+		has_ring = no
+		flags = { unnamed_mystery_thalassia }
+
+		init_effect = {
+			set_deposit = d_society_3
+		}
+
+		moon = {
+			name = "NAME_Ginth"
+			class = "pc_barren"
+			orbit_distance = 15
+			orbit_angle = 90
+			size = 15
+			has_ring = no
+			flags = { unnamed_mystery_ginth }
+
+			init_effect = {
+				add_deposit = d_society_1
+			}
+		}
+	}
+
+	### 3
+	planet = {
+		name = "NAME_Helioraxia"
+		class = "pc_gas_giant"
+		orbit_distance = 35
+		orbit_angle = 135
+		size = 45
+		has_ring = no
+		flags = { unnamed_mystery_helioraxia }
+
+		change_orbit = 10
+
+		moon = {
+			name = "NAME_Metallos"
+			class = "pc_barren"
+			orbit_distance = 15
+			orbit_angle = 90
+			size = 11
+			has_ring = no
+			flags = { unnamed_mystery_metallos }
+
+			init_effect = {
+				add_deposit = d_minerals_5
+			}
+		}
+
+		moon = {
+			name = "NAME_Electrum"
+			class = "pc_molten"
+			orbit_distance = 10
+			size = 22
+			has_ring = no
+			orbit_angle = 180
+			flags = { unnamed_mystery_electrum }
+
+			init_effect = {
+				add_deposit = d_minerals_5
+				add_deposit = d_physics_5
+			}
+		}
+	}
+
+	### 4
+	planet = {
+		name = "NAME_OuterSpaceStation"
+		class = "pc_habitat"
+		orbit_distance = 30
+		orbit_angle = 180
+		size = 45
+		has_ring = no
+		flags = { unnamed_mystery_outer_space_station }
 	}
 }
