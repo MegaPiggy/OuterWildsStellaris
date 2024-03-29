@@ -1,22 +1,28 @@
 objectTypes = {
+
+	pdxmesh = {
+		name = "nomai_shuttle"
+		file = "gfx/models/ships/nomai/nomai_shuttle.mesh"
+		scale = 1.0
+	}
 	
 #######  corvette sections  #######	
 	
 	pdxmesh = {
 		name = "nomai_corvette_M1S1_mesh"
-		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/corvette_assets/nomai_corvette_M1S1.mesh"
+		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/corvette_assets/nomai_corvette_M1S1.mesh"
 		scale = 1.0
 	}
 		
 	pdxmesh = {
 		name = "nomai_corvette_S3_mesh"
-		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/corvette_assets/nomai_corvette_S3.mesh"
+		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/corvette_assets/nomai_corvette_S3.mesh"
 		scale = 1.0
 	}	
 	
 	pdxmesh = {
 		name = "nomai_corvette_S1_mesh"
-		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/corvette_assets/nomai_corvette_S1.mesh"
+		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/corvette_assets/nomai_corvette_S1.mesh"
 		scale = 1.0
 	}	
 
@@ -233,19 +239,19 @@ objectTypes = {
 ####### small ships  #######	
 	pdxmesh = {
 		name = "nomai_bomber_mesh"
-		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/strikecraft_assets/nomai_bomber.mesh"
+		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/strikecraft_assets/nomai_bomber.mesh"
 		scale = 1.0
 	}
 	
 	pdxmesh = {
 		name = "nomai_launcher_mesh"
-		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/strikecraft_assets/nomai_launcher.mesh"
+		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/strikecraft_assets/nomai_launcher.mesh"
 		scale = 1.0
 	}
 	
 		pdxmesh = {
 		name = "nomai_fighter_mesh"
-		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/strikecraft_assets/nomai_fighter.mesh"
+		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/strikecraft_assets/nomai_fighter.mesh"
 		scale = 1.0
 	}
 	
@@ -254,13 +260,13 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "nomai_science_mesh"
-		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/civilian_assets/science_ship/nomai_science.mesh"
+		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/civilian_assets/science_ship/nomai_science.mesh"
 		scale = 1.0
 	}
 	
 	pdxmesh = {
 		name = "nomai_construction_mesh"
-		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/civilian_assets/construction_ship/nomai_construction.mesh"
+		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/civilian_assets/construction_ship/nomai_construction.mesh"
 		scale = 1.0
 		
 		animation = { id = "idle"						type = "nomai_construction_idle_animation" }
@@ -270,13 +276,13 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "nomai_transport_mesh"
-		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/civilian_assets/transport_ship/nomai_transport.mesh"
+		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/civilian_assets/transport_ship/nomai_transport.mesh"
 		scale = 1.0
 	}
 	
 		pdxmesh = {
 		name = "nomai_colony_mesh"
-		file = "gfx/models/ships/Cube.mesh" ## "gfx/models/ships/civilian_assets/colony_ship/nomai_colony.mesh"
+		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/civilian_assets/colony_ship/nomai_colony.mesh"
 		scale = 1.0
 	}
 	
