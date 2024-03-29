@@ -15,6 +15,12 @@ asteroid_postfix = {
 }
 
 star_names = {
+	"Ethereal Shine"
+	"Dazzling Burst"
+	"Sparkling Solstice"
+	"Brilliant Radiance"
+	"Stellar Beacon"
+	"Astral Ignition"
 	Medley
 	Carson
 	Guardian
@@ -33,4 +39,6 @@ star_names = {
 
 nebula_names = {	
 	"Gloaming Nebula"
+	"Stellar Shroud"
+	"Nexus Nebula"
 }

@@ -201,21 +201,27 @@
 	planet_names = {			
 		generic = {
 			names = {
-				MOL4_PLANET_StillHaven MOL4_PLANET_LonesomeRetreat
-				HIVE2_PLANET_Bounced_Comet HIVE2_PLANET_Caught_Starlight HIVE2_PLANET_Glowed_Oddly HIVE2_PLANET_Ground_Vibrated HIVE2_PLANET_Hid_Comet HIVE2_PLANET_Looked_Empty HIVE2_PLANET_Magnetized_Asteroid HIVE2_PLANET_Occluded_Anomaly HIVE2_PLANET_Piqued_Curiosity HIVE2_PLANET_Showed_Promise HIVE2_PLANET_Stirred_Atmosphere HIVE2_PLANET_Suggested_Prosperity
-				"Espied Serenity" "Faith Seeker" "Dark Destiny" "Lost Strings" "Constant Companion" "Tumbling Bean" "Precedent Cyclops" "Humble Abode" "Spared Stifler" "Bleak Hope" "Everlasting Sunset" "Lingering Chime" "Platinum Hue" "Terra Lure" "Daunting Confidant" "Forgotten Drifter"
+				"Veridian Haven" MOL4_PLANET_LonesomeRetreat
+				HIVE2_PLANET_Caught_Starlight HIVE2_PLANET_Glowed_Oddly HIVE2_PLANET_Ground_Vibrated HIVE2_PLANET_Looked_Empty HIVE2_PLANET_Magnetized_Asteroid HIVE2_PLANET_Occluded_Anomaly HIVE2_PLANET_Piqued_Curiosity HIVE2_PLANET_Showed_Promise HIVE2_PLANET_Stirred_Atmosphere HIVE2_PLANET_Suggested_Prosperity
+				"Espied Serenity" "Faith Seeker" "Dark Destiny" "Lost Strings" "Constant Companion" "Tumbling Bean" "Precedent Cyclops" "Humble Abode" "Spared Stifler" "Bleak Hope" "Everlasting Sunset" "Lingering Chime" "Terra Lure" "Daunting Confidant" "Forgotten Drifter" "Serene Solitude" "Enigmatic Echo" "Whispering Vale" "Silent Sentinel" "Stellar Serenade" "Mystic Mirage" "Tranquil Twilight" "Ethereal Embrace" "Axiom Refuge"
 			}
 		}
 
 		pc_barren = {
 			names = {
-				"The Attlerock" "Lonely Hermit" "Blackrock" "Lunar Lookout" "The Nomad" "Snared Stone" "Captured Rock" "Bound Boulder" "Foreign Flint" "Forlorn Sojourn" "Forsaken Marble"
+				"The Attlerock" "Lonely Hermit" "Blackrock" "Lunar Lookout" "The Nomad" "Snared Stone" "Captured Rock" "Bound Boulder" "Foreign Flint" "Forlorn Sojourn" "Forsaken Marble" "Bleak Badlands" "Desolate Drab" "Dismal Despondent" "Barren Blight"
+			}
+		}
+
+		pc_barren_cold = {
+			names = {
+				"Cryogenic Charnel" "Polar Wasteland" "Frigid Barrens" "Icelorn Graveyard" "Permafrost Purgatory" "Frostfall Desolation" "Frozen Silence" "Frostbitten Expanse" "Chilled Void" "Barren Frostlands"
 			}
 		}
 
 		pc_molten = {
 			names = {
-				"Hollow's Lantern" "Magmatic Mediator" "Devil's Furnace" "Hell's Cape" "Scorched Porch" "Boiling Canyon" "Molten Desert" "Glowing Pebble" "Scorched Brazier" "Flaming Eden" "Light's Imitator" "Toasty Cherry" "Yawning Cinder"
+				"Hollow's Lantern" "Magmatic Mediator" "Devil's Furnace" "Hell's Cape" "Scorched Porch" "Boiling Canyon" "Molten Desert" "Glowing Pebble" "Scorched Brazier" "Flaming Eden" "Light's Imitator" "Toasty Cherry" "Yawning Cinder" "Ember Expanse" "Volcanic Vista" "Blazing Basin" "Fiery Fissure" "Vulcan Vale" "Scorched Spires"
 			}
 		}
 		
@@ -223,7 +229,7 @@
 			names = {
 				MOL4_PLANET_EndlessSands MOL4_PLANET_DuneSea
 				HIVE2_PLANET_Abundant_Silicates HIVE2_PLANET_Felt_Coarse HIVE2_PLANET_Hills_Flowed HIVE2_PLANET_Motes_Everywhere HIVE2_PLANET_Scoured_Clean HIVE2_PLANET_Shifted_Ground HIVE2_PLANET_Worn_Smooth
-				"Ember Twin" "Ash Twin" "Dried Tears" "Dusty Bramble" "Smoldering Gulch" "Crumbly Sands" "Bracket's Rest" "Dusty Haven" "Desert's Harbinger" "Still Glass" "Ruptured Desert" "Dusty Cleft" "Split Sands" "Sundered Ash" "Seared Stark"
+				"Ember Twin" "Ash Twin" "Dried Tears" "Dusty Bramble" "Smoldering Gulch" "Crumbly Sands" "Bracket's Rest" "Dusty Haven" "Desert's Harbinger" "Still Glass" "Ruptured Desert" "Dusty Cleft" "Split Sands" "Sundered Ash" "Seared Stark" "Shifting Sandscape" "Dune Desert"
 			}
 		}
 		
@@ -233,7 +239,7 @@
 				MOL4_PLANET_EndlessKelpbed MOL4_PLANET_TropicFathom MOL4_PLANET_WildCoast MOL4_PLANET_WildShoals MOL4_PLANET_SeaLily MOL4_PLANET_ResplendentMangrove
 				AQUATIC2_PLANET_PillagersBayou AQUATIC2_PLANET_BrataryBay AQUATIC2_PLANET_StarBeach
 				HIVE2_PLANET_Embraced_Damp HIVE2_PLANET_Emergent_Fog HIVE2_PLANET_Encased_Warmth HIVE2_PLANET_Humid_Prospect HIVE2_PLANET_Life_Thrived HIVE2_PLANET_Mist_Glistened HIVE2_PLANET_Moistened_Abundance
-				"Layered Lagoon" "Swirling Pixie" "Deep Swamp" "Verdant Paradise" "Ravishing Reef" "Starlit Cove"
+				"Layered Lagoon" "Swirling Pixie" "Deep Swamp" "Verdant Paradise" "Ravishing Reef" "Starlit Cove" "Serene Shores" "Lush Lagoon" "Rainforest Retreat" "Vibrant Vista" "Azure Atoll" "Blissful Bayou"
 			}
 		}
 		
@@ -241,7 +247,7 @@
 			names = {
 				HIVE2_PLANET_Bronzed_Air HIVE2_PLANET_Calcified_Dust HIVE2_PLANET_Dried_Essence HIVE2_PLANET_Dried_Horizon HIVE2_PLANET_Dusted_Hulls HIVE2_PLANET_Parched_Place HIVE2_PLANET_Persistent_Haze
 				"Brittle Hollow" "Rocky Abode" "Rusted Crags" "Crag's Serenade" "Rocky Abode" "Rocky Ringbearer" "Sunbaked Stone" "Rocky Pebble" "Cracked Wasteland" "Single Cavn" "Cracked Hands" "Broken Heart" "Arid Rifts"
-				"Desiccant Dust" "Siccative Surface" "Endless Canyon"
+				"Desiccant Dust" "Siccative Surface" "Endless Canyon" "Echoing Canyon" "Midnight Mesa" "Parched Plains" "Outback Frontier"
 			}
 		}
 		
@@ -249,7 +255,7 @@
 			names = {
 				HIVE2_PLANET_Brilliant_Coasts HIVE2_PLANET_Clouds_Scudded HIVE2_Cooled_Lava HIVE2_Dew_Formed HIVE2_Felt_Rumbling HIVE2_Glimpsed_Shore HIVE2_Ground_Ruptured HIVE2_Waves_Lashed
 				"Timber Hearth" "Maelstrom Basin" "River Lowlands" "Cinder Isles" "Hidden Gorge" "Forest Abode" "Twisting Climate" "Warm Beaches" "Rainy Valley" "Ancient Glade" "Wetrock" "Dwarf's Shallow"
-				"Terrene Turf" "Shrouded Woodlands" "Greenrock"
+				"Terrene Turf" "Shrouded Woodlands" "Greenrock" "Verdant Bluffs" "Luminous Grove" "Glowing Thicket" "Mystic Meadow" "Continental Crossroads" "Concord Continuum" "Confluence Cascade"
 			}
 		}
 		
@@ -260,7 +266,7 @@
 				MOL4_PLANET_CoralKeep MOL4_PLANET_SeekersLanding MOL4_PLANET_FloatingIsland MOL4_PLANET_ShimmeringPearl MOL4_PLANET_IlluminatedReef MOL4_PLANET_HiddenPearl MOL4_PLANET_GlowingCay MOL4_PLANET_FarShore MOL4_PLANET_DriftingIsle MOL4_PLANET_SafeHarbor MOL4_PLANET_TheMooring MOL4_PLANET_ArmoredClamshell MOL4_PLANET_GleamingShell MOL4_PLANET_HeavyAnchor MOL4_PLANET_FarreachCove MOL4_PLANET_AbyssalAnchorage
 				AQUATIC2_PLANET_HardshellHarbor AQUATIC2_PLANET_SmugglersSurf AQUATIC2_PLANET_MidnightDock AQUATIC2_PLANET_BuccaneersBerth AQUATIC2_PLANET_MoonlitMooring AQUATIC2_PLANET_GawkersMourn AQUATIC2_PLANET_TiyankiPort AQUATIC2_PLANET_KrakensAnchor AQUATIC2_PLANET_PlunderersReprieve AQUATIC2_PLANET_FreebootersReef AQUATIC2_PLANET_GalleonsLanding AQUATIC2_PLANET_CorsairsHaven AQUATIC2_PLANET_RaidersRest AQUATIC2_PLANET_ScoundrelsJetty AQUATIC2_PLANET_ScoundrelsHideout AQUATIC2_PLANET_RedCloudHideaway AQUATIC2_PLANET_MutineersPier AQUATIC2_PLANET_PrivateersPrize AQUATIC2_PLANET_CrookedDen AQUATIC2_PLANET_RustbucketHeaps AQUATIC2_PLANET_VillainsHaven AQUATIC2_PLANET_RavagersCreek AQUATIC2_PLANET_HideyHole AQUATIC2_PLANET_LockesKey AQUATIC2_PLANET_SkullCove AQUATIC2_PLANET_CastawayHarbor AQUATIC2_PLANET_HooksCranny
 				HIVE2_PLANET_Dark_Pervaded HIVE2_PLANET_Mirrored_Sky HIVE2_PLANET_Shrank_Land HIVE2_PLANET_Stirred_Promise HIVE2_PLANET_Tides_Won HIVE2_PLANET_Waves_Consumed
-				"Giant's Deep" "Fleeting Droplet" "Leviathan's Abyss" "Big Blue" "Ravenous Tides" "Deep Waters" "Flotsam Wake" "Hindering Skies" "Whirlwind's Hurtle" "Garnet Tempest" "Crimson Typhoon" "Shrouded Haze"
+				"Giant's Deep" "Fleeting Droplet" "Leviathan's Abyss" "Big Blue" "Ravenous Tides" "Deep Waters" "Flotsam Wake" "Hindering Skies" "Whirlwind's Hurtle" "Garnet Tempest" "Crimson Typhoon" "Shrouded Haze" "Torrential Cascade" "Oceanic Odyssey" "Aquatic Eden" "Seabed Serenity" "Nautical Nirvana" "Tidal Treasures" "Cerulean Depths" "Siren's Sanctuary" "Pelagic Paradise" "Drifting Droplet"
 			}
 		}
 		
@@ -268,7 +274,8 @@
 			names = {
 				MOL4_PLANET_YawningChasm MOL4_PLANET_SnowyDelta
 				HIVE2_PLANET_Belied_Stillness HIVE2_PLANET_Rock_Shattered HIVE2_PLANET_Stability_Pervaded HIVE2_PLANET_Wind_Froze
-				"Dark Bramble" "Frosty Crags" "Somber Thistle" "Frosty Drifter" "Frigid Pygmy" "Polar Steppe"
+				"Dark Bramble" "Frosty Crags" "Somber Thistle" "Frosty Drifter" "Frigid Pygmy" "Polar Steppe" "Twilight Tundra" "Freezing Flats" "Polar Plateau" "Hiemal Heights" "Cryo Caps"
+				"Everwhite Expanse" "Brumal Brow" "Icebound Desert"
 			}
 		}
 		
@@ -277,7 +284,7 @@
 				NECROID4_PLANET_EndlessWinter
 				MOL4_PLANET_FrozenShoals MOL4_PLANET_FrigidCoast MOL4_PLANET_GlacialLagoon MOL4_PLANET_IcyReef MOL4_PLANET_FrostedCoral
 				HIVE2_PLANET_Calved_Ice HIVE2_PLANET_Light_Waned HIVE2_PLANET_Ocean_Creaked HIVE2_PLANET_Shelf_Collapsed HIVE2_PLANET_Whitened_Paleness
-				"The Interloper" "Forever Frost" "Icy Ridges" "Frigid Seas" "Glacial Steam" "Hollow Ice" "Foggy Ice" "Snowball" "Cryo Caps" "Gelid Glaciers" "Icy Seas"
+				"The Interloper" "Forever Frost" "Icy Ridges" "Frigid Seas" "Glacial Steam" "Hollow Ice" "Foggy Ice" "Snowball" "Gelid Glaciers" "Icy Seas" "Glacier's Embrace" "Iceberg Archipelago" "Rogue Hail"
 			}
 		}
 		
@@ -285,24 +292,46 @@
 			names = {
 				MOL4_PLANET_Sun-soakedShell
 				HIVE2_PLANET_Drenched_Suddenly HIVE2_PLANET_Pooled_Waters HIVE2_PLANET_Rustled_Everywhere HIVE2_PLANET_Shaded_Steppe HIVE2_PLANET_Whisps_Soared
-				"Propitious Pasture" "Virtuous Veldt" "Pure Prairie" "Salutary Savanna" "Pleasant Pampa" "Merry Moor" "Hopeful Heath"
+				"Propitious Pasture" "Virtuous Veldt" "Pure Prairie" "Salutary Savanna" "Pleasant Pampa" "Merry Moor" "Hopeful Heath" "Oasis Overlook" "Acacia Acres" "Golden Plains" "Amber Horizon"
 			}	
 		}		
 
 		pc_alpine = {		
 			names = {	
 				HIVE2_PLANET_Conquered_Vista HIVE2_PLANET_Glacier_Creaked HIVE2_PLANET_Ground_Soared HIVE2_PLANET_Ravine_Sank HIVE2_PLANET_Ruptured_Cloud HIVE2_PLANET_Stream_Dammed
-				"Twilight Tor"
+				"Twilight Tor" "Alpine Apex" "Everfrost Pines" "Crystal Canopy" "Evergreen Summit" "Aurora's Ascent" "Snowbloom Bluffs" "Frostwood Peaks" "Alpenglow Arboretum" "Glacial Grove"
 			}	
 		}	
 
 		pc_nuked = {
 			names = {
 				NAME_Fallen_Outpost NAME_Ruinous_Core NAME_Silent_Colony NAME_Lost_Encampment NAME_Crumbling_Borough
-				"Grim Sepulcher" "Mirthless Mausoleum" "Cynical Catacomb" "Bleak Undercroft" "Cruel Cenotaph" "Merciless Memorial" "Ruthless Crypt" "Morbid Ossuary" "Revolting Reliquary" "Vicious Vault" "Brutal Barrow" "Grisly Grave"
+				"Grim Sepulcher" "Mirthless Mausoleum" "Cynical Catacomb" "Bleak Undercroft" "Cruel Cenotaph" "Merciless Memorial" "Ruthless Crypt" "Morbid Ossuary" "Revolting Reliquary" "Vicious Vault" "Brutal Barrow" "Grisly Grave" "Whispering Wasteland"
 			}
 		}
-		
+
+		pc_shattered = {
+			names = {
+				"Demolished Desolation" "Ruined Remnant" "Splintered Surface" "Ravaged Remains" "Crumbled Canyon" "Shattered Horizon" "Fragmented Frontier" "Sundered Shards" "Broken Bastion"
+			}
+		}
+
+		pc_asteroid = {
+			names = {
+				"Rocky Rubble" "Stagnant Stone" "Stolid Shard" "Cumbersome Cluster" "Lackluster Lump" "Stale Speck" "Boring Boulder" "Granule Chunk" "Pallid Pebble" "Drudging Debris" "Stodgy Speck"
+		}
+
+		pc_ice_asteroid = {
+			names = {
+				"Cryo Cluster" "Frozen Fragment" "Glacial Shard" "Frozen Flake" "Polar Pebble" "Frosty Boulder" "Subzero Speck" "Gelid Grit" "Nippy Nugget" "Distant Debris" "Chilly Chip"
+			}
+		}
+
+		pc_gas_giant = {
+			names = {
+				"Whirling Abyss" "Vaporous Vortex" "Swirling Expanse" "Veiled Storm" "Obscure Cyclone" "Misty Monarch" "Ether Enigma" "Whirlpool Wanderer" "Monolith Mirage" "Wispy Wonder"
+			}
+		}
 	}
 
 	### CHARACTERS
