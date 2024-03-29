@@ -181,15 +181,7 @@
 	
 	### PLANETS
 
-	planet_names = {			
-		generic = {
-			names = {
-				"Veridian Haven" MOL4_PLANET_LonesomeRetreat
-				HIVE2_PLANET_Caught_Starlight HIVE2_PLANET_Glowed_Oddly HIVE2_PLANET_Ground_Vibrated HIVE2_PLANET_Looked_Empty HIVE2_PLANET_Magnetized_Asteroid HIVE2_PLANET_Occluded_Anomaly HIVE2_PLANET_Piqued_Curiosity HIVE2_PLANET_Showed_Promise HIVE2_PLANET_Stirred_Atmosphere HIVE2_PLANET_Suggested_Prosperity
-				"Espied Serenity" "Faith Seeker" "Dark Destiny" "Lost Strings" "Constant Companion" "Tumbling Bean" "Precedent Cyclops" "Humble Abode" "Spared Stifler" "Bleak Hope" "Everlasting Sunset" "Lingering Chime" "Terra Lure" "Daunting Confidant" "Forgotten Drifter" "Serene Solitude" "Enigmatic Echo" "Whispering Vale" "Silent Sentinel" "Stellar Serenade" "Mystic Mirage" "Tranquil Twilight" "Ethereal Embrace" "Axiom Refuge"
-			}
-		}
-
+	planet_names = {
 		pc_barren = {
 			names = {
 				"Forgotten Drifter" "Spared Stifler" "Bleak Hope" "Tumbling Bean" "Blackrock" "Lunar Lookout" "The Nomad" "Snared Stone" "Captured Rock" "Bound Boulder" "Foreign Flint" "Forlorn Sojourn" "Forsaken Marble" "Bleak Badlands" "Desolate Drab" "Dismal Despondent" "Barren Blight"
@@ -244,7 +236,7 @@
 			names = {
 				HIVE2_PLANET_Brilliant_Coasts HIVE2_PLANET_Clouds_Scudded HIVE2_Cooled_Lava HIVE2_Dew_Formed HIVE2_Felt_Rumbling HIVE2_Glimpsed_Shore HIVE2_Ground_Ruptured HIVE2_Waves_Lashed
 				"Humble Abode" "Maelstrom Basin" "River Lowlands" "Cinder Isles" "Hidden Gorge" "Forest Abode" "Twisting Climate" "Warm Beaches" "Rainy Valley" "Ancient Glade" "Wetrock" "Dwarf's Shallow"
-				"Terrene Turf" "Shrouded Woodlands" "Greenrock" "Verdant Bluffs" "Luminous Grove" "Glowing Thicket" "Mystic Meadow" "Continental Crossroads" "Concord Continuum" "Confluence Cascade" "Terra Lure"
+				"Terrene Turf" "Shrouded Woodlands" "Greenrock" "Verdant Bluffs" "Luminous Grove" "Glowing Thicket" "Mystic Meadow" "Continental Crossroads" "Concord Continuum" "Confluence Cascade" "Terra Lure" "Tranquil Twilight"
 			}
 		}
 		
@@ -367,7 +359,7 @@
 		pc_gas_giant = {
 			names = {
 				HIVE2_PLANET_Stirred_Atmosphere
-				"Daunting Confidant" "Faith Seeker" "Whirling Abyss" "Vaporous Vortex" "Swirling Expanse" "Veiled Storm" "Obscure Cyclone" "Misty Monarch" "Ether Enigma" "Whirlpool Wanderer" "Monolith Mirage" "Wispy Wonder" "Platinum Hue" "Serene Solitude" "Enigmatic Echo" "Whispering Vale" "Silent Sentinel" "Stellar Serenade" "Mystic Mirage"
+				"Daunting Confidant" "Faith Seeker" "Whirling Abyss" "Vaporous Vortex" "Ethereal Embrace" "Swirling Expanse" "Veiled Storm" "Obscure Cyclone" "Misty Monarch" "Ether Enigma" "Whirlpool Wanderer" "Monolith Mirage" "Wispy Wonder" "Platinum Hue" "Serene Solitude" "Enigmatic Echo" "Whispering Vale" "Silent Sentinel" "Stellar Serenade" "Mystic Mirage"
 			}
 		}
 	}
