@@ -97,7 +97,7 @@ hearthian = {
 		trait="trait_quick_learners"
 		trait="trait_unruly"
 		trait="trait_wasteful"
-		trait="trait_rapid_breeders"
+		trait="trait_charismatic"
 	}
 
 	room = "scrappy_room"
