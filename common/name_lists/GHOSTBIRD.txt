@@ -37,6 +37,7 @@
 			"Fray Pursuer" "Tetraminus Pursuer" "Acamaeda Pursuer" "Paranoid Pursuer" "Artificial Pursuer" "Cigtu Pursuer" "Orbital Pursuer"
 			"Coder Pursuer" "Programmer Pursuer" "Artist Pursuer" "Writer Pursuer" "Damian Pursuer" "Endgame Pursuer" "Zero Pursuer"
 			"Gilded Pursuer" "Plumed Pursuer" "Revered Pursuer" "Honored Pursuer" "Perched Pursuer"
+			"Unifull Pursuer" "Traliac Pursuer" "Clancy Pursuer" "Xalaris Pursuer" "Ongles Pursuer"
 		}
 	
 		corvette = {
@@ -389,7 +390,7 @@
 			full_names = {
 				"Amygdala" "Bahomet" "Bou" "Ebrietas" "Enkidu" "Enki Two" "False Knight" "Gehrman" "Gilgamesh" "Hornet" "Kaepora" "Kamaji" "Micolash" "No-Face"
 				"Nosk" "Pazuzu" "The Collector" "Yubaba" "Zote" "Rinky" "Volta" "Galatea" "Ghirahim" "Ishtar" "Babette" "Judas" "Darmok" "Jalad" "Angmar"
-				"Orpheus" "Thoth" "Atropos" "Vishnu" "Karliah" "Midir" "Paratyl" "Tyto" "Orin" "Hannibal"
+				"Orpheus" "Thoth" "Atropos" "Vishnu" "Karliah" "Midir" "Paratyl" "Tyto" "Orin" "Hannibal" "Medulla" "Noname" "Nuni"
 				"Athena" "Tyr" "Melete" "Koalemos" "Hatmehit"
 				"Bragi" "Anubis" "King Yan" "Hermes"
 				"Pasithea" "Ægir" "Zhulong"

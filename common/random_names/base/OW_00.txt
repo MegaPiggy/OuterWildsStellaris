@@ -15,6 +15,7 @@ asteroid_postfix = {
 }
 
 star_names = {
+	"Proximate Lambent"
 	"Ethereal Shine"
 	"Dazzling Burst"
 	"Sparkling Solstice"

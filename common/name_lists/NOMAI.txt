@@ -378,7 +378,7 @@
 				Oli Mila Tekana Kata Samatu Navagio Nissi Lachoncha Anse Canarae Miaceae Cedrus Helian Peony Hakone Salvia Cercis
 				Zinnia Hosta Sutera Corylus Asterid Abies Quercus Mitis Cerasus Prunus Musa Allium Fuchsia
 				Annona Avens Cassava Coleus Conoy Cycad Daz Idaea Neem Phlox Plume Root Taget Yarrow Gerard Stamen Lotus Datura Fret
-				Clary Filix Melorae Poke Privet Pye Ramie Solanum Melina Ficus Pistil Kasili Ginkgo Dianthus Brassi Ping
+				Clary Filix Melorae Poke Privet Pye Ramie Solanum Melina Ficus Pistil Kasili Ginkgo Dianthus Brassi Ping Xylaria Ceano Sage
 			}
 			#full_names_male = {
 			#	Annona Avens Cassava Coleus Conoy Cycad Daz Idaea Neem Phlox Plume Root Taget Yarrow Gerard Stamen Lotus Datura Fret
