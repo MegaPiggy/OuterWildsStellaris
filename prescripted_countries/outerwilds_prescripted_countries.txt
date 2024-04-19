@@ -2,79 +2,74 @@ nomai = {
 	name = "EMPIRE_DESIGN_nomai"
 	ship_prefix = "PRESCRIPTED_ship_prefix_nomai"
 	spawn_enabled = always
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-
-	species={
-		class="outerwilds"
-		portrait="nomai"
+	spawn_as_fallen = no
+	ignore_portrait_duplication = no
+	species = {
+		class = "outerwilds"
+		portrait = "nomai"
 		name = "PRESCRIPTED_species_name_nomai"
 		plural = "PRESCRIPTED_species_plural_nomai"
 		adjective = "PRESCRIPTED_species_adjective_nomai"
 		name_list = "NOMAI"
-		gender=not_set
-		trait="trait_void_dweller_1"
-		trait="trait_intelligent"
-		trait="trait_nomadic"
-		trait="trait_weak"
+		gender = not_set
+		trait = "trait_void_dweller_1"
+		trait = "trait_intelligent"
+		trait = "trait_nomadic"
+		trait = "trait_weak"
 		#trait="trait_conservational"
-		trait="trait_natural_physicists"
+		trait = "trait_natural_physicists"
 		#trait="trait_quick_learners"
-		trait="trait_humanoid_psychological_infertility"
+		trait = "trait_humanoid_psychological_infertility"
 	}
-
 	room = "necroids_room"
 	#ethic = "ethic_egalitarian"
 	ethic = "ethic_xenophile"
 	ethic = "ethic_materialist"
 	ethic = "ethic_pacifist"
-	authority="auth_oligarchic"
+	authority = "auth_oligarchic"
 	civics = {
 		"civic_technocracy"
 		"civic_environmentalist"
 		#"civic_idealistic_foundation"
 		#"civic_meritocracy"
 	}
-	government="gov_science_directorate"
-	advisor_voice_type="l_the_technocrat"
+	government = "gov_science_directorate"
+	advisor_voice_type = "l_the_technocrat"
 	origin = "origin_void_dwellers"
-
 	adjective = "PRESCRIPTED_adjective_nomai"
 	planet_name = "PRESCRIPTED_planet_name_nomai"
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_nomai"
 	initializer = "void_dweller_system"
-	graphical_culture="nomai"
-	city_graphical_culture="nomai"
-
-	empire_flag={
-		icon={
-			category="nomai"
-			file="mask.dds"
+	graphical_culture = "nomai"
+	city_graphical_culture = "nomai"
+	empire_flag = {
+		icon = {
+			category = "nomai"
+			file = "mask.dds"
 		}
-		background={
-			category="backgrounds"
-			file="flag_BG_5.dds"
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_5.dds"
 		}
-		colors={
+		colors = {
 			"black"
 			"sky_blue"
 			"black"
 			"null"
 		}
 	}
-
 	ruler = {
 		gender = male
 		name = "PRESCRIPTED_ruler_name_nomai"
-		portrait="old_nomai"
-		texture=0
-		attachment=0
-		clothes=0
+		portrait = "old_nomai"
+		texture = 0
+		attachment = 0
+		clothes = 0
 		ruler_title = "PRESCRIPTED_ruler_title_nomai"
 		ruler_title_female = "PRESCRIPTED_ruler_title_nomai"
-		trait="leader_trait_spark_of_genius"
-		leader_class="scientist"
+		trait = "leader_trait_spark_of_genius"
+		leader_class = "scientist"
 	}
 }
 
@@ -82,72 +77,67 @@ hearthian = {
 	name = "EMPIRE_DESIGN_hearthian"
 	ship_prefix = "PRESCRIPTED_ship_prefix_hearthian"
 	spawn_enabled = always
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-
-	species={
-		class="outerwilds"
-		portrait="hearthian"
+	spawn_as_fallen = no
+	ignore_portrait_duplication = no
+	species = {
+		class = "outerwilds"
+		portrait = "hearthian"
 		name = "PRESCRIPTED_species_name_hearthian"
 		plural = "PRESCRIPTED_species_plural_hearthian"
 		adjective = "PRESCRIPTED_species_adjective_hearthian"
 		name_list = "HEARTHIAN"
 		gender = indeterminable
-		trait="trait_natural_engineers"
-		trait="trait_quick_learners"
-		trait="trait_unruly"
-		trait="trait_wasteful"
-		trait="trait_charismatic"
+		trait = "trait_natural_engineers"
+		trait = "trait_quick_learners"
+		trait = "trait_unruly"
+		trait = "trait_wasteful"
+		trait = "trait_charismatic"
 	}
-
 	room = "scrappy_room"
 	ethic = "ethic_xenophile"
 	ethic = "ethic_materialist"
 	ethic = "ethic_pacifist"
-	authority="auth_democratic"
+	authority = "auth_democratic"
 	civics = {
 		"civic_crafters"
 		"civic_functional_architecture"
 	}
-	government="gov_moral_democracy"
-	advisor_voice_type="l_aqu_vir"
+	government = "gov_moral_democracy"
+	advisor_voice_type = "l_aqu_vir"
 	origin = "origin_default"
-
 	adjective = "PRESCRIPTED_adjective_hearthian"
 	planet_name = "PRESCRIPTED_planet_name_hearthian"
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_hearthian"
 	initializer = "outerwilds_system_initializer"
-	graphical_culture="hearthian"
-	city_graphical_culture="hearthian"
-
-	empire_flag={
-		icon={
-			category="hearthian"
-			file="outerwildsventures.dds"
+	graphical_culture = "hearthian"
+	city_graphical_culture = "hearthian"
+	empire_flag = {
+		icon = {
+			category = "hearthian"
+			file = "outerwildsventures.dds"
 		}
-		background={
-			category="backgrounds"
-			file="flag_BG_28.dds"
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_28.dds"
 		}
-		colors={
+		colors = {
 			"dark_orange"
 			"burgundy"
 			"black"
 			"null"
 		}
 	}
-
 	ruler = {
 		gender = indeterminable
 		name = "PRESCRIPTED_ruler_name_hearthian"
-		portrait="rutile"
-		texture=0
-		attachment=0
-		clothes=0
+		portrait = "rutile"
+		texture = 0
+		attachment = 0
+		clothes = 0
 		ruler_title = "PRESCRIPTED_ruler_title_hearthian"
-		trait="leader_trait_principled"
-		leader_class="governor"
+		trait = "leader_trait_principled"
+		leader_class = "governor"
 	}
 }
 
@@ -155,76 +145,71 @@ ghostbird = {
 	name = "EMPIRE_DESIGN_ghostbird"
 	ship_prefix = "PRESCRIPTED_ship_prefix_ghostbird"
 	spawn_enabled = always
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-
-	species={
-		class="outerwilds"
-		portrait="ghostbird"
+	spawn_as_fallen = no
+	ignore_portrait_duplication = no
+	species = {
+		class = "outerwilds"
+		portrait = "ghostbird"
 		name = "PRESCRIPTED_species_name_ghostbird"
 		plural = "PRESCRIPTED_species_plural_ghostbird"
 		adjective = "PRESCRIPTED_species_adjective_ghostbird"
 		name_list = "GHOSTBIRD"
-		gender=not_set
-		trait="trait_void_dweller_1"
+		gender = not_set
+		trait = "trait_void_dweller_1"
 		#trait="trait_solitary"
-		trait="trait_wasteful"
-		trait="trait_venerable"
-		trait="trait_conformists"
-		trait="trait_sedentary"
-		trait="trait_nonadaptive"
+		trait = "trait_wasteful"
+		trait = "trait_venerable"
+		trait = "trait_conformists"
+		trait = "trait_sedentary"
+		trait = "trait_nonadaptive"
 		#trait="trait_industrious"
 	}
-
 	room = "personality_evangelizing_zealots_room"
-	ethic="ethic_xenophobe"
-	ethic="ethic_spiritualist"
-	ethic="ethic_pacifist"
-	authority="auth_oligarchic"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_spiritualist"
+	ethic = "ethic_pacifist"
+	authority = "auth_oligarchic"
 	civics = {
 		"civic_memorialist"
 		"civic_inwards_perfection"
 	}
-    government="gov_theocratic_oligarchy"
-	advisor_voice_type="l_spiritualist"
+	government = "gov_theocratic_oligarchy"
+	advisor_voice_type = "l_spiritualist"
 	origin = "origin_void_dwellers"
-
 	adjective = "PRESCRIPTED_adjective_ghostbird"
 	planet_name = "PRESCRIPTED_planet_name_ghostbird"
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_ghostbird"
 	initializer = "void_dweller_system"
-	graphical_culture="ghostbird"
-	city_graphical_culture="ghostbird"
-
-	empire_flag={
-		icon={
-			category="ghostbird"
-			file="stranger.dds"
+	graphical_culture = "ghostbird"
+	city_graphical_culture = "ghostbird"
+	empire_flag = {
+		icon = {
+			category = "ghostbird"
+			file = "stranger.dds"
 		}
-		background={
-			category="backgrounds"
-			file="flag_BG_2.dds"
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_2.dds"
 		}
-		colors={
+		colors = {
 			"black"
 			"dark_teal"
 			"pink"
 			"null"
 		}
 	}
-
 	ruler = {
 		gender = male
 		name = "PRESCRIPTED_ruler_name_ghostbird"
-		portrait="prisoner"
-		texture=0
-		attachment=0
-		clothes=0
+		portrait = "prisoner"
+		texture = 0
+		attachment = 0
+		clothes = 0
 		ruler_title = "PRESCRIPTED_ruler_title_ghostbird"
 		ruler_title_female = "PRESCRIPTED_ruler_title_ghostbird"
-		trait="leader_trait_principled"
-		leader_class="governor"
+		trait = "leader_trait_principled"
+		leader_class = "governor"
 	}
 }
 
@@ -232,71 +217,66 @@ anglerfish = {
 	name = "EMPIRE_DESIGN_anglerfish"
 	ship_prefix = "PRESCRIPTED_ship_prefix_anglerfish"
 	spawn_enabled = always
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-
-	species={
-		class="outerwilds"
-		portrait="anglerfish"
+	spawn_as_fallen = no
+	ignore_portrait_duplication = no
+	species = {
+		class = "outerwilds"
+		portrait = "anglerfish"
 		name = "PRESCRIPTED_species_name_anglerfish"
 		plural = "PRESCRIPTED_species_plural_anglerfish"
 		adjective = "PRESCRIPTED_species_adjective_anglerfish"
 		name_list = "AQUATIC2"
-		gender=not_set
-		trait="trait_aquatic"
-		trait="trait_strong"
-		trait="trait_slow_breeders"
-		trait="trait_charismatic"
-		trait="trait_slow_learners"
+		gender = not_set
+		trait = "trait_aquatic"
+		trait = "trait_strong"
+		trait = "trait_slow_breeders"
+		trait = "trait_charismatic"
+		trait = "trait_slow_learners"
 	}
-
 	room = "personality_ruthless_capitalists_room"
-	ethic="ethic_fanatic_xenophile"
-	ethic="ethic_militarist"
-	authority="auth_imperial"
+	ethic = "ethic_fanatic_xenophile"
+	ethic = "ethic_militarist"
+	authority = "auth_imperial"
 	civics = {
 		"civic_anglers"
 		"civic_philosopher_king"
 	}
-	government="gov_enlightened_monarchy"
-	advisor_voice_type="l_aqu_vir"
+	government = "gov_enlightened_monarchy"
+	advisor_voice_type = "l_aqu_vir"
 	origin = "origin_ocean_paradise"
-
 	adjective = "PRESCRIPTED_adjective_anglerfish"
 	planet_name = "PRESCRIPTED_planet_name_anglerfish"
 	planet_class = "pc_ocean"
 	system_name = "PRESCRIPTED_system_name_anglerfish"
 	initializer = "ocean_paradise_start"
-	graphical_culture="aquatic_01"
-	city_graphical_culture="aquatic_01"
-
-	empire_flag={
-		icon={
-			category="outerwilds"
-			file="anglerfish.dds"
+	graphical_culture = "aquatic_01"
+	city_graphical_culture = "aquatic_01"
+	empire_flag = {
+		icon = {
+			category = "outerwilds"
+			file = "anglerfish.dds"
 		}
-		background={
-			category="backgrounds"
-			file="flag_BG_39.dds"
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_39.dds"
 		}
-		colors={
+		colors = {
 			"shadow_steel"
 			"light_grey"
 			"black"
 			"null"
 		}
 	}
-
 	ruler = {
 		gender = male
 		name = "PRESCRIPTED_ruler_name_anglerfish"
-		portrait="anglerfish"
-		texture=0
-		attachment=0
-		clothes=0
+		portrait = "anglerfish"
+		texture = 0
+		attachment = 0
+		clothes = 0
 		ruler_title = "PRESCRIPTED_ruler_title_anglerfish"
-		trait="leader_trait_charismatic"
-		leader_class="governor"
+		trait = "leader_trait_charismatic"
+		leader_class = "governor"
 	}
 }
 
@@ -304,71 +284,66 @@ jellyfish = {
 	name = "EMPIRE_DESIGN_jellyfish"
 	ship_prefix = "PRESCRIPTED_ship_prefix_jellyfish"
 	spawn_enabled = always
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-
-	species={
-		class="outerwilds"
-		portrait="jellyfish"
+	spawn_as_fallen = no
+	ignore_portrait_duplication = no
+	species = {
+		class = "outerwilds"
+		portrait = "jellyfish"
 		name = "PRESCRIPTED_species_name_jellyfish"
 		plural = "PRESCRIPTED_species_plural_jellyfish"
 		adjective = "PRESCRIPTED_species_adjective_jellyfish"
 		name_list = "AQUATIC2"
 		gender = not_set
-		trait="trait_aquatic"
-		trait="trait_natural_sociologists"
-		trait="trait_slow_breeders"
-		trait="trait_docile"
-		trait="trait_solitary"
+		trait = "trait_aquatic"
+		trait = "trait_natural_sociologists"
+		trait = "trait_slow_breeders"
+		trait = "trait_docile"
+		trait = "trait_solitary"
 	}
-
 	room = "personality_metalheads_room"
-	ethic="ethic_authoritarian"
-	ethic="ethic_xenophile"
-	ethic="ethic_pacifist"
-	authority="auth_imperial"
+	ethic = "ethic_authoritarian"
+	ethic = "ethic_xenophile"
+	ethic = "ethic_pacifist"
+	authority = "auth_imperial"
 	civics = {
 		"civic_anglers"
 		"civic_philosopher_king"
 	}
-	government="gov_enlightened_monarchy"
-	advisor_voice_type="l_aqu_vir"
+	government = "gov_enlightened_monarchy"
+	advisor_voice_type = "l_aqu_vir"
 	origin = "origin_ocean_paradise"
-
 	adjective = "PRESCRIPTED_adjective_jellyfish"
 	planet_name = "PRESCRIPTED_planet_name_jellyfish"
 	planet_class = "pc_ocean"
 	system_name = "PRESCRIPTED_system_name_jellyfish"
 	initializer = "ocean_paradise_start"
-	graphical_culture="aquatic_01"
-	city_graphical_culture="aquatic_01"
-
-	empire_flag={
-		icon={
-			category="outerwilds"
-			file="jellyfish.dds"
+	graphical_culture = "aquatic_01"
+	city_graphical_culture = "aquatic_01"
+	empire_flag = {
+		icon = {
+			category = "outerwilds"
+			file = "jellyfish.dds"
 		}
-		background={
-			category="backgrounds"
-			file="flag_BG_13.dds"
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_13.dds"
 		}
-		colors={
+		colors = {
 			"intense_orange"
 			"shadow_blue"
 			"black"
 			"null"
 		}
 	}
-
 	ruler = {
 		gender = male
 		name = "PRESCRIPTED_ruler_name_jellyfish"
-		portrait="jellyfish"
-		texture=0
-		attachment=0
-		clothes=0
+		portrait = "jellyfish"
+		texture = 0
+		attachment = 0
+		clothes = 0
 		ruler_title = "PRESCRIPTED_ruler_title_jellyfish"
-		trait="leader_trait_charismatic"
-		leader_class="governor"
+		trait = "leader_trait_charismatic"
+		leader_class = "governor"
 	}
 }
