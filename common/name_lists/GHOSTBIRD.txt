@@ -390,7 +390,7 @@
 			full_names = {
 				"Amygdala" "Bahomet" "Bou" "Ebrietas" "Enkidu" "Enki Two" "False Knight" "Gehrman" "Gilgamesh" "Hornet" "Kaepora" "Kamaji" "Micolash" "No-Face"
 				"Nosk" "Pazuzu" "The Collector" "Yubaba" "Zote" "Rinky" "Volta" "Galatea" "Ghirahim" "Ishtar" "Babette" "Judas" "Darmok" "Jalad" "Angmar"
-				"Orpheus" "Thoth" "Atropos" "Vishnu" "Karliah" "Midir" "Paratyl" "Tyto" "Orin" "Hannibal" "Medulla" "Noname" "Nuni"
+				"Orpheus" "Thoth" "Atropos" "Vishnu" "Karliah" "Midir" "Paratyl" "Tyto" "Orin" "Hannibal" "Medulla" "Noname" "Nuni" "Vespa"
 				"Athena" "Tyr" "Melete" "Koalemos" "Hatmehit"
 				"Bragi" "Anubis" "King Yan" "Hermes"
 				"Pasithea" "Ægir" "Zhulong"
