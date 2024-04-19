@@ -17,6 +17,12 @@ objectTypes = {
 		file = "gfx/models/ships/hearthian/chert_ship.mesh"
 		scale = 1.0
 	}
+
+	pdxmesh = {
+		name = "gabbro_ship"
+		file = "gfx/models/ships/hearthian/gabbro_ship.mesh"
+		scale = 1.0
+	}
 	
 #######  corvette sections  #######	
 	
@@ -288,13 +294,13 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "hearthian_transport_mesh"
-		file = "gfx/models/ships/hearthian/hearthian_ship.mesh" ## "gfx/models/ships/civilian_assets/transport_ship/hearthian_transport.mesh"
+		file = "gfx/models/ships/hearthian/gabbro_ship.mesh" ## "gfx/models/ships/civilian_assets/transport_ship/hearthian_transport.mesh"
 		scale = 1.0
 	}
 	
 		pdxmesh = {
 		name = "hearthian_colony_mesh"
-		file = "gfx/models/ships/hearthian/hearthian_ship.mesh" ## "gfx/models/ships/civilian_assets/colony_ship/hearthian_colony.mesh"
+		file = "gfx/models/ships/hearthian/gabbro_ship.mesh" ## "gfx/models/ships/civilian_assets/colony_ship/hearthian_colony.mesh"
 		scale = 1.0
 	}
 	
