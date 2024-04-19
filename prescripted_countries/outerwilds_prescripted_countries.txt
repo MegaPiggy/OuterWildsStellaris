@@ -44,13 +44,13 @@ nomai = {
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_nomai"
 	initializer = "void_dweller_system"
-    graphical_culture="avian_01"
-    city_graphical_culture="avian_01"
+	graphical_culture="nomai"
+	city_graphical_culture="nomai"
 
 	empire_flag={
 		icon={
-			category="blocky"
-			file="flag_blocky_2.dds"
+			category="nomai"
+			file="mask.dds"
 		}
 		background={
 			category="backgrounds"
@@ -118,17 +118,17 @@ hearthian = {
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_hearthian"
 	initializer = "outerwilds_system_initializer"
-    graphical_culture="plantoid_01"
-    city_graphical_culture="plantoid_01"
+	graphical_culture="hearthian"
+	city_graphical_culture="hearthian"
 
 	empire_flag={
 		icon={
-			category="aquatic"
-			file="aquatic_07.dds"
+			category="hearthian"
+			file="outerwildsventures.dds"
 		}
 		background={
 			category="backgrounds"
-			file="flag_BG_4.dds"
+			file="flag_BG_28.dds"
 		}
 		colors={
 			"dark_orange"
@@ -194,13 +194,13 @@ ghostbird = {
 	planet_class = "pc_continental"
 	system_name = "PRESCRIPTED_system_name_ghostbird"
 	initializer = "void_dweller_system"
-	graphical_culture="necroid_01"
-	city_graphical_culture="arthropoid_01"
+	graphical_culture="ghostbird"
+	city_graphical_culture="ghostbird"
 
 	empire_flag={
 		icon={
-			category="plantoid"
-			file="plantoid_08.dds"
+			category="ghostbird"
+			file="stranger.dds"
 		}
 		background={
 			category="backgrounds"
