@@ -4,6 +4,8 @@
  sc_trinary_fury:0 "$sc_trinary_1$"
  sc_binary_prima_maxima:0 "$sc_binary_1$"
 
+ FLAG_CATEGORY_outerwilds:0 "Outer Wilds"
+
  outerwilds_system_initializer_NAME:0 "Outer Wilds System"
  outerwilds_system_initializer_DESC:0 "System modeled after the Hearthian's solar system from Outer Wilds, with Orange Arbiter and adjacent stars nearby.\n\n$system_initializer_DESC$"
  arbiter_system_initializer_NAME:0 "Orange Arbiter System"
