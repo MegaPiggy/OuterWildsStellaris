@@ -11,6 +11,12 @@ objectTypes = {
 		file = "gfx/models/ships/hearthian/feldspar_ship.mesh"
 		scale = 1.0
 	}
+
+	pdxmesh = {
+		name = "chert_ship"
+		file = "gfx/models/ships/hearthian/chert_ship.mesh"
+		scale = 1.0
+	}
 	
 #######  corvette sections  #######	
 	
@@ -266,7 +272,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "hearthian_science_mesh"
-		file = "gfx/models/ships/hearthian/hearthian_ship.mesh" ## "gfx/models/ships/civilian_assets/science_ship/hearthian_science.mesh"
+		file = "gfx/models/ships/hearthian/chert_ship.mesh" ## "gfx/models/ships/civilian_assets/science_ship/hearthian_science.mesh"
 		scale = 1.0
 	}
 	
