@@ -227,3 +227,148 @@ ghostbird = {
 		leader_class="governor"
 	}
 }
+
+anglerfish = {
+	name = "EMPIRE_DESIGN_anglerfish"
+	ship_prefix = "PRESCRIPTED_ship_prefix_anglerfish"
+	spawn_enabled = always
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+
+	species={
+		class="outerwilds"
+		portrait="anglerfish"
+		name = "PRESCRIPTED_species_name_anglerfish"
+		plural = "PRESCRIPTED_species_plural_anglerfish"
+		adjective = "PRESCRIPTED_species_adjective_anglerfish"
+		name_list = "AQUATIC2"
+		gender=not_set
+		trait="trait_aquatic"
+		trait="trait_strong"
+		trait="trait_slow_breeders"
+		trait="trait_charismatic"
+		trait="trait_slow_learners"
+	}
+
+	room = "personality_ruthless_capitalists_room"
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_militarist"
+	authority="auth_imperial"
+	civics = {
+		"civic_anglers"
+		"civic_philosopher_king"
+	}
+	government="gov_enlightened_monarchy"
+	advisor_voice_type="l_aqu_vir"
+	origin = "origin_ocean_paradise"
+
+	adjective = "PRESCRIPTED_adjective_anglerfish"
+	planet_name = "PRESCRIPTED_planet_name_anglerfish"
+	planet_class = "pc_ocean"
+	system_name = "PRESCRIPTED_system_name_anglerfish"
+	initializer = "ocean_paradise_start"
+	graphical_culture="aquatic_01"
+	city_graphical_culture="aquatic_01"
+
+	empire_flag={
+		icon={
+			category="outerwilds"
+			file="anglerfish.dds"
+		}
+		background={
+			category="backgrounds"
+			file="flag_BG_39.dds"
+		}
+		colors={
+			"shadow_steel"
+			"light_grey"
+			"black"
+			"null"
+		}
+	}
+
+	ruler = {
+		gender = male
+		name = "PRESCRIPTED_ruler_name_anglerfish"
+		portrait="anglerfish"
+		texture=0
+		attachment=0
+		clothes=0
+		ruler_title = "PRESCRIPTED_ruler_title_anglerfish"
+		trait="leader_trait_charismatic"
+		leader_class="governor"
+	}
+}
+
+jellyfish = {
+	name = "EMPIRE_DESIGN_jellyfish"
+	ship_prefix = "PRESCRIPTED_ship_prefix_jellyfish"
+	spawn_enabled = always
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+
+	species={
+		class="outerwilds"
+		portrait="jellyfish"
+		name = "PRESCRIPTED_species_name_jellyfish"
+		plural = "PRESCRIPTED_species_plural_jellyfish"
+		adjective = "PRESCRIPTED_species_adjective_jellyfish"
+		name_list = "AQUATIC2"
+		gender = not_set
+		trait="trait_aquatic"
+		trait="trait_natural_sociologists"
+		trait="trait_slow_breeders"
+		trait="trait_docile"
+		trait="trait_solitary"
+	}
+
+	room = "personality_metalheads_room"
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	authority="auth_imperial"
+	civics = {
+		"civic_anglers"
+		"civic_philosopher_king"
+	}
+	government="gov_enlightened_monarchy"
+	advisor_voice_type="l_aqu_vir"
+	origin = "origin_ocean_paradise"
+
+	adjective = "PRESCRIPTED_adjective_jellyfish"
+	planet_name = "PRESCRIPTED_planet_name_jellyfish"
+	planet_class = "pc_ocean"
+	system_name = "PRESCRIPTED_system_name_jellyfish"
+	initializer = "ocean_paradise_start"
+	graphical_culture="aquatic_01"
+	city_graphical_culture="aquatic_01"
+
+	empire_flag={
+		icon={
+			category="outerwilds"
+			file="jellyfish.dds"
+		}
+		background={
+			category="backgrounds"
+			file="flag_BG_13.dds"
+		}
+		colors={
+			"intense_orange"
+			"shadow_blue"
+			"black"
+			"null"
+		}
+	}
+
+	ruler = {
+		gender = male
+		name = "PRESCRIPTED_ruler_name_jellyfish"
+		portrait="jellyfish"
+		texture=0
+		attachment=0
+		clothes=0
+		ruler_title = "PRESCRIPTED_ruler_title_jellyfish"
+		trait="leader_trait_charismatic"
+		leader_class="governor"
+	}
+}
