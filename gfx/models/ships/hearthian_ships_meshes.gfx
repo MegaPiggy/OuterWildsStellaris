@@ -23,6 +23,12 @@ objectTypes = {
 		file = "gfx/models/ships/hearthian/gabbro_ship.mesh"
 		scale = 1.0
 	}
+
+	pdxmesh = {
+		name = "riebeck_ship"
+		file = "gfx/models/ships/hearthian/riebeck_ship.mesh"
+		scale = 1.0
+	}
 	
 #######  corvette sections  #######	
 	
@@ -257,19 +263,19 @@ objectTypes = {
 ####### small ships  #######	
 	pdxmesh = {
 		name = "hearthian_bomber_mesh"
-		file = "gfx/models/ships/hearthian/hearthian_ship.mesh" ## "gfx/models/ships/strikecraft_assets/hearthian_bomber.mesh"
+		file = "gfx/models/ships/hearthian/riebeck_ship.mesh" ## "gfx/models/ships/strikecraft_assets/hearthian_bomber.mesh"
 		scale = 1.0
 	}
 	
 	pdxmesh = {
 		name = "hearthian_launcher_mesh"
-		file = "gfx/models/ships/hearthian/hearthian_ship.mesh" ## "gfx/models/ships/strikecraft_assets/hearthian_launcher.mesh"
+		file = "gfx/models/ships/hearthian/riebeck_ship.mesh" ## "gfx/models/ships/strikecraft_assets/hearthian_launcher.mesh"
 		scale = 1.0
 	}
 	
 		pdxmesh = {
 		name = "hearthian_fighter_mesh"
-		file = "gfx/models/ships/hearthian/hearthian_ship.mesh" ## "gfx/models/ships/strikecraft_assets/hearthian_fighter.mesh"
+		file = "gfx/models/ships/hearthian/riebeck_ship.mesh" ## "gfx/models/ships/strikecraft_assets/hearthian_fighter.mesh"
 		scale = 1.0
 	}
 	
