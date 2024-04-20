@@ -34,19 +34,19 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "hearthian_corvette_M1S1_mesh"
-		file = "gfx/models/ships/hearthian/hearthian_ship.mesh" ## "gfx/models/ships/corvette_assets/hearthian_corvette_M1S1.mesh"
+		file = "gfx/models/ships/hearthian/riebeck_ship.mesh" ## "gfx/models/ships/corvette_assets/hearthian_corvette_M1S1.mesh"
 		scale = 1.0
 	}
 		
 	pdxmesh = {
 		name = "hearthian_corvette_S3_mesh"
-		file = "gfx/models/ships/hearthian/hearthian_ship.mesh" ## "gfx/models/ships/corvette_assets/hearthian_corvette_S3.mesh"
+		file = "gfx/models/ships/hearthian/chert_ship.mesh" ## "gfx/models/ships/corvette_assets/hearthian_corvette_S3.mesh"
 		scale = 1.0
 	}	
 	
 	pdxmesh = {
 		name = "hearthian_corvette_S1_mesh"
-		file = "gfx/models/ships/hearthian/hearthian_ship.mesh" ## "gfx/models/ships/corvette_assets/hearthian_corvette_S1.mesh"
+		file = "gfx/models/ships/hearthian/feldspar_ship.mesh" ## "gfx/models/ships/corvette_assets/hearthian_corvette_S1.mesh"
 		scale = 1.0
 	}	
 
@@ -284,7 +284,7 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "hearthian_science_mesh"
-		file = "gfx/models/ships/hearthian/chert_ship.mesh" ## "gfx/models/ships/civilian_assets/science_ship/hearthian_science.mesh"
+		file = "gfx/models/ships/hearthian/hearthian_ship.mesh" ## "gfx/models/ships/civilian_assets/science_ship/hearthian_science.mesh"
 		scale = 1.0
 	}
 	
