@@ -26,7 +26,7 @@ outerwilds_system_initializer = {
 	}
 
 	neighbor_system = {
-		hyperlane_jumps = { min = 1 max = 1 }
+		hyperlane_jumps = { min = 1 max = 2 }
 		initializer = "night_light_system_initializer"
 	}
 
