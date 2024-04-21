@@ -7,13 +7,13 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "escape_pod"
+		name = "nomai_escape_pod"
 		file = "gfx/models/ships/nomai/escape_pod.mesh"
 		scale = 1.0
 	}
 
 	pdxmesh = {
-		name = "vessel"
+		name = "nomai_vessel"
 		file = "gfx/models/ships/nomai/vessel.mesh"
 		scale = 1.0
 	}

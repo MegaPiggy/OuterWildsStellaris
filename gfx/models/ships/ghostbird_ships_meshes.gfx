@@ -7,7 +7,7 @@ objectTypes = {
 	}
 
 	pdxmesh = {
-		name = "stranger"
+		name = "ghostbird_stranger"
 		file = "gfx/models/ships/ghostbird/stranger.mesh"
 		scale = 1.0
 	}
