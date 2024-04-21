@@ -5,6 +5,18 @@ objectTypes = {
 		file = "gfx/models/ships/nomai/nomai_shuttle.mesh"
 		scale = 1.0
 	}
+
+	pdxmesh = {
+		name = "escape_pod"
+		file = "gfx/models/ships/nomai/escape_pod.mesh"
+		scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "vessel"
+		file = "gfx/models/ships/nomai/vessel.mesh"
+		scale = 1.0
+	}
 	
 #######  corvette sections  #######	
 	
