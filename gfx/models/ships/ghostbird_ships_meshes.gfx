@@ -5,6 +5,12 @@ objectTypes = {
 		file = "gfx/models/ships/ghostbird/ghostbird_ship.mesh"
 		scale = 1.0
 	}
+
+	pdxmesh = {
+		name = "stranger"
+		file = "gfx/models/ships/ghostbird/stranger.mesh"
+		scale = 1.0
+	}
 	
 #######  corvette sections  #######	
 	
