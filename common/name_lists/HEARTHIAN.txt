@@ -374,7 +374,7 @@
 		pc_gas_giant = {
 			names = {
 				HIVE2_PLANET_Stirred_Atmosphere
-				"Daunting Confidant" "Faith Seeker" "Whirling Abyss" "Vaporous Vortex" "Ethereal Embrace" "Swirling Expanse" "Veiled Storm" "Obscure Cyclone" "Misty Monarch" "Ether Enigma" "Whirlpool Wanderer" "Monolith Mirage" "Wispy Wonder" "Platinum Hue" "Serene Solitude" "Enigmatic Echo" "Whispering Vale" "Silent Sentinel" "Stellar Serenade" "Mystic Mirage"
+				"Daunting Confidant" "Faith Seeker" "Whirling Abyss" "Vaporous Vortex" "Ethereal Embrace" "Swirling Expanse" "Veiled Storm" "Obscure Cyclone" "Misty Monarch" "Ether Enigma" "Whirlpool Wanderer" "Monolith Mirage" "Wispy Wonder" "Platinum Hue" "Serene Solitude" "Enigmatic Echo" "Whispering Vale" "Silent Sentinel" "Stellar Serenade" "Mystic Mirage" "Blue Crown" "Emerald Drop"
 			}
 		}
 	}
