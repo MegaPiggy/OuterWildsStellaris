@@ -132,7 +132,7 @@ outerwilds_system_initializer = {
 	### 3
 	planet = {
 		name = "NAME_TimberHearth"
-		class = "pc_continental"
+		class = "pc_alpine"
 		orbit_distance = 45
 		orbit_angle = 40
 		size = 30
