@@ -7,7 +7,7 @@
 			"Confident Shuttle" "Clever Shuttle" "Cunning Shuttle" "Prodigal Shuttle" "Jubilant Shuttle" "Impudent Shuttle"
 			"Crazy Shuttle" "Observant Shuttle" "Vengeful Shuttle" "Spiteful Shuttle" "Vindictive Shuttle" "Restless Shuttle"
 			"Ravenous Shuttle" "Ruthless Shuttle" "Brave Shuttle" "Fearless Shuttle" "Jovial Shuttle" "Indignant Shuttle"
-			"Sly Shuttle" "Silly Shuttle" "Happy Shuttle" "Unstable Shuttle" "Prudent Shuttle" "Solitary Shuttle" 
+			"Sly Shuttle" "Silly Shuttle" "Happy Shuttle" "Unstable Shuttle" "Prudent Shuttle" "Solitary Shuttle" "Quantum Shuttle"
 			"Perceptive Shuttle" "Unpredictable Shuttle" "Impetuous Shuttle" "Baneful Shuttle" "Devious Shuttle" "Graceful Shuttle"
 			"Unyielding Shuttle" "Patient Shuttle" "Stalwart Shuttle" "Fierce Shuttle" "Unforgiving Shuttle" "Impervious Shuttle"
 			"Lucky Shuttle" "Courageous Shuttle" "Brash Shuttle" "Impertinent Shuttle" "Dependable Shuttle" "Spirited Shuttle"
@@ -28,13 +28,14 @@
 			"Haughty Shuttle" "Proud Shuttle" "Scornful Shuttle" "Contemptuous Shuttle" "Supercilious Shuttle" "Singing Shuttle"
 			"Attentive Shuttle" "Watchful Shuttle" "Impish Shuttle" "Preposterous Shuttle" "Trifling Shuttle" "Zany Shuttle"
 			"Zen Shuttle" "Archaeologist Shuttle" "Astronomer Shuttle" "Curator Shuttle" "Warden Shuttle" "Rocket Shuttle"
-			"Woodsman Shuttle" "Incomprehensible Shuttle" "Bamboozling Shuttle" "Based Shuttle" "Wyrm Shuttle" "Shoe Shuttle"
-			"Corby Shuttle" "Piggy Shuttle" "Trifid Shuttle" "Locochoco Shuttle" "Cryptic Shuttle" "Funky Shuttle" "Idiot Shuttle"
-			"Cow Shuttle" "Nebula Shuttle" "Mega Shuttle" "Classic Shuttle" "Book Shuttle" "Clay Shuttle" "Lizard Shuttle"
+			"Woodsman Shuttle" "Craftsman Shuttle" "Skeptic Shuttle" "Outfitter Shuttle" "Coach Shuttle" "Telescope Shuttle"
+			"Incomprehensible Shuttle" "Bamboozling Shuttle" "Based Shuttle" "Wyrm Shuttle" "Shoe Shuttle" "Pikpik Shuttle" "Etherpod Shuttle"
+			"Corby Shuttle" "Piggy Shuttle" "Trifid Shuttle" "Locochoco Shuttle" "Cryptic Shuttle" "Funky Shuttle" "Idiot Shuttle" "Ixrec Shuttle"
+			"Cow Shuttle" "Nebula Shuttle" "Mega Shuttle" "Classic Shuttle" "Book Shuttle" "Clay Shuttle" "Lizard Shuttle" "Echatsum Shuttle"
 			"Turtle Shuttle" "Texture Shuttle" "Qwerty Shuttle" "Walker Shuttle" "Streetlight Shuttle" "Jammer Shuttle" "Ink Shuttle"
-			"Pickle Shuttle" "Greenpixel Shuttle" "Marl Shuttle" "Nolram Shuttle" "Substitute Shuttle" "Tlya Shuttle" "Cleric Shuttle"
-			"Fray Shuttle" "Tetraminus Shuttle" "Acamaeda Shuttle" "Paranoid Shuttle" "Artificial Shuttle" "Cigtu Shuttle" "Orbital Shuttle"
-			"Coder Shuttle" "Programmer Shuttle" "Artist Shuttle" "Writer Shuttle" "Damian Shuttle" "Endgame Shuttle" "Zero Shuttle"
+			"Pickle Shuttle" "Greenpixel Shuttle" "Marl Shuttle" "Nolram Shuttle" "Substitute Shuttle" "Tlya Shuttle" "Cleric Shuttle" "Orclecle Shuttle"
+			"Fray Shuttle" "Tetraminus Shuttle" "Acamaeda Shuttle" "Paranoid Shuttle" "Artificial Shuttle" "Cigtu Shuttle" "Orbital Shuttle" "Hawkbar Shuttle"
+			"Coder Shuttle" "Programmer Shuttle" "Artist Shuttle" "Writer Shuttle" "Damian Shuttle" "Endgame Shuttle" "Zero Shuttle" "Insmoshable Shuttle"
 		}
 	
 		corvette = {
@@ -386,6 +387,22 @@
 			#full_names_female = {
 			#	Clary Filix Melorae Poke Privet Pye Ramie Solanum Melina Ficus Pistil Kasili
 			#}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+
+			}
+
+			regnal_second_names = {
+
+			}
 		}
 	}
 }

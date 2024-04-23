@@ -8,7 +8,7 @@
 			"Confident Hatchling" "Clever Hatchling" "Cunning Hatchling" "Prodigal Hatchling" "Jubilant Hatchling" "Impudent Hatchling"
 			"Crazy Hatchling" "Observant Hatchling" "Vengeful Hatchling" "Spiteful Hatchling" "Vindictive Hatchling" "Restless Hatchling"
 			"Ravenous Hatchling" "Ruthless Hatchling" "Brave Hatchling" "Fearless Hatchling" "Jovial Hatchling" "Indignant Hatchling"
-			"Sly Hatchling" "Silly Hatchling" "Happy Hatchling" "Unstable Hatchling" "Prudent Hatchling" "Solitary Hatchling" 
+			"Sly Hatchling" "Silly Hatchling" "Happy Hatchling" "Unstable Hatchling" "Prudent Hatchling" "Solitary Hatchling" "Quantum Hatchling"
 			"Perceptive Hatchling" "Unpredictable Hatchling" "Impetuous Hatchling" "Baneful Hatchling" "Devious Hatchling" "Graceful Hatchling"
 			"Unyielding Hatchling" "Patient Hatchling" "Stalwart Hatchling" "Fierce Hatchling" "Unforgiving Hatchling" "Impervious Hatchling"
 			"Lucky Hatchling" "Courageous Hatchling" "Brash Hatchling" "Impertinent Hatchling" "Dependable Hatchling" "Spirited Hatchling"
@@ -29,13 +29,14 @@
 			"Haughty Hatchling" "Proud Hatchling" "Scornful Hatchling" "Contemptuous Hatchling" "Supercilious Hatchling" "Singing Hatchling"
 			"Attentive Hatchling" "Watchful Hatchling" "Impish Hatchling" "Preposterous Hatchling" "Trifling Hatchling" "Zany Hatchling"
 			"Zen Hatchling" "Archaeologist Hatchling" "Astronomer Hatchling" "Curator Hatchling" "Warden Hatchling" "Rocket Hatchling"
-			"Woodsman Hatchling" "Incomprehensible Hatchling" "Bamboozling Hatchling" "Based Hatchling" "Wyrm Hatchling" "Shoe Hatchling"
-			"Corby Hatchling" "Piggy Hatchling" "Trifid Hatchling" "Locochoco Hatchling" "Cryptic Hatchling" "Funky Hatchling" "Idiot Hatchling"
-			"Cow Hatchling" "Nebula Hatchling" "Mega Hatchling" "Classic Hatchling" "Book Hatchling" "Clay Hatchling" "Lizard Hatchling"
+			"Woodsman Hatchling" "Craftsman Hatchling" "Skeptic Hatchling" "Outfitter Hatchling" "Coach Hatchling" "Telescope Hatchling"
+			"Incomprehensible Hatchling" "Bamboozling Hatchling" "Based Hatchling" "Wyrm Hatchling" "Shoe Hatchling" "Pikpik Hatchling" "Etherpod Hatchling"
+			"Corby Hatchling" "Piggy Hatchling" "Trifid Hatchling" "Locochoco Hatchling" "Cryptic Hatchling" "Funky Hatchling" "Idiot Hatchling" "Ixrec Hatchling"
+			"Cow Hatchling" "Nebula Hatchling" "Mega Hatchling" "Classic Hatchling" "Book Hatchling" "Clay Hatchling" "Lizard Hatchling" "Echatsum Hatchling"
 			"Turtle Hatchling" "Texture Hatchling" "Qwerty Hatchling" "Walker Hatchling" "Streetlight Hatchling" "Jammer Hatchling" "Ink Hatchling"
 			"Pickle Hatchling" "Greenpixel Hatchling" "Marl Hatchling" "Nolram Hatchling" "Substitute Hatchling" "Tlya Hatchling" "Cleric Hatchling"
-			"Fray Hatchling" "Tetraminus Hatchling" "Acamaeda Hatchling" "Paranoid Hatchling" "Artificial Hatchling" "Cigtu Hatchling" "Orbital Hatchling"
-			"Coder Hatchling" "Programmer Hatchling" "Artist Hatchling" "Writer Hatchling" "Damian Hatchling" "Endgame Hatchling" "Zero Hatchling"
+			"Fray Hatchling" "Tetraminus Hatchling" "Acamaeda Hatchling" "Paranoid Hatchling" "Artificial Hatchling" "Cigtu Hatchling" "Orbital Hatchling" "Hawkbar Hatchling"
+			"Coder Hatchling" "Programmer Hatchling" "Artist Hatchling" "Writer Hatchling" "Damian Hatchling" "Endgame Hatchling" "Zero Hatchling" "Insmoshable Hatchling"
 			"Gilded Hatchling" "Plumed Hatchling" "Revered Hatchling" "Honored Hatchling" "Perched Hatchling"
 		}
 	
@@ -391,6 +392,22 @@
 				Olivine Breccia Apatite Fluor Howl Basalt Andes Kiwen Aren Ignei Rhyol Sandes Lime Magne Gran Talc Garnet Agate Alum Silt Cupri Dolom Euclase Ioli
 				Tourmaline Zircon Ulex Trinitite Malva Jade Floe Thulite Rosaline Amber Onyx Carnelian Topaz Amethyst Sapphire Emerald Ruby Aquamarine Citrine Tanzan 
 				Pearl Alexandrite Turquoise Diamond Cal Pallas Kaolin Corundum Alluvium Schist Dolomite Beryl Obsidian Corundum
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+
+			}
+
+			regnal_second_names = {
+
 			}
 		}
 	}

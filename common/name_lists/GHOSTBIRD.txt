@@ -8,7 +8,7 @@
 			"Confident Pursuer" "Clever Pursuer" "Cunning Pursuer" "Prodigal Pursuer" "Jubilant Pursuer" "Impudent Pursuer"
 			"Crazy Pursuer" "Observant Pursuer" "Vengeful Pursuer" "Spiteful Pursuer" "Vindictive Pursuer" "Restless Pursuer"
 			"Ravenous Pursuer" "Ruthless Pursuer" "Brave Pursuer" "Fearless Pursuer" "Jovial Pursuer" "Indignant Pursuer"
-			"Sly Pursuer" "Silly Pursuer" "Happy Pursuer" "Unstable Pursuer" "Prudent Pursuer" "Solitary Pursuer" 
+			"Sly Pursuer" "Silly Pursuer" "Happy Pursuer" "Unstable Pursuer" "Prudent Pursuer" "Solitary Pursuer" "Quantum Pursuer"
 			"Perceptive Pursuer" "Unpredictable Pursuer" "Impetuous Pursuer" "Baneful Pursuer" "Devious Pursuer" "Graceful Pursuer"
 			"Unyielding Pursuer" "Patient Pursuer" "Stalwart Pursuer" "Fierce Pursuer" "Unforgiving Pursuer" "Impervious Pursuer"
 			"Lucky Pursuer" "Courageous Pursuer" "Brash Pursuer" "Impertinent Pursuer" "Dependable Pursuer" "Spirited Pursuer"
@@ -29,13 +29,14 @@
 			"Haughty Pursuer" "Proud Pursuer" "Scornful Pursuer" "Contemptuous Pursuer" "Supercilious Pursuer" "Singing Pursuer"
 			"Attentive Pursuer" "Watchful Pursuer" "Impish Pursuer" "Preposterous Pursuer" "Trifling Pursuer" "Zany Pursuer"
 			"Zen Pursuer" "Archaeologist Pursuer" "Astronomer Pursuer" "Curator Pursuer" "Warden Pursuer" "Rocket Pursuer"
-			"Woodsman Pursuer" "Incomprehensible Pursuer" "Bamboozling Pursuer" "Based Pursuer" "Wyrm Pursuer" "Shoe Pursuer"
-			"Corby Pursuer" "Piggy Pursuer" "Trifid Pursuer" "Locochoco Pursuer" "Cryptic Pursuer" "Funky Pursuer" "Idiot Pursuer"
-			"Cow Pursuer" "Nebula Pursuer" "Mega Pursuer" "Classic Pursuer" "Book Pursuer" "Clay Pursuer" "Lizard Pursuer"
+			"Woodsman Pursuer" "Craftsman Pursuer" "Skeptic Pursuer" "Outfitter Pursuer" "Coach Pursuer" "Telescope Pursuer"
+			"Incomprehensible Pursuer" "Bamboozling Pursuer" "Based Pursuer" "Wyrm Pursuer" "Shoe Pursuer" "Pikpik Pursuer" "Etherpod Pursuer"
+			"Corby Pursuer" "Piggy Pursuer" "Trifid Pursuer" "Locochoco Pursuer" "Cryptic Pursuer" "Funky Pursuer" "Idiot Pursuer" "Ixrec Pursuer"
+			"Cow Pursuer" "Nebula Pursuer" "Mega Pursuer" "Classic Pursuer" "Book Pursuer" "Clay Pursuer" "Lizard Pursuer" "Echatsum Pursuer"
 			"Turtle Pursuer" "Texture Pursuer" "Qwerty Pursuer" "Walker Pursuer" "Streetlight Pursuer" "Jammer Pursuer" "Ink Pursuer"
 			"Pickle Pursuer" "Greenpixel Pursuer" "Marl Pursuer" "Nolram Pursuer" "Substitute Pursuer" "Tlya Pursuer" "Cleric Pursuer"
-			"Fray Pursuer" "Tetraminus Pursuer" "Acamaeda Pursuer" "Paranoid Pursuer" "Artificial Pursuer" "Cigtu Pursuer" "Orbital Pursuer"
-			"Coder Pursuer" "Programmer Pursuer" "Artist Pursuer" "Writer Pursuer" "Damian Pursuer" "Endgame Pursuer" "Zero Pursuer"
+			"Fray Pursuer" "Tetraminus Pursuer" "Acamaeda Pursuer" "Paranoid Pursuer" "Artificial Pursuer" "Cigtu Pursuer" "Orbital Pursuer" "Hawkbar Pursuer"
+			"Coder Pursuer" "Programmer Pursuer" "Artist Pursuer" "Writer Pursuer" "Damian Pursuer" "Endgame Pursuer" "Zero Pursuer" "Insmoshable Pursuer"
 			"Gilded Pursuer" "Plumed Pursuer" "Revered Pursuer" "Honored Pursuer" "Perched Pursuer"
 			"Unifull Pursuer" "Traliac Pursuer" "Clancy Pursuer" "Xalaris Pursuer" "Ongles Pursuer"
 		}
@@ -394,6 +395,22 @@
 				"Athena" "Tyr" "Melete" "Koalemos" "Hatmehit"
 				"Bragi" "Anubis" "King Yan" "Hermes"
 				"Pasithea" "Ægir" "Zhulong"
+			}
+
+			# Always combined with a second name
+			first_names = {
+			}
+
+			# Always combined with a first name
+			second_names = {
+			}
+
+			regnal_first_names = {
+
+			}
+
+			regnal_second_names = {
+
 			}
 		}
 	}
