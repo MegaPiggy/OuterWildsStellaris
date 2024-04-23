@@ -1,0 +1,20 @@
+﻿l_english:
+ trait_pc_vessel_preference:0 "Vessel Preference"
+ trait_pc_vessel_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ mod_pc_vessel_habitability:0 "Vessel Habitability"
+
+ trait_pc_stranger_preference:0 "Stranger Preference"
+ trait_pc_stranger_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ mod_pc_stranger_habitability:0 "Stranger Habitability"
+
+ trait_pc_obsidian_preference:0 "Obsidian Preference"
+ trait_pc_obsidian_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ mod_pc_obsidian_habitability:0 "Obsidian Habitability"
+
+ trait_pc_seared_preference:0 "Seared Preference"
+ trait_pc_seared_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ mod_pc_seared_habitability:0 "Seared Habitability"
+
+ trait_pc_mercury_preference:0 "Mercury Ocean Preference"
+ trait_pc_mercury_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+ mod_pc_mercury_habitability:0 "Mercury Ocean Habitability"

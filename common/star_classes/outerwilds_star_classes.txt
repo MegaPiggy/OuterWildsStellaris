@@ -13,7 +13,7 @@ sc_trinary_fury = { # Fury Trinary System
 		key = pc_t_star
 		class = t_star
 	}
-	spawn_odds = 0
+	spawn_odds = 0.05
 	num_planets = { min = 3 max = 5 }
 
 	is_environmental_hazard = yes
@@ -34,6 +34,21 @@ sc_binary_prima_maxima = { # Prima Maxima Binary Star System: Orange star around
 		key = pc_k_star
 		class = k_star
 	}
-	spawn_odds = 0
+	spawn_odds = 0.05
 	num_planets = { min = 1 max = 1 }
+}
+
+sc_binary_blackrock = { # Blackrock System
+	class = k_star
+	icon = blackrock_binary_star
+	planet = {
+		key = pc_k_star
+		class = k_star
+	}
+	planet = {
+		key = pc_m_star
+		class = m_star
+	}
+	spawn_odds = 0.05
+	num_planets = { min = 3 max = 5 }
 }

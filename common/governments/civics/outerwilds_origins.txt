@@ -1,0 +1,46 @@
+origin_vessel_dwellers = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origin_void_dwellers.dds"
+	picture = GFX_origin_void_dwellers
+
+	starting_colony = pc_vessel
+	initializers = { blackrock_system_initializer }
+	habitability_preference = pc_vessel
+	preferred_planet_class_neighbor = no
+
+	possible = {
+		authority = { NOT = { value = auth_machine_intelligence } }
+		civics = {
+			NOR = {
+				text = civic_tooltip_not_idyllic_bloom
+				value = civic_idyllic_bloom
+				value = civic_hive_idyllic_bloom
+			}
+			NOT = { value = civic_agrarian_idyll }
+			NOR = {
+				text = civic_tooltip_not_anglers
+				value = civic_anglers
+				value = civic_corporate_anglers
+			}
+		}
+	}
+
+	description = "origin_tooltip_vessel_dwellers_effects"
+	modifier = {
+		megastructures_habitat_cost_mult = -0.25
+		habitat_districts_building_slots_add = 0.25
+		habitat_max_districts_add = 2
+		habitat_district_jobs_add = 1
+	}
+
+	flags = { custom_start_screen }
+
+	traits = {
+		trait = trait_void_dweller_1
+		trait = trait_vessel_dweller
+	}
+
+	random_weight = {
+		base = 3
+	}
+}

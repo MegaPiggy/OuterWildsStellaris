@@ -424,6 +424,19 @@ arbiter_system_initializer = {
 				prevent_anomaly = yes
 				save_event_target_as = ghostbird_moon
 			}
+
+			moon = {
+				name = "NAME_Stranger"
+				class = "pc_stranger"
+				orbit_distance = 10
+				size = 30
+				has_ring = no
+				orbit_angle = -60
+				init_effect = {
+					prevent_anomaly = yes
+				}
+				flags = { ghostbird_ringworld }
+			}
 		}
 
 		init_effect = {
@@ -470,6 +483,250 @@ arbiter_system_initializer = {
 				create_archaeological_site = site_stripped_for_stranger
 			}
 		}
+	}
+}
+
+blackrock_system_initializer = {
+	name = "NAME_Blackrock"
+
+	class = "sc_binary_blackrock"
+	
+	flags = { empire_home_system ahkvenir_system }
+
+	init_effect = {
+		every_neighbor_system = { set_star_flag = empire_cluster }
+	}
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 200
+	}
+	usage = custom_empire
+	max_instances = 1
+
+	neighbor_system = {
+		hyperlane_jumps = { min = 1 max = 10 }
+		initializer = "bright_spark_system_initializer"
+	}
+
+	### 1
+	planet = {
+		name = "NAME_SundanceSister"
+		class = "pc_k_star"
+		orbit_distance = -30
+		orbit_angle = 0
+		size = 30
+		init_effect = {
+			prevent_anomaly = yes
+			set_deposit = d_energy_5
+		}
+		flags = { ahkvenir_sundance_sister }
+	}
+
+    change_orbit = 0
+
+	### 2
+	planet = {
+		name = "NAME_SpitefulSister"
+		class = "pc_m_star"
+		orbit_distance = 60
+		orbit_angle = 0
+		size = 20
+		init_effect = {
+			prevent_anomaly = yes
+			set_deposit = d_energy_3
+		}
+		flags = { ahkvenir_spiteful_sister }
+	}
+
+	### 0
+	planet = {
+		name = "NAME_Chiselshell"
+		class = "pc_scorched"
+		orbit_distance = -30
+		orbit_angle = -90
+		size = 15
+		has_ring = no
+		flags = { ahkvenir_chiselshell
+		ignore_startup_effect }
+		init_effect = {
+			prevent_anomaly = yes
+			set_deposit = d_minerals_5
+		}
+	}
+
+	### 3
+	planet = {
+		name = "NAME_Snowfire"
+		class = "pc_seared"
+		orbit_distance = 110
+		orbit_angle = 45
+		size = 32
+		has_ring = no
+		flags = { ahkvenir_snowfire
+		ignore_startup_effect
+		habitat_2_planet
+		has_megastructure }
+		init_effect = {
+			prevent_anomaly = yes
+			add_deposit = d_physics_3
+		}
+
+        change_orbit = 12
+
+		moon = {
+			name = "NAME_RedBramble"
+			class = "pc_toxic"
+			orbit_distance = 0
+			size = 10
+			has_ring = no
+			orbit_angle = -60
+			init_effect = {
+				prevent_anomaly = yes
+				add_deposit = d_physics_3
+				add_deposit = d_hostile_fauna
+			}
+			flags = { ahkvenir_red_bramble }
+		}
+	}
+
+	### 4
+	planet = {
+		name = "NAME_Blackrock"
+		class = "pc_obsidian"
+		orbit_distance = 30
+		orbit_angle = 90
+		size = 24
+		flags = { ahkvenir_blackrock
+		ignore_startup_effect
+		habitat_1_planet
+		has_megastructure }
+		deposit_blockers = none
+		init_effect = {
+			prevent_anomaly = yes
+			set_deposit = d_minerals_5
+		}
+
+        change_orbit = 10
+
+		moon = {
+			name = "NAME_Vessel"
+			class = "pc_vessel"
+			orbit_distance = 0
+			starting_planet = yes
+			size = 20
+			has_ring = no
+			orbit_angle = -60
+			flags = { ahkvenir_vessel
+			void_dweller_habitat_1
+			special_start_planet
+			megastructure habitat }
+			init_effect = {
+				prevent_anomaly = yes
+			}
+			deposit_blockers = none
+		}
+	}
+
+	### 5
+	planet = {
+		name = "NAME_Silverdrip"
+		class = "pc_mercury"
+		orbit_distance = 30
+		orbit_angle = 135
+		size = 32
+		has_ring = no
+		flags = { ahkvenir_silverdrip
+		ignore_startup_effect
+		habitat_3_planet
+		has_megastructure }
+		init_effect = {
+			prevent_anomaly = yes
+			add_deposit = d_physics_3
+			add_deposit = d_minerals_5
+		}
+
+        change_orbit = 15
+
+		moon = {
+			name = "NAME_SilversLadle"
+			class = "pc_mercury"
+			orbit_distance = 0
+			size = 12
+			has_ring = no
+			orbit_angle = 60
+			flags = { ahkvenir_silvers_ladle }
+			init_effect = {
+				prevent_anomaly = yes
+				add_deposit = d_physics_3
+				add_deposit = d_minerals_5
+			}
+		}
+	}
+
+	### 6
+	planet = {
+		name = "NAME_Tinpest"
+		class = "pc_tin_asteroid"
+		orbit_distance = 30
+		orbit_angle = 135
+		size = 5
+		has_ring = no
+		flags = { ahkvenir_tinpest }
+		init_effect = {
+			prevent_anomaly = yes
+			set_deposit = d_minerals_5
+		}
+	}
+}
+
+bright_spark_system_initializer = {
+	name = "NAME_BrightSpark"
+
+	class = "sc_trinary_1"
+	
+	flags = { bright_spark_system }
+
+	max_instances = 1
+
+	### 0
+	planet = {
+		name = "NAME_BrightSpark"
+		class = "pc_g_star"
+		orbit_distance = -40
+		orbit_angle = 1
+		size = 30
+		init_effect = {
+			set_deposit = d_energy_5
+		}
+		flags = { bright_spark_unary_star }
+	}
+
+    change_orbit = 0
+
+	### 1
+	planet = {
+		name = "NAME_GlaringFlicker"
+		class = "pc_k_star"
+		orbit_distance = 20
+		orbit_angle = 180
+		size = 25
+		init_effect = {
+			set_deposit = d_energy_4
+		}
+		flags = { bright_spark_binary_star }
+	}
+
+	### 2
+	planet = {
+		name = "NAME_VividGlister"
+		class = "pc_m_star"
+		orbit_distance = 100
+		orbit_angle = -90
+		size = 20
+		init_effect = {
+			set_deposit = d_energy_3
+		}
+		flags = { bright_spark_trinary_star }
 	}
 }
 

@@ -1,0 +1,111 @@
+
+
+ghostbird_country_spawn_effect = {
+	create_species = {
+		name = "PRESCRIPTED_species_name_ghostbird"
+		plural = "PRESCRIPTED_species_plural_ghostbird"
+		adjective = "PRESCRIPTED_species_adjective_ghostbird"
+		class = "outerwilds"
+		portrait = "ghostbird"
+		name_list = "GHOSTBIRD"
+		traits = {
+			trait = "trait_pc_habitat_preference"
+			trait = "trait_wasteful"
+			trait = "trait_venerable"
+			trait = "trait_conformists"
+			trait = "trait_sedentary"
+			trait = "trait_nonadaptive"
+		}
+		homeworld = this
+
+		effect = {
+			save_global_event_target_as = ghostbird_species
+		}
+	}
+
+	create_country = {
+		name = "EMPIRE_DESIGN_ghostbird"
+		type = fallen_empire
+		authority = auth_oligarchic
+		civics = {
+			civic = civic_inwards_perfection
+			civic = civic_memorialist
+		}
+		species = last_created_species
+		ethos = {
+			ethic = "ethic_xenophobe"
+			ethic = "ethic_spiritualist"
+			ethic = "ethic_pacifist"
+		}
+		flag = {
+			icon = {
+				category = "ghostbird"
+				file = "stranger.dds"
+			}
+			background = {
+				category = "backgrounds"
+				file = "flag_BG_2.dds"
+			}
+			colors = {
+				"black"
+				"dark_teal"
+				"pink"
+				"null"
+			}
+		}
+
+		ignore_initial_colony_error = yes
+
+		effect = {
+			create_leader = {
+				class = official
+				species = this
+				name = "Founder"
+				skill = 5
+				immortal = yes
+			}
+			set_leader = last_created_leader
+		}
+	}
+	last_created_country = {
+		save_global_event_target_as = ghostbird_empire
+		set_country_flag = ghostbird_country
+
+		add_resource = {
+			minerals = 10000
+			energy = 10000
+			food = 1000
+			influence = 500
+		}
+
+		set_graphical_culture = ghostbird
+
+		set_male_ruler_title = "PRESCRIPTED_ruler_title_ghostbird"
+		set_female_ruler_title = "PRESCRIPTED_ruler_title_ghostbird"
+
+		create_fleet = {
+			name = "Capital Science"
+			settings = { spawn_debris = no }
+			effect = {
+				set_owner = prev
+				create_ship = {
+					name = "Armada"
+					random_existing_design = science
+					graphical_culture = prev
+				}
+				set_location = {
+					target = prevprev
+					angle = random
+					distance = 100
+				}
+				save_event_target_as = CustomCapital
+				prev = {
+					set_custom_capital_location = event_target:CustomCapital
+				}
+			}
+		}
+	}
+	solar_system = {
+		save_global_event_target_as = stranger_system
+	}
+}

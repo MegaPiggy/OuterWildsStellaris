@@ -24,6 +24,23 @@
  NAME_StrangeHome:0 "Strange Home"
  NAME_BrokenHeart:0 "Broken Heart"
 
+ NAME_Stranger:0 "The Stranger"
+
+ NAME_Vessel:0 "Vessel"
+ NAME_SundanceSister:0 "Sundance Sister"
+ NAME_Chiselshell:0 "The Chiselshell"
+ NAME_SpitefulSister:0 "Spiteful Sister"
+ NAME_Snowfire:0 "Snowfire"
+ NAME_RedBramble:0 "Red Bramble"
+ NAME_Blackrock:0 "Blackrock"
+ NAME_Silverdrip:0 "Silverdrip"
+ NAME_SilversLadle:0 "Silver's Ladle"
+ NAME_Tinpest:0 "The Tinpest"
+
+ NAME_BrightSpark:0 "Bright Spark"
+ NAME_GlaringFlicker:0 "Glaring Flicker"
+ NAME_VividGlister:0 "Vivid Glister"
+
  NAME_Fury:0 "Fury"
  NAME_Calamity:0 "Calamity"
  NAME_Dwarf:0 "Dwarf"
