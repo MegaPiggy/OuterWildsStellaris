@@ -1,13 +1,15 @@
-﻿########
+﻿namespace = outerwilds
+
+########
 #
-# Outer Wilds Events
+# Outer Wilds Hearthian Events
 #
 ############################
 
-namespace = outerwilds
+namespace = hearthian
 
 country_event = {
-	id = outerwilds.1
+	id = hearthian.1
 	title = "hearthian_system.name"
 	desc = "hearthian_system.desc"
 	picture = GFX_evt_hearthian_system

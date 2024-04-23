@@ -1,5 +1,12 @@
 spriteTypes = {
 	spriteType = {
+		name = "GFX_evt_hearthian_system"
+		texturefile = "gfx/event_pictures/hearthian_system.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
 		name = "GFX_evt_ghostbird_system"
 		texturefile = "gfx/event_pictures/ghostbird_system.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
