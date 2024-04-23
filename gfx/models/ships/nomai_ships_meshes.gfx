@@ -72,6 +72,15 @@ objectTypes = {
 		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/destroyer_assets/nomai_destroyer_stern_M1.mesh"
 		scale = 1.0
 	}
+
+#######  cruiser  #######	
+	
+	pdxmesh = {
+		name = "nomai_cruiser_frame_mesh"
+		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/cruiser_assets/nomai_cruiser_frame.mesh"
+		scale = 1.0
+	}
+	
 	
 #######  cruiser bow sections  #######	
 	
@@ -98,25 +107,25 @@ objectTypes = {
 	
 	pdxmesh = {
 		name = "nomai_cruiser_mid_S2HB_mesh"
-		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/cruiser_assets/nomai_cruiser_mid_S2HB.mesh"
+		file = "gfx/models/ships/invisible.mesh" ## "gfx/models/ships/cruiser_assets/nomai_cruiser_mid_S2HB.mesh"
 		scale = 1.0
 	}
 	
 	pdxmesh = {
 		name = "nomai_cruiser_mid_L1M1_mesh"
-		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/cruiser_assets/nomai_cruiser_mid_L1M1.mesh"
+		file = "gfx/models/ships/invisible.mesh" ## "gfx/models/ships/cruiser_assets/nomai_cruiser_mid_L1M1.mesh"
 		scale = 1.0
 	}
 				
 	pdxmesh = {
 		name = "nomai_cruiser_mid_M3_mesh"
-		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/cruiser_assets/nomai_cruiser_mid_M3.mesh"
+		file = "gfx/models/ships/invisible.mesh" ## "gfx/models/ships/cruiser_assets/nomai_cruiser_mid_M3.mesh"
 		scale = 1.0
 	}		
 	
 	pdxmesh = {
 		name = "nomai_cruiser_mid_M2S2_mesh"
-		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/cruiser_assets/nomai_cruiser_mid_M2S2.mesh"
+		file = "gfx/models/ships/invisible.mesh" ## "gfx/models/ships/cruiser_assets/nomai_cruiser_mid_M2S2.mesh"
 		scale = 1.0
 	}
 	
@@ -133,6 +142,14 @@ objectTypes = {
 		file = "gfx/models/ships/invisible.mesh" ## "gfx/models/ships/cruiser_assets/nomai_cruiser_stern_S2.mesh"
 		scale = 1.0
 	}		
+
+#######  Battleship  #######	
+	
+	pdxmesh = {
+		name = "nomai_battleship_frame_mesh"
+		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/cruiser_assets/nomai_battleship_frame.mesh"
+		scale = 1.0
+	}
 
 	
 #######  Battleship bow sections  #######	
@@ -184,38 +201,38 @@ objectTypes = {
 		
 	pdxmesh = {
 		name = "nomai_battleship_mid_L1M4_mesh"
-		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/battleship_assets/nomai_battleship_mid_L1M4.mesh"
+		file = "gfx/models/ships/invisible.mesh" ## "gfx/models/ships/battleship_assets/nomai_battleship_mid_L1M4.mesh"
 		scale = 1.0
 	}
 	
 	
 		pdxmesh = {
 		name = "nomai_battleship_mid_L2M2_mesh"
-		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/battleship_assets/nomai_battleship_mid_L2M2.mesh"
+		file = "gfx/models/ships/invisible.mesh" ## "gfx/models/ships/battleship_assets/nomai_battleship_mid_L2M2.mesh"
 		scale = 1.0
 	}	
 		
 	pdxmesh = {
 		name = "nomai_battleship_mid_L2S4_mesh"
-		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/battleship_assets/nomai_battleship_mid_L2S4.mesh"
+		file = "gfx/models/ships/invisible.mesh" ## "gfx/models/ships/battleship_assets/nomai_battleship_mid_L2S4.mesh"
 		scale = 1.0
 	}
 	
 	pdxmesh = {
 		name = "nomai_battleship_mid_L3_mesh"
-		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/battleship_assets/nomai_battleship_mid_L3.mesh"
+		file = "gfx/models/ships/invisible.mesh" ## "gfx/models/ships/battleship_assets/nomai_battleship_mid_L3.mesh"
 		scale = 1.0
 	}
 	
 	pdxmesh = {
 		name = "nomai_battleship_mid_M4SHB_mesh"
-		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/battleship_assets/nomai_battleship_mid_M4SHB.mesh"
+		file = "gfx/models/ships/invisible.mesh" ## "gfx/models/ships/battleship_assets/nomai_battleship_mid_M4SHB.mesh"
 		scale = 1.0
 	}
 	
 	pdxmesh = {
 		name = "nomai_battleship_mid_S4LHB_mesh"
-		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/battleship_assets/nomai_battleship_mid_S4LHB.mesh"
+		file = "gfx/models/ships/invisible.mesh" ## "gfx/models/ships/battleship_assets/nomai_battleship_mid_S4LHB.mesh"
 		scale = 1.0
 	}
 				
@@ -294,7 +311,7 @@ objectTypes = {
 	
 		pdxmesh = {
 		name = "nomai_colony_mesh"
-		file = "gfx/models/ships/nomai/nomai_shuttle.mesh" ## "gfx/models/ships/civilian_assets/colony_ship/nomai_colony.mesh"
+		file = "gfx/models/ships/nomai/escape_pod.mesh" ## "gfx/models/ships/civilian_assets/colony_ship/nomai_colony.mesh"
 		scale = 1.0
 	}
 	

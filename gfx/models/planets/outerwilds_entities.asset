@@ -222,3 +222,25 @@ entity = {
 		start_event = { trigger_once = yes sound = { soundeffect = "amb_toxic_world_b" } }
 	}
 }
+
+entity = {
+	name = "nomai_vessel_entity_01_entity"
+	pdxmesh = "nomai_vessel"
+	
+	scale = 0.1
+	
+	default_state = "habitat_idle"
+	state = { name = "habitat_idle" looping = yes }
+	state = { name = "construction" looping = yes }
+}
+
+entity = {
+	name = "ghostbird_stranger_entity_01_entity"
+	pdxmesh = "ghostbird_stranger"
+	
+	scale = 0.1
+	
+	default_state = "habitat_idle"
+	state = { name = "habitat_idle" looping = yes }
+	state = { name = "construction" looping = yes }
+}
