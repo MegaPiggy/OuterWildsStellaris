@@ -379,6 +379,7 @@
 				Oli Mila Tekana Kata Samatu Navagio Nissi Lachoncha Anse Canarae Miaceae Cedrus Helian Peony Hakone Salvia Cercis
 				Zinnia Hosta Sutera Corylus Asterid Abies Quercus Mitis Cerasus Prunus Musa Allium Fuchsia Sargassum Desmarestia Pyra Liatris
 				Annona Avens Cassava Coleus Conoy Cycad Daz Idaea Neem Phlox Plume Root Taget Yarrow Gerard Stamen Lotus Datura Fret
+				Callis Aster Kania Allium Astilbe Coryne Galium Sacco Cumin Menth Calad Melina Primm 
 				Clary Filix Melorae Poke Privet Pye Ramie Solanum Melina Ficus Pistil Kasili Ginkgo Dianthus Brassi Ping Xylaria Ceano Sage Lily
 			}
 			#full_names_male = {

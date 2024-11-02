@@ -388,7 +388,7 @@
 			full_names = {
 				Arkose Chert Clay Esker Hal Hornfels Feldspar Gabbro Galena Gneiss Gossan Marl Mica Moraine Porphy Riebeck Rutile Slate Spinel Tektite Tephra Tuff 
 				Flint Novaculite Quartz Silica Shale Skarn Belomorite Umber Lazuli Monzon Opal Karst Juno Litho Marble Jasper Salt Cinnabar Phosphophyllite 
-				Pebble Peridot Hematite Fault Malach Agave Azurite Bennu Pumice Scoria Pyrite Sparks Skarn Dreika Kyan Voyes Diatom Shoshon Anand Fulgur Tuya 
+				Pebble Peridot Hematite Fault Malach Agave Azurite Bennu Pumice Scoria Pyrite Sparks Skarn Dreika Kyan Voyes Diatom Shoshon Anand Fulgur Tuya Acetate
 				Olivine Breccia Apatite Fluor Howl Basalt Andes Kiwen Aren Ignei Rhyol Sandes Lime Magne Gran Talc Garnet Agate Alum Silt Cupri Dolom Euclase Ioli
 				Tourmaline Zircon Ulex Trinitite Malva Jade Floe Thulite Rosaline Amber Onyx Carnelian Topaz Amethyst Sapphire Emerald Ruby Aquamarine Citrine Tanzan 
 				Pearl Alexandrite Turquoise Diamond Cal Pallas Kaolin Corundum Alluvium Schist Dolomite Beryl Obsidian
