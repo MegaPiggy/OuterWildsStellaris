@@ -1,10 +1,10 @@
 ﻿namespace = outerwilds
 
-########
+##############################
 #
 # Outer Wilds Hearthian Events
 #
-############################
+##############################
 
 namespace = hearthian
 
@@ -41,11 +41,11 @@ country_event = {
 	}
 }
 
-########
+##############################
 #
 # Outer Wilds Inhabitant Events
 #
-############################
+##############################
 
 namespace = ghostbird
 
@@ -195,11 +195,11 @@ country_event = {
 	}
 }
 
-########
+##############################
 #
 # Hearth's Neighbor Events
 #
-############################
+##############################
 
 namespace = hearthsneighbor
 

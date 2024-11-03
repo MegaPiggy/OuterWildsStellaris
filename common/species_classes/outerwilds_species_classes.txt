@@ -1,37 +1,33 @@
 outerwilds = {
-   archetype = BIOLOGICAL
-   possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
-   portraits = {
-       "hearthian"
-       "nomai"
-       "ghostbird"
-       "anglerfish"
-       "jellyfish"
-   }
-   graphical_culture = hearthian
-   move_pop_sound_effect = "moving_pop_confirmation"
+	archetype = BIOLOGICAL
+
+	possible = {
+		authority = {
+			NOT = {
+				value = auth_machine_intelligence
+				text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE
+			}
+		}
+	}
+
+	graphical_culture = hearthian
+	move_pop_sound_effect = "moving_pop_confirmation"
 }
 hearthian = {
 	randomized = no
-	portraits = {
-	}
-	
+
 	graphical_culture = hearthian
 	move_pop_sound_effect = "moving_pop_confirmation"
 }
 nomai = {
 	randomized = no
-	portraits = {
-	}
-	
+
 	graphical_culture = nomai
 	move_pop_sound_effect = "moving_pop_confirmation"
 }
 ghostbird = {
 	randomized = no
-	portraits = {
-	}
-	
+
 	graphical_culture = ghostbird
 	move_pop_sound_effect = "moving_pop_confirmation"
 }

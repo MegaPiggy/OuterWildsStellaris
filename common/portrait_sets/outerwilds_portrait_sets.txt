@@ -1,0 +1,23 @@
+# Portrait sets associated with species classes.
+# Portrait sets are grouped into portrait categories to be shown on empire editor. Check out portrait_categories database.
+# portraits = {}									List of portraits which are available for the species class without any conditions
+# conditional_portraits = {}
+#	randomizable = yes/no/trigger (default: yes)	Condition that specifies if the portraits in the list below can be used with species which design is randomly generated
+#	playable = yes/no/trigger (default: yes)		Condition that specifies if the portraits in the list below are available in empire design view
+#	portraits = {}									List of portraits which can be used by species of corresponding class depending on the
+# non_randomized_portraits							List of portraits which are not available for empires whose design was randomly generated
+# non_pre_ftl_portraits								List of portraits which are not available for pre-ftl empires
+# uplifted_portraits = {}							List of portraits which will be used by species of corresponding class after uplifting
+#													(the number of uplifted portraits must be the same as the number of portraits in 'portraits' list).
+
+outerwilds = {
+	species_class = outerwilds
+
+	portraits = {
+		"hearthian"
+		"nomai"
+		"ghostbird"
+		"anglerfish"
+		"jellyfish"
+	}
+}
