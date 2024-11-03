@@ -298,7 +298,7 @@ outerwilds_system_initializer = {
 		orbit_angle = 200
 		size = 5
 		has_ring = no
-		flags = { hearthian_bramble_planet }
+		flags = { hearthian_comet }
 
 		init_effect = {
 			prevent_anomaly = yes
