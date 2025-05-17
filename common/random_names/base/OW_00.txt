@@ -22,6 +22,7 @@ star_names = {
 	"Brilliant Radiance"
 	"Stellar Beacon"
 	"Astral Ignition"
+	"Enduring Flame"
 	Medley
 	Carson
 	Guardian
