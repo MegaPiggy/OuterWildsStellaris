@@ -1,2 +1,2 @@
 # OuterWildsStellaris
- Stellaris mod that adds in Outer Wilds related content
+ An unfinished Stellaris mod that adds in Outer Wilds related content
